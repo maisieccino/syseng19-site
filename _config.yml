@@ -28,6 +28,7 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-paginate
 exclude:
   - CNAME
   - LICENSE
@@ -39,3 +40,6 @@ exclude:
   - gulpfile.js
   - assets/bower_components
   - facebook-sync
+
+github: https://github.com/mbellgb/syseng19-code
+paginate: 5
