@@ -3,7 +3,7 @@
     <ul class="nav navbar-nav">
         {% for p in site.pages %}
         <li class="nav-item {% if p.url == page.url %}active{% endif %}">
-                <a class="nav-link" href="{{ p.url | relative }}">{{ p.title | escape }}
+                <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title | escape }}
                     {% if p.url == page.url %}<span class="sr-only">(current){% endif %}</a>
             </li>
         {% endfor %}
