@@ -1,5 +1,5 @@
 <nav class="navbar navbar-dark bg-inverse">
-    <a class="navbar-brand" href="/">{{ site.title }}</a>
+    <a class="navbar-brand" href="{{ site.baseurl }}">{{ site.title }}</a>
     <ul class="nav navbar-nav">
         {% for p in site.pages %}
         <li class="nav-item {% if p.url == page.url %}active{% endif %}">

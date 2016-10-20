@@ -18,7 +18,7 @@ title: Mentor Matching - Team 19
 description: > # this means to ignore newlines until "baseurl:"
   Matthew Bell, Christopher Lau and Harry Chen are working on creating a system
   to match mentors and mentees based on their preferences, on behalf of Atos UK.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/2016/group19" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
