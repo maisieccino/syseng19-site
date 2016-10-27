@@ -3,6 +3,7 @@ layout: post
 title:  "Client Meeting 1 Notes"
 date:   2016-10-10 14:00:00 +0100
 categories: meetings
+attendees: Chris,Matt,Harry,Jane
 ---
 
 different groups with different requirements

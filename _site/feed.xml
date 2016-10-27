@@ -1,5 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/2016/group19/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="/2016/group19/feed.xml" rel="self" type="application/atom+xml" /><link href="/2016/group19/" rel="alternate" type="text/html" /><updated>2016-10-27T00:57:14+01:00</updated><id>/2016/group19//</id><title type="html">Mentor Matching - Team 19</title><subtitle>Matthew Bell, Christopher Lau and Harry Chen are working on creating a system to match mentors and mentees based on their preferences, on behalf of Atos UK.
-</subtitle><entry><title type="html">Project Background</title><link href="/2016/group19/research/2016/10/18/background.html" rel="alternate" type="text/html" title="Project Background" /><published>2016-10-18T00:30:51+01:00</published><updated>2016-10-18T00:30:51+01:00</updated><id>/2016/group19/research/2016/10/18/background</id><content type="html" xml:base="/2016/group19/research/2016/10/18/background.html">&lt;h1 id=&quot;brief&quot;&gt;Brief&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/2016/group19/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="/2016/group19/feed.xml" rel="self" type="application/atom+xml" /><link href="/2016/group19/" rel="alternate" type="text/html" /><updated>2016-10-27T12:18:55+01:00</updated><id>/2016/group19//</id><title type="html">Mentor Matching - Team 19</title><subtitle>Matthew Bell, Christopher Lau and Harry Chen are working on creating a system to match mentors and mentees based on their preferences, on behalf of Atos UK.
+</subtitle><entry><title type="html"></title><link href="/2016/group19/2016/10/27/2016-10-27-cto-meeting.html" rel="alternate" type="text/html" title="" /><published>2016-10-27T12:18:55+01:00</published><updated>2016-10-27T12:18:55+01:00</updated><id>/2016/group19/2016/10/27/2016-10-27-cto-meeting</id><content type="html" xml:base="/2016/group19/2016/10/27/2016-10-27-cto-meeting.html">&lt;p&gt;This meeting involved us talking to Mike Smith, CTO of Atos, about the technical constraints of the project.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use what we’re most familiar with&lt;/li&gt;
+  &lt;li&gt;looking for &lt;em&gt;ideas&lt;/em&gt; not the final system necessarily (although it’s a challenge!)&lt;/li&gt;
+  &lt;li&gt;they’re not able to provide infrastructure&lt;/li&gt;
+  &lt;li&gt;ask department for a VPS (done!)&lt;/li&gt;
+  &lt;li&gt;may be a different no of pairs (i.e. more mentees than mentors)&lt;/li&gt;
+  &lt;li&gt;may be times when a mentee has no mentor and has to miss out&lt;/li&gt;
+  &lt;li&gt;natural language processing would be pretty cool&lt;/li&gt;
+  &lt;li&gt;unlikely to use corporate DB - privacy reasons etc&lt;/li&gt;
+  &lt;li&gt;list things that might be important&lt;/li&gt;
+  &lt;li&gt;work out primary considerations (for matching)&lt;/li&gt;
+  &lt;li&gt;score matches? (i.e. out of 100)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;user-story&quot;&gt;User story&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;individual registers on system&lt;/li&gt;
+  &lt;li&gt;registers for mentor position or mentee position&lt;/li&gt;
+  &lt;li&gt;add details&lt;/li&gt;
+  &lt;li&gt;processing step&lt;/li&gt;
+  &lt;li&gt;then.. shortlist?&lt;/li&gt;
+  &lt;li&gt;recommendation?&lt;/li&gt;
+  &lt;li&gt;preferences?&lt;/li&gt;
+  &lt;li&gt;match made?&lt;/li&gt;
+  &lt;li&gt;where does the final decision rest?&lt;/li&gt;
+  &lt;li&gt;will there be a “cooling-off” period where mentees can change their minds?&lt;/li&gt;
+  &lt;li&gt;“think about design”&lt;/li&gt;
+  &lt;li&gt;relationship object separate from user object&lt;/li&gt;
+  &lt;li&gt;“status” object&lt;/li&gt;
+  &lt;li&gt;admin view “very useful”&lt;/li&gt;
+  &lt;li&gt;how will we report status? rating out of 5stars? text?&lt;/li&gt;
+  &lt;li&gt;authentication:
+    &lt;ul&gt;
+      &lt;li&gt;Atos have their own SSO&lt;/li&gt;
+      &lt;li&gt;Don’t waste time writing our own&lt;/li&gt;
+      &lt;li&gt;Use Twitter/Facebook login, or OAuth&lt;/li&gt;
+      &lt;li&gt;Modular is good so that it can integrate&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Branding guidelines
+    &lt;ul&gt;
+      &lt;li&gt;no hard guidelines&lt;/li&gt;
+      &lt;li&gt;don’t worry about this too much.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Catch up with Jane…?
+    &lt;ul&gt;
+      &lt;li&gt;book every 2-4 weeks?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;No restrictions on code
+    &lt;ul&gt;
+      &lt;li&gt;we apparently have IP on our work..?&lt;/li&gt;
+      &lt;li&gt;Atos has permission to use our work if they like it though.&lt;/li&gt;
+      &lt;li&gt;They’re happy for us to make the repo public.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content></entry><entry><title type="html">Project Background</title><link href="/2016/group19/research/2016/10/18/background.html" rel="alternate" type="text/html" title="Project Background" /><published>2016-10-18T00:30:51+01:00</published><updated>2016-10-18T00:30:51+01:00</updated><id>/2016/group19/research/2016/10/18/background</id><content type="html" xml:base="/2016/group19/research/2016/10/18/background.html">&lt;h1 id=&quot;brief&quot;&gt;Brief&lt;/h1&gt;
 &lt;p&gt;The brief for our project is to create a system that matches mentors and mentees on behalf of Atos. The system will allow employees to sign up to various company programmes as either a mentor or a mentee, and then once applications are closed the system will use the users’ profiles (as well as any constraints the program has) to find the most suitable mentor-mentee matchings.&lt;/p&gt;
 
 &lt;p&gt;The brief was deliberately left as open-ended as possible, to allow us to focus on completing the problem rather than working with an unfamiliar technology stack.&lt;/p&gt;
@@ -8,19 +67,7 @@
 &lt;p&gt;When meeting our client for the first time, she was favourable of the system being accessible from both her smartphone and laptop/desktop PC. So naturally we decided that a web app would be the best fit for this project. Whether this was to use Angular, Ionic, Meteor or some other framework had not been decided at this point.&lt;/p&gt;
 
 &lt;p&gt;Other things to consider included the possibility of receiving notifications, either in the form of push notifications from the app itself, SMS messages sent to a mobile phone, or emails.&lt;/p&gt;</content><summary type="html">Brief
-The brief for our project is to create a system that matches mentors and mentees on behalf of Atos. The system will allow employees to sign up to various company programmes as either a mentor or a mentee, and then once applications are closed the system will use the users’ profiles (as well as any constraints the program has) to find the most suitable mentor-mentee matchings.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="/2016/group19/jekyll/update/2016/10/17/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2016-10-17T18:00:51+01:00</published><updated>2016-10-17T18:00:51+01:00</updated><id>/2016/group19/jekyll/update/2016/10/17/welcome-to-jekyll</id><content type="html" xml:base="/2016/group19/jekyll/update/2016/10/17/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Client Meeting 1 Notes</title><link href="/2016/group19/meetings/2016/10/10/client-meeting.html" rel="alternate" type="text/html" title="Client Meeting 1 Notes" /><published>2016-10-10T14:00:00+01:00</published><updated>2016-10-10T14:00:00+01:00</updated><id>/2016/group19/meetings/2016/10/10/client-meeting</id><content type="html" xml:base="/2016/group19/meetings/2016/10/10/client-meeting.html">&lt;p&gt;different groups with different requirements&lt;/p&gt;
+The brief for our project is to create a system that matches mentors and mentees on behalf of Atos. The system will allow employees to sign up to various company programmes as either a mentor or a mentee, and then once applications are closed the system will use the users’ profiles (as well as any constraints the program has) to find the most suitable mentor-mentee matchings.</summary></entry><entry><title type="html">Client Meeting 1 Notes</title><link href="/2016/group19/meetings/2016/10/10/client-meeting.html" rel="alternate" type="text/html" title="Client Meeting 1 Notes" /><published>2016-10-10T14:00:00+01:00</published><updated>2016-10-10T14:00:00+01:00</updated><id>/2016/group19/meetings/2016/10/10/client-meeting</id><content type="html" xml:base="/2016/group19/meetings/2016/10/10/client-meeting.html">&lt;p&gt;different groups with different requirements&lt;/p&gt;
 
 &lt;p&gt;3 groups with option to add more - don’t hardcode this&lt;/p&gt;
 
