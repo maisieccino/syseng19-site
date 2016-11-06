@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
 
-    <title>Project Background - Mentor Matching - Team 19</title>
+    <title>Client Meeting 1 Notes - Mentor Matching - Team 19</title>
 </head>
 
     <body>
@@ -57,8 +57,8 @@
 
     <header class="post-header">
         <div class="jumbotron">
-            <h1 class="display-4">Project Background</h1>
-            <p class="lead"><time datetime="2016-10-18T00:30:51+01:00" itemprop="datePublished">Oct 18, 2016</time></p>
+            <h1 class="display-4">Client Meeting 1 Notes</h1>
+            <p class="lead"><time datetime="2016-10-10T14:00:00+01:00" itemprop="datePublished">Oct 10, 2016</time></p>
             <p class="lead"></p>
         </div>
     </header>
@@ -66,15 +66,73 @@
     <div class="post-content" itemprop="articleBody">
         <div class="row">
             <div class="col-md-8 offset-md-2">
-                <h1 id="brief">Brief</h1>
-<p>The brief for our project is to create a system that matches mentors and mentees on behalf of Atos. The system will allow employees to sign up to various company programmes as either a mentor or a mentee, and then once applications are closed the system will use the users’ profiles (as well as any constraints the program has) to find the most suitable mentor-mentee matchings.</p>
+                <p>different groups with different requirements</p>
 
-<p>The brief was deliberately left as open-ended as possible, to allow us to focus on completing the problem rather than working with an unfamiliar technology stack.</p>
+<p>3 groups with option to add more - don’t hardcode this</p>
 
-<h2 id="user-interface-considerations">User Interface Considerations</h2>
-<p>When meeting our client for the first time, she was favourable of the system being accessible from both her smartphone and laptop/desktop PC. So naturally we decided that a web app would be the best fit for this project. Whether this was to use Angular, Ionic, Meteor or some other framework had not been decided at this point.</p>
+<p>~60 people in talent program, could be higher for others</p>
 
-<p>Other things to consider included the possibility of receiving notifications, either in the form of push notifications from the app itself, SMS messages sent to a mobile phone, or emails.</p>
+<p><em>stable marriage problem</em></p>
+
+<p>kinda like a dating site problem</p>
+
+<p>same people may/may not be available, max. no of mentees per mentor, status of pairing..?</p>
+
+<p>example: one person has three mentees out their maximum of three. one may be actively meeting, one may not have started meeting, one may have just left scheme</p>
+
+<p>open window for two weeks to apply, and then the system matches mentors to mentees.. what about surplus mentees? could happen multiple times in a year
+user could be both mentor and mentees, depending on mentorship programme constraints</p>
+
+<p>admin function for bulk CRUD operations</p>
+
+<p>web app is probably best. app is for internal use only. system picks matches, users do not.</p>
+
+<p>examples of preferences etc will be emailed over</p>
+
+<h2 id="features">features?</h2>
+<p>must be easy to use, easy to enter matching preferences</p>
+
+<p>would like to do it on laptop or phone</p>
+
+<p>notifications would be “brilliant”</p>
+
+<p>something that could be looked at</p>
+
+<p>status, record of meetings… nice to have.</p>
+
+<p>prompts to meet if there hasn’t been activity.</p>
+
+<p>user profile idea “good”, needs to be fairly simple so that the user doesn’t get invested in working on the profile rather than other things. clearly low priority. focus on the users’ skills.</p>
+
+<p>internal DB? SAP or there’s a “corporate directory”
+could use to populate profile, but best to check as these things tend to be locked down</p>
+
+<h2 id="requirements">Requirements</h2>
+
+<p>MUST HAVE:</p>
+<ul>
+  <li>matching system</li>
+  <li>preferences for matching</li>
+  <li>separate programs with their own requirements</li>
+  <li>status of each persons’ matches
+SHOULD HAVE:</li>
+  <li>profile system</li>
+  <li>notifications</li>
+  <li>admin - bulk create/read/update/write (CRUD) operations
+COULD HAVE:</li>
+  <li>recording meetings of mentorship</li>
+  <li>prompts to meet
+WOULD HAVE</li>
+  <li>corporate directory lookup</li>
+</ul>
+
+<p>mentor can’t be line manager -&gt; not the same team is easiest way?</p>
+
+<h2 id="next-steps">Next steps</h2>
+<p>finalise requirements (our side) by 14th October. Jane will then confirm this after weekend.
+Create user stories</p>
+
+<p>Are we using agile…?</p>
 
             </div>
         </div>

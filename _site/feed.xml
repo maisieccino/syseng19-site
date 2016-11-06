@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/2016/group19/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="/2016/group19/feed.xml" rel="self" type="application/atom+xml" /><link href="/2016/group19/" rel="alternate" type="text/html" /><updated>2016-10-26T00:53:25+01:00</updated><id>/2016/group19//</id><title type="html">Mentor Matching - Team 19</title><subtitle>Matthew Bell, Christopher Lau and Harry Chen are working on creating a system to match mentors and mentees based on their preferences, on behalf of Atos UK.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/2016/group19/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="/2016/group19/feed.xml" rel="self" type="application/atom+xml" /><link href="/2016/group19/" rel="alternate" type="text/html" /><updated>2016-10-27T00:57:14+01:00</updated><id>/2016/group19//</id><title type="html">Mentor Matching - Team 19</title><subtitle>Matthew Bell, Christopher Lau and Harry Chen are working on creating a system to match mentors and mentees based on their preferences, on behalf of Atos UK.
 </subtitle><entry><title type="html">Project Background</title><link href="/2016/group19/research/2016/10/18/background.html" rel="alternate" type="text/html" title="Project Background" /><published>2016-10-18T00:30:51+01:00</published><updated>2016-10-18T00:30:51+01:00</updated><id>/2016/group19/research/2016/10/18/background</id><content type="html" xml:base="/2016/group19/research/2016/10/18/background.html">&lt;h1 id=&quot;brief&quot;&gt;Brief&lt;/h1&gt;
 &lt;p&gt;The brief for our project is to create a system that matches mentors and mentees on behalf of Atos. The system will allow employees to sign up to various company programmes as either a mentor or a mentee, and then once applications are closed the system will use the users’ profiles (as well as any constraints the program has) to find the most suitable mentor-mentee matchings.&lt;/p&gt;
 
@@ -20,4 +20,70 @@ The brief for our project is to create a system that matches mentors and mentees
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Client Meeting 1 Notes</title><link href="/2016/group19/meetings/2016/10/10/client-meeting.html" rel="alternate" type="text/html" title="Client Meeting 1 Notes" /><published>2016-10-10T14:00:00+01:00</published><updated>2016-10-10T14:00:00+01:00</updated><id>/2016/group19/meetings/2016/10/10/client-meeting</id><content type="html" xml:base="/2016/group19/meetings/2016/10/10/client-meeting.html">&lt;p&gt;different groups with different requirements&lt;/p&gt;
+
+&lt;p&gt;3 groups with option to add more - don’t hardcode this&lt;/p&gt;
+
+&lt;p&gt;~60 people in talent program, could be higher for others&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;stable marriage problem&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;kinda like a dating site problem&lt;/p&gt;
+
+&lt;p&gt;same people may/may not be available, max. no of mentees per mentor, status of pairing..?&lt;/p&gt;
+
+&lt;p&gt;example: one person has three mentees out their maximum of three. one may be actively meeting, one may not have started meeting, one may have just left scheme&lt;/p&gt;
+
+&lt;p&gt;open window for two weeks to apply, and then the system matches mentors to mentees.. what about surplus mentees? could happen multiple times in a year
+user could be both mentor and mentees, depending on mentorship programme constraints&lt;/p&gt;
+
+&lt;p&gt;admin function for bulk CRUD operations&lt;/p&gt;
+
+&lt;p&gt;web app is probably best. app is for internal use only. system picks matches, users do not.&lt;/p&gt;
+
+&lt;p&gt;examples of preferences etc will be emailed over&lt;/p&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;features?&lt;/h2&gt;
+&lt;p&gt;must be easy to use, easy to enter matching preferences&lt;/p&gt;
+
+&lt;p&gt;would like to do it on laptop or phone&lt;/p&gt;
+
+&lt;p&gt;notifications would be “brilliant”&lt;/p&gt;
+
+&lt;p&gt;something that could be looked at&lt;/p&gt;
+
+&lt;p&gt;status, record of meetings… nice to have.&lt;/p&gt;
+
+&lt;p&gt;prompts to meet if there hasn’t been activity.&lt;/p&gt;
+
+&lt;p&gt;user profile idea “good”, needs to be fairly simple so that the user doesn’t get invested in working on the profile rather than other things. clearly low priority. focus on the users’ skills.&lt;/p&gt;
+
+&lt;p&gt;internal DB? SAP or there’s a “corporate directory”
+could use to populate profile, but best to check as these things tend to be locked down&lt;/p&gt;
+
+&lt;h2 id=&quot;requirements&quot;&gt;Requirements&lt;/h2&gt;
+
+&lt;p&gt;MUST HAVE:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;matching system&lt;/li&gt;
+  &lt;li&gt;preferences for matching&lt;/li&gt;
+  &lt;li&gt;separate programs with their own requirements&lt;/li&gt;
+  &lt;li&gt;status of each persons’ matches
+SHOULD HAVE:&lt;/li&gt;
+  &lt;li&gt;profile system&lt;/li&gt;
+  &lt;li&gt;notifications&lt;/li&gt;
+  &lt;li&gt;admin - bulk create/read/update/write (CRUD) operations
+COULD HAVE:&lt;/li&gt;
+  &lt;li&gt;recording meetings of mentorship&lt;/li&gt;
+  &lt;li&gt;prompts to meet
+WOULD HAVE&lt;/li&gt;
+  &lt;li&gt;corporate directory lookup&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;mentor can’t be line manager -&amp;gt; not the same team is easiest way?&lt;/p&gt;
+
+&lt;h2 id=&quot;next-steps&quot;&gt;Next steps&lt;/h2&gt;
+&lt;p&gt;finalise requirements (our side) by 14th October. Jane will then confirm this after weekend.
+Create user stories&lt;/p&gt;
+
+&lt;p&gt;Are we using agile…?&lt;/p&gt;</content><summary type="html">different groups with different requirements</summary></entry></feed>

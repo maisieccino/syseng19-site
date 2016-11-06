@@ -4,10 +4,10 @@ title: About Us
 permalink: /about/
 ---
 
-## The Team
+# The Team
 
-# Christopher Lau
+## Christopher Lau
 
-# Matthew Bell
+## Matthew Bell
 
-# Harry Chen
+## Harry Chen
