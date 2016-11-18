@@ -3,7 +3,7 @@ layout: post
 title:  "CTO Meeting 1 Notes"
 date:   2016-10-10 14:00:00 +0100
 categories: meetings
-attendees: "Chris","Matt","Harry","Mike Smith"
+attendees: [ 'Chris','Matt','Harry','Mike Smith' ]
 ---
 
 This meeting involved us talking to Mike Smith, CTO of Atos, about the technical constraints of the project.
