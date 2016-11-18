@@ -1,5 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/2016/group19/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="/2016/group19/feed.xml" rel="self" type="application/atom+xml" /><link href="/2016/group19/" rel="alternate" type="text/html" /><updated>2016-11-18T12:38:34+00:00</updated><id>/2016/group19//</id><title type="html">Mentor Matching - Team 19</title><subtitle>Matthew Bell, Christopher Lau and Harry Chen are working on creating a system to match mentors and mentees based on their preferences, on behalf of Atos UK.
-</subtitle><entry><title type="html">Client Meeting 2 Notes</title><link href="/2016/group19/meetings/2016/10/26/client-meeting.html" rel="alternate" type="text/html" title="Client Meeting 2 Notes" /><published>2016-10-26T14:00:00+01:00</published><updated>2016-10-26T14:00:00+01:00</updated><id>/2016/group19/meetings/2016/10/26/client-meeting</id><content type="html" xml:base="/2016/group19/meetings/2016/10/26/client-meeting.html">&lt;p&gt;Thiss was a quick Skype call to finalize requirements. The discussion was more focussed on the process of matching mentors with mentees and also the criteria that current mentees use when finding mentors. Finally, cleared some outstanding confusion regarding the general structure of the app (eg. the different constraints that different mentorship programs may have).&lt;/p&gt;</content><summary type="html">Thiss was a quick Skype call to finalize requirements. The discussion was more focussed on the process of matching mentors with mentees and also the criteria that current mentees use when finding mentors. Finally, cleared some outstanding confusion regarding the general structure of the app (eg. the different constraints that different mentorship programs may have).</summary></entry><entry><title type="html">Project Background</title><link href="/2016/group19/research/2016/10/18/background.html" rel="alternate" type="text/html" title="Project Background" /><published>2016-10-18T00:30:51+01:00</published><updated>2016-10-18T00:30:51+01:00</updated><id>/2016/group19/research/2016/10/18/background</id><content type="html" xml:base="/2016/group19/research/2016/10/18/background.html">&lt;h1 id=&quot;brief&quot;&gt;Brief&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/2016/group19/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="/2016/group19/feed.xml" rel="self" type="application/atom+xml" /><link href="/2016/group19/" rel="alternate" type="text/html" /><updated>2016-11-18T12:52:06+00:00</updated><id>/2016/group19//</id><title type="html">Mentor Matching - Team 19</title><subtitle>Matthew Bell, Christopher Lau and Harry Chen are working on creating a system to match mentors and mentees based on their preferences, on behalf of Atos UK.
+</subtitle><entry><title type="html">Client Meeting 2 Notes</title><link href="/2016/group19/meetings/2016/10/26/client-meeting.html" rel="alternate" type="text/html" title="Client Meeting 2 Notes" /><published>2016-10-26T14:00:00+01:00</published><updated>2016-10-26T14:00:00+01:00</updated><id>/2016/group19/meetings/2016/10/26/client-meeting</id><content type="html" xml:base="/2016/group19/meetings/2016/10/26/client-meeting.html">&lt;p&gt;Thiss was a quick Skype call to finalize requirements. The discussion was more focussed on the process of matching mentors with mentees and also the criteria that current mentees use when finding mentors. Finally, cleared some outstanding confusion regarding the general structure of the app (eg. the different constraints that different mentorship programs may have).&lt;/p&gt;</content><summary type="html">Thiss was a quick Skype call to finalize requirements. The discussion was more focussed on the process of matching mentors with mentees and also the criteria that current mentees use when finding mentors. Finally, cleared some outstanding confusion regarding the general structure of the app (eg. the different constraints that different mentorship programs may have).</summary></entry><entry><title type="html">Supervisor Meeting 1 Notes</title><link href="/2016/group19/meetings/2016/10/24/supervisor-meeting.html" rel="alternate" type="text/html" title="Supervisor Meeting 1 Notes" /><published>2016-10-24T14:00:00+01:00</published><updated>2016-10-24T14:00:00+01:00</updated><id>/2016/group19/meetings/2016/10/24/supervisor-meeting</id><content type="html" xml:base="/2016/group19/meetings/2016/10/24/supervisor-meeting.html">&lt;p&gt;Next fortnightly meeting, Monday 14th Nov 2pm&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Chase up with Jane, intro supervisor&lt;/li&gt;
+  &lt;li&gt;Get existing forms + docs
+    &lt;ul&gt;
+      &lt;li&gt;CONFIRM requirements/what is a success&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Formal outline
+    &lt;ul&gt;
+      &lt;li&gt;Explain project&lt;/li&gt;
+      &lt;li&gt;~3 paragraphs&lt;/li&gt;
+      &lt;li&gt;No ‘filler’ or junk text&lt;/li&gt;
+      &lt;li&gt;Clear aims/objectives&lt;/li&gt;
+      &lt;li&gt;~3/4 page&lt;/li&gt;
+      &lt;li&gt;3 main objectives + 1 stretch objective&lt;/li&gt;
+      &lt;li&gt;Link these to deliverables&lt;/li&gt;
+      &lt;li&gt;Agreed with client + supervisor&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><summary type="html">Next fortnightly meeting, Monday 14th Nov 2pm
+
+  Chase up with Jane, intro supervisor
+  Get existing forms + docs
+    
+      CONFIRM requirements/what is a success
+    
+  
+  Formal outline
+    
+      Explain project
+      ~3 paragraphs
+      No ‘filler’ or junk text
+      Clear aims/objectives
+      ~3/4 page
+      3 main objectives + 1 stretch objective
+      Link these to deliverables
+      Agreed with client + supervisor</summary></entry><entry><title type="html">Project Background</title><link href="/2016/group19/research/2016/10/18/background.html" rel="alternate" type="text/html" title="Project Background" /><published>2016-10-18T00:30:51+01:00</published><updated>2016-10-18T00:30:51+01:00</updated><id>/2016/group19/research/2016/10/18/background</id><content type="html" xml:base="/2016/group19/research/2016/10/18/background.html">&lt;h1 id=&quot;brief&quot;&gt;Brief&lt;/h1&gt;
 &lt;p&gt;The brief for our project is to create a system that matches mentors and mentees on behalf of Atos. The system will allow employees to sign up to various company programmes as either a mentor or a mentee, and then once applications are closed the system will use the users’ profiles (as well as any constraints the program has) to find the most suitable mentor-mentee matchings.&lt;/p&gt;
 
 &lt;p&gt;The brief was deliberately left as open-ended as possible, to allow us to focus on completing the problem rather than working with an unfamiliar technology stack.&lt;/p&gt;
