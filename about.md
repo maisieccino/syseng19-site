@@ -20,7 +20,7 @@ I'm the project's technical lead, responsible for leading the design work for th
 ## Harry Chen
 As the cheif editor and cheif researcher of the team, I'm responsible for help leadig the research and recording the results, also assist team leader as necessary. Last year I developed a web app for UCL psychology institute with other teammates, I enjoyed doing design work including UI design, and implementation it in front end of website development.
 
-![](http://photo.weibo.com/2306100520/wbphotos/large/mid/4044509325754136/pid/89744d28gw1fa0ikrcz94j23402c0b2b)
+![](assets/img/harry1.jpg)
 <!-- <h3>The Team</h3>
 	<p>This project is being worked on by three UCL 2nd year Computer Science undergraduates as part of the COMP204P and COMP205P Systems Engineering Project modules.</p>
 
