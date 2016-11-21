@@ -20,4 +20,4 @@ I'm the project's technical lead, responsible for leading the design work for th
 ## Harry Chen
 As the cheif editor and cheif researcher of the team, I'm responsible for help leadig the research and recording the results, also assist team leader as necessary. Last year I developed a web app for UCL psychology institute with other teammates, I enjoyed doing design work including UI design, and implementation it in front end of website development.
 
-![](/assets/img/harry1.jpg)
+![]({{ site.baseurl }}/assets/img/harry1.jpg)
