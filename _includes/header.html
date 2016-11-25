@@ -1,16 +1,19 @@
-<nav class="navbar navbar-dark bg-inverse">
-	<div class="container">
-		<button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
-		<div class="collapse navbar-toggleable-md" id="navbarResponsive">
-		    <a class="navbar-brand" href="{{ site.baseurl }}">{{ site.title }}</a>
-		    <ul class="nav navbar-nav">
-		        {% for p in site.pages %}
-		        <li class="nav-item {% if p.url == page.url %}active{% endif %}">
-		                <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title | escape }}
-		                    {% if p.url == page.url %}<span class="sr-only">(current){% endif %}</a>
-		            </li>
-		        {% endfor %}
-		    </ul>
-	    </div>
-    </div>
+
+<nav class="navbar-fixed-top container">
+	<div class="navbar navbar-dark bg-inverse">
+			<div class="container">
+				<button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
+				<div class="collapse navbar-toggleable-md" id="navbarResponsive">
+				    <a class="navbar-brand" href="{{ site.baseurl }}">{{ site.title }}</a>
+				    <ul class="nav navbar-nav">
+				        {% for p in site.pages %}
+				        <li class="nav-item {% if p.url == page.url %}active{% endif %}">
+				                <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title | escape }}
+				                    {% if p.url == page.url %}<span class="sr-only">(current){% endif %}</a>
+				            </li>
+				        {% endfor %}
+				    </ul>
+			    </div>
+		    </div>
+	</div>
 </nav>
