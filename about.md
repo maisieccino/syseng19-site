@@ -2,6 +2,7 @@
 layout: page
 title: About Us
 permalink: /about/
+navigation: true
 ---
 
 # The Team
