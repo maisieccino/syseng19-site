@@ -8,10 +8,10 @@
 			    <ul class="nav navbar-nav">
 			    	{% assign nav_pages = site.pages | where: "navigation",true %}
 			        {% for p in nav_pages %}
-			        <li class="nav-item {% if p.url == page.url %}active{% endif %}">
-			                <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title | escape }}
-			                    {% if p.url == page.url %}<span class="sr-only">(current){% endif %}</a>
-			            </li>
+			        <li class="nav-item pull-right {% if p.url == page.url %}active{% endif %}">
+		                <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title | escape }}
+		                {% if p.url == page.url %}<span class="sr-only">(current){% endif %}</a>
+			        </li>
 			        {% endfor %}
 			    </ul>
 		    </div>
