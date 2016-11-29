@@ -14,3 +14,19 @@ body{
 	color: #497B8C;
 }
 
+thead{
+	background-color: #808080;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.category-header{
+	line-height: 5px;
+	background-color: #eceeef;
+}
+
+.category-header td{
+	font-weight: bold;
+	color: #497B8C;
+	/*font-family: italic;*/
+}
