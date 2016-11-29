@@ -29,34 +29,36 @@ layout: default
             </div>
             {% endfor %}
 
-            <p class="text-muted">Navigation</p>
-            <nav aria-label="Page navigation">
-                <ul class="pagination">
-                    {% if paginator.previous_link %}
+        <p class="text-muted">Navigation</p>
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                {% if paginator.previous_link %}
                     <li class="page-item">
                         <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}" aria-label="Previous">
                             <span aria-hidden="true">&laquo;</span>
                             <span class="sr-only">Previous</span>
                         </a>
                     </li>
+                {% endif %}
+                {% for count in (1..paginator.total_pages) %}
+                    {% if count == paginator.page %}
+                        <li class="page-item active"><a class="page-link" href="#">{{count}}</a></li>
+                    {% elsif count == 1 %}
+                        <li class="page-item "><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ count }}</a></li>
+                    {% else %}
+                        <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', count }}"> {{count}} </a></li>
                     {% endif %}
-                    {% for count in (1..paginator.total_pages) %}
-                        {% if count == paginator.page %}
-                            <li class="page-item active"><a class="page-link" href="#">{{count}}</a></li>
-                        {% else %}
-                        <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{count}}</a></li>
-                        {% endif %}
-                    {% endfor %}
-                    {% if paginator.next_link %}
-                    <li class="page-item">
-                        <a class="page-link" href="{{ paginator.next_page_path | relative_url }}" aria-label="Next">
-                            <span aria-hidden="true">&raquo;</span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </li>
-                    {% endif %}
-                </ul>
-            </nav>
+                {% endfor %}
+                {% if paginator.next_link %}
+                <li class="page-item">
+                    <a class="page-link" href="{{ paginator.next_page_path | relative_url }}" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </li>
+                {% endif %}
+            </ul>
+        </nav>
         </div>
     </div>
 </div>
