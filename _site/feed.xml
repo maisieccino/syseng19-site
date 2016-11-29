@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/2016/group19/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/2016/group19/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/2016/group19/" rel="alternate" type="text/html" /><updated>2016-11-29T15:46:49+00:00</updated><id>http://localhost:4000/2016/group19//</id><title type="html">Mentor Matching - Team 19</title><subtitle>Matthew Bell, Christopher Lau and Harry Chen are working on creating a system to match mentors and mentees based on their preferences, on behalf of Atos UK.
-</subtitle><entry><title type="html">MosCoW Requirements</title><link href="http://localhost:4000/2016/group19/requirements/2016/11/04/moscow-requirements.html" rel="alternate" type="text/html" title="MosCoW Requirements" /><published>2016-11-04T23:30:51+00:00</published><updated>2016-11-04T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/requirements/2016/11/04/moscow-requirements</id><content type="html" xml:base="http://localhost:4000/2016/group19/requirements/2016/11/04/moscow-requirements.html">&lt;p&gt;This is a list of all the requirements as agreed and finalised with our client. These requirements are subject to change over the course of the development phase of this project.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/2016/group19/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="/2016/group19/feed.xml" rel="self" type="application/atom+xml" /><link href="/2016/group19/" rel="alternate" type="text/html" /><updated>2016-11-29T21:39:49+00:00</updated><id>/2016/group19//</id><title type="html">Mentor Matching - Team 19</title><subtitle>Matthew Bell, Christopher Lau and Harry Chen are working on creating a system to match mentors and mentees based on their preferences, on behalf of Atos UK.
+</subtitle><entry><title type="html">MosCoW Requirements</title><link href="/2016/group19/requirements/2016/11/04/moscow-requirements.html" rel="alternate" type="text/html" title="MosCoW Requirements" /><published>2016-11-04T23:30:51+00:00</published><updated>2016-11-04T23:30:51+00:00</updated><id>/2016/group19/requirements/2016/11/04/moscow-requirements</id><content type="html" xml:base="/2016/group19/requirements/2016/11/04/moscow-requirements.html">&lt;p&gt;This is a list of all the requirements as agreed and finalised with our client. These requirements are subject to change over the course of the development phase of this project.&lt;/p&gt;
 
 &lt;div class=&quot;table-responsive&quot;&gt;
 	&lt;table class=&quot;table table-bordered&quot;&gt;
@@ -86,7 +86,90 @@
 		    &lt;/tr&gt;
 		&lt;/tbody&gt;
 	&lt;/table&gt;
-&lt;/div&gt;</content><summary type="html">This is a list of all the requirements as agreed and finalised with our client. These requirements are subject to change over the course of the development phase of this project.</summary></entry><entry><title type="html">Client Meeting 2 Notes</title><link href="http://localhost:4000/2016/group19/meetings/2016/10/26/client-meeting.html" rel="alternate" type="text/html" title="Client Meeting 2 Notes" /><published>2016-10-26T14:00:00+01:00</published><updated>2016-10-26T14:00:00+01:00</updated><id>http://localhost:4000/2016/group19/meetings/2016/10/26/client-meeting</id><content type="html" xml:base="http://localhost:4000/2016/group19/meetings/2016/10/26/client-meeting.html">&lt;p&gt;Thiss was a quick Skype call to finalize requirements. The discussion was more focussed on the process of matching mentors with mentees and also the criteria that current mentees use when finding mentors. Finally, cleared some outstanding confusion regarding the general structure of the app (eg. the different constraints that different mentorship programs may have).&lt;/p&gt;</content><summary type="html">Thiss was a quick Skype call to finalize requirements. The discussion was more focussed on the process of matching mentors with mentees and also the criteria that current mentees use when finding mentors. Finally, cleared some outstanding confusion regarding the general structure of the app (eg. the different constraints that different mentorship programs may have).</summary></entry><entry><title type="html">Supervisor Meeting 1 Notes</title><link href="http://localhost:4000/2016/group19/meetings/2016/10/24/supervisor-meeting.html" rel="alternate" type="text/html" title="Supervisor Meeting 1 Notes" /><published>2016-10-24T14:00:00+01:00</published><updated>2016-10-24T14:00:00+01:00</updated><id>http://localhost:4000/2016/group19/meetings/2016/10/24/supervisor-meeting</id><content type="html" xml:base="http://localhost:4000/2016/group19/meetings/2016/10/24/supervisor-meeting.html">&lt;p&gt;Next fortnightly meeting, Monday 14th Nov 2pm&lt;/p&gt;
+&lt;/div&gt;</content><summary type="html">This is a list of all the requirements as agreed and finalised with our client. These requirements are subject to change over the course of the development phase of this project.
+
+
+	
+		
+	      	
+	        	Requirement
+	        	Description
+	        	Category
+	      	
+    	
+    	
+    		
+    		Must Have
+		    
+		       	Matching system
+		        There must be a matching algorithm that matches mentors and mentees as best as possible according to their preferences.
+		        Functional
+		    
+		    
+		       	Preferences for matching
+		        There must be a system for mentors and mentees to specify their preferences for matching, for instance interests.
+		        Functional
+		    
+		    
+		        Separate mentorship programmes
+		        The system must allow for a number of separate mentorship programmes with their own matching constraints.
+		        Non-Functional
+		    
+		    
+		        Personal status
+		        Users must be able to see the status of their mentorships, for instance whether they can match with users and how active the mentorship is.
+		        Functional
+		    
+		    
+		        Web Application
+		        The application must be able to be accessed on both mobile and desktop form factors
+		        Functional
+		    
+		    
+		        User Interface and Usability
+		        The application must operate on a user friendly interface which is simple to use
+		        Non-Functional
+		    
+		    
+		    Should Have
+		    
+		       	Profile system
+		        Users should be able to create and manage a simple profile so that other users can learn about them. Should include name, image and perhaps a short bio.
+		        Functional
+		    
+		    
+		       	Notifications
+		        Users should be able to receive notifications about key features of the app, for instance when matches are allocated. Should also work across different form factors
+		        Functional
+		    
+		    
+		        Admin bulk operation interface
+		        There should be an interface that allows admins to perform bulk create/read/update/destroy (CRUD) operatons easily.
+		        Functional
+		    
+		    
+		    Could Have
+		    
+		        Mentorship meeting record
+		        The app could be able to store records of the mentor and mentee meeting each other during the course of the mentorship, with the ability to add comments to this.
+		        Functional
+		    
+		    
+		        Instant messaging
+		        The app could be able to store records of the mentor and mentee meeting each other during the course of the mentorship, with the ability to add comments to this.
+		        Functional
+		    
+		    
+		        Notifications to meet
+		        The app could facilitate instant messaging betweenmentors and mentees.
+		        Functional
+		    
+		    
+		    Would Have
+		     
+		        Corporate Directory Lookup
+		        The app would be able to use the company’s internal “Corporate Directory” to populate users’ profiles
+		        Functional</summary></entry><entry><title type="html">Client Meeting 2 Notes</title><link href="/2016/group19/meetings/2016/10/26/client-meeting.html" rel="alternate" type="text/html" title="Client Meeting 2 Notes" /><published>2016-10-26T14:00:00+01:00</published><updated>2016-10-26T14:00:00+01:00</updated><id>/2016/group19/meetings/2016/10/26/client-meeting</id><content type="html" xml:base="/2016/group19/meetings/2016/10/26/client-meeting.html">&lt;p&gt;Thiss was a quick Skype call to finalize requirements. The discussion was more focussed on the process of matching mentors with mentees and also the criteria that current mentees use when finding mentors. Finally, cleared some outstanding confusion regarding the general structure of the app (eg. the different constraints that different mentorship programs may have).&lt;/p&gt;</content><summary type="html">Thiss was a quick Skype call to finalize requirements. The discussion was more focussed on the process of matching mentors with mentees and also the criteria that current mentees use when finding mentors. Finally, cleared some outstanding confusion regarding the general structure of the app (eg. the different constraints that different mentorship programs may have).</summary></entry><entry><title type="html">Supervisor Meeting 1 Notes</title><link href="/2016/group19/meetings/2016/10/24/supervisor-meeting.html" rel="alternate" type="text/html" title="Supervisor Meeting 1 Notes" /><published>2016-10-24T14:00:00+01:00</published><updated>2016-10-24T14:00:00+01:00</updated><id>/2016/group19/meetings/2016/10/24/supervisor-meeting</id><content type="html" xml:base="/2016/group19/meetings/2016/10/24/supervisor-meeting.html">&lt;p&gt;Next fortnightly meeting, Monday 14th Nov 2pm&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Chase up with Jane, intro supervisor&lt;/li&gt;
   &lt;li&gt;Get existing forms + docs
@@ -123,7 +206,7 @@
       ~3/4 page
       3 main objectives + 1 stretch objective
       Link these to deliverables
-      Agreed with client + supervisor</summary></entry><entry><title type="html">Project Background and Initial Considerations</title><link href="http://localhost:4000/2016/group19/background/2016/10/18/background.html" rel="alternate" type="text/html" title="Project Background and Initial Considerations" /><published>2016-10-18T00:30:51+01:00</published><updated>2016-10-18T00:30:51+01:00</updated><id>http://localhost:4000/2016/group19/background/2016/10/18/background</id><content type="html" xml:base="http://localhost:4000/2016/group19/background/2016/10/18/background.html">&lt;h3 class=&quot;section-header&quot;&gt;Our Client&lt;/h3&gt;
+      Agreed with client + supervisor</summary></entry><entry><title type="html">Project Background and Initial Considerations</title><link href="/2016/group19/background/2016/10/18/background.html" rel="alternate" type="text/html" title="Project Background and Initial Considerations" /><published>2016-10-18T00:30:51+01:00</published><updated>2016-10-18T00:30:51+01:00</updated><id>/2016/group19/background/2016/10/18/background</id><content type="html" xml:base="/2016/group19/background/2016/10/18/background.html">&lt;h3 class=&quot;section-header&quot;&gt;Our Client&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Atos&lt;/strong&gt; is a leader in digital services. Serving a global client base, Atos provides Consulting &amp;amp; Systems Integration services, Managed Services &amp;amp; BPO, Cloud operations, Big Data &amp;amp; Cyber-security solutions, as well as transactional services through Worldline, the European leader in the payments and transactional services industry.&lt;/p&gt;
 
 &lt;p&gt;Atos are also focused on business technology that powers progress and helps organizations to create their firm of the future. The client we are working with is based at the Nottingham Office.&lt;/p&gt;
@@ -150,7 +233,7 @@
 &lt;p&gt;When meeting our client for the first time, she was favourable of the system being accessible from both her smartphone and laptop/desktop PC. So naturally we decided that a web app would be the best fit for this project. Whether this was to use Angular, Ionic, Meteor or some other framework had not been decided at this point.&lt;/p&gt;
 
 &lt;p&gt;Other things to consider included the possibility of receiving notifications, either in the form of push notifications from the app itself, SMS messages sent to a mobile phone, or emails.&lt;/p&gt;</content><summary type="html">Our Client
-Atos is a leader in digital services. Serving a global client base, Atos provides Consulting &amp;amp; Systems Integration services, Managed Services &amp;amp; BPO, Cloud operations, Big Data &amp;amp; Cyber-security solutions, as well as transactional services through Worldline, the European leader in the payments and transactional services industry.</summary></entry><entry><title type="html">CTO Meeting 1 Notes</title><link href="http://localhost:4000/2016/group19/meetings/2016/10/10/cto-meeting.html" rel="alternate" type="text/html" title="CTO Meeting 1 Notes" /><published>2016-10-10T14:00:00+01:00</published><updated>2016-10-10T14:00:00+01:00</updated><id>http://localhost:4000/2016/group19/meetings/2016/10/10/cto-meeting</id><content type="html" xml:base="http://localhost:4000/2016/group19/meetings/2016/10/10/cto-meeting.html">&lt;p&gt;This meeting involved us talking to Mike Smith, CTO of Atos, about the technical constraints of the project.&lt;/p&gt;
+Atos is a leader in digital services. Serving a global client base, Atos provides Consulting &amp;amp; Systems Integration services, Managed Services &amp;amp; BPO, Cloud operations, Big Data &amp;amp; Cyber-security solutions, as well as transactional services through Worldline, the European leader in the payments and transactional services industry.</summary></entry><entry><title type="html">CTO Meeting 1 Notes</title><link href="/2016/group19/meetings/2016/10/10/cto-meeting.html" rel="alternate" type="text/html" title="CTO Meeting 1 Notes" /><published>2016-10-10T14:00:00+01:00</published><updated>2016-10-10T14:00:00+01:00</updated><id>/2016/group19/meetings/2016/10/10/cto-meeting</id><content type="html" xml:base="/2016/group19/meetings/2016/10/10/cto-meeting.html">&lt;p&gt;This meeting involved us talking to Mike Smith, CTO of Atos, about the technical constraints of the project.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Use what we’re most familiar with&lt;/li&gt;
@@ -209,7 +292,7 @@ Atos is a leader in digital services. Serving a global client base, Atos provide
       &lt;li&gt;They’re happy for us to make the repo public.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><summary type="html">This meeting involved us talking to Mike Smith, CTO of Atos, about the technical constraints of the project.</summary></entry><entry><title type="html">Client Meeting 1 Notes</title><link href="http://localhost:4000/2016/group19/meetings/2016/10/10/client-meeting.html" rel="alternate" type="text/html" title="Client Meeting 1 Notes" /><published>2016-10-10T14:00:00+01:00</published><updated>2016-10-10T14:00:00+01:00</updated><id>http://localhost:4000/2016/group19/meetings/2016/10/10/client-meeting</id><content type="html" xml:base="http://localhost:4000/2016/group19/meetings/2016/10/10/client-meeting.html">&lt;p&gt;different groups with different requirements&lt;/p&gt;
+&lt;/ul&gt;</content><summary type="html">This meeting involved us talking to Mike Smith, CTO of Atos, about the technical constraints of the project.</summary></entry><entry><title type="html">Client Meeting 1 Notes</title><link href="/2016/group19/meetings/2016/10/10/client-meeting.html" rel="alternate" type="text/html" title="Client Meeting 1 Notes" /><published>2016-10-10T14:00:00+01:00</published><updated>2016-10-10T14:00:00+01:00</updated><id>/2016/group19/meetings/2016/10/10/client-meeting</id><content type="html" xml:base="/2016/group19/meetings/2016/10/10/client-meeting.html">&lt;p&gt;different groups with different requirements&lt;/p&gt;
 
 &lt;p&gt;3 groups with option to add more - don’t hardcode this&lt;/p&gt;
 
