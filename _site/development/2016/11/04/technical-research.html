@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="/2016/group19/css/style.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <title>Technical Research - Mentor Matching - Team 19</title>
+</head>
+
+    <body>
+
+        <div class="container">
+            <nav class="navbar-fixed-top container">
+	<div class="navbar navbar-dark bg-inverse">
+		<div class="container">
+			<button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
+			<div class="collapse navbar-toggleable-md" id="navbarResponsive">
+			    <a class="navbar-brand" href="/2016/group19">Mentor Matching - Team 19</a>
+			    <ul class="nav navbar-nav">
+			    	
+			        
+			        <li class="nav-item pull-right ">
+		                <a class="nav-link" href="/2016/group19/about/">About Us
+		                </a>
+			        </li>
+			        
+			        <li class="nav-item pull-right ">
+		                <a class="nav-link" href="/2016/group19/background/">Background
+		                </a>
+			        </li>
+			        
+			        <li class="nav-item pull-right ">
+		                <a class="nav-link" href="/2016/group19/development/">Development
+		                </a>
+			        </li>
+			        
+			        <li class="nav-item pull-right ">
+		                <a class="nav-link" href="/2016/group19/meetings/">Meetings
+		                </a>
+			        </li>
+			        
+			        <li class="nav-item pull-right ">
+		                <a class="nav-link" href="/2016/group19/requirements/">Requirements
+		                </a>
+			        </li>
+			        
+			    </ul>
+		    </div>
+	    </div>
+	</div>
+</nav>
+
+
+            <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <header class="post-header">
+        <div class="jumbotron" id="top">
+            <h1 class="display-4">Technical Research</h1>
+            <p class="lead"><time datetime="2016-11-04T23:30:51+00:00" itemprop="datePublished">Nov 4, 2016</time></p>
+            <p class="lead"></p>
+            <p class="lead">
+                
+            </p>
+        </div>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+        <div class="row">
+            <div class="container">
+                <div class="col-md-12">
+                    <p>This page details all the technical research we have done (excluding architecture) throughout this project, including open-source libraries and frameworks that could be useful for the final system. Our research was split in to 2 categories which was frontend research and backend research.</p>
+
+<p><a href="#back-end" style="margin-top: 7px;" class="btn btn-primary">1. Backend Frameworks/Libraries</a>
+<a href="#front-end" style="margin-top: 7px;" class="btn btn-primary">2. Frontend Frameworks/Libraries</a></p>
+
+<h3 id="back-end" class="section-header">Backend Frameworks/Libraries</h3>
+
+<!-- Node.js -->
+<p><img src="/2016/group19/assets/img/node.jpg" class="image" alt="node.js" height="120" width="120" /><br /></p>
+
+<p><span class="lead sub-header">Node.JS</span><br />
+Node.JS is an application framework that runs JavaScript code as a native app on computers. It’s gained extreme popularity over the last couple of years and I myself have used it for a few projects in the past. The community is rather large and there’s a library for pretty much anything.</p>
+
+<p>Node.JS programs are written using JavaScript, a dynamic, untyped language developed originally for scripting web pages in the browser. Recent versions of the language have introduced classes and other useful features, but it’s type inferencing has some weird side effects <code>(try {} == [] and [] == {})</code>.</p>
+
+<p><span class="lead sub-header">Advantages</span></p>
+<ul>
+  <li>Large developer community with plenty of libraries.</li>
+  <li>Easy to write and deploy code.</li>
+  <li>Shares a common language with web page scripts.</li>
+  <li>Object variables - JavaScript internally uses hashes/dictionaries/key-value pairs to represent objects, and the value can be of any type… even functions. Makes for very quick development.</li>
+  <li>Event-driven - your Node app can do other things while waiting for asynchronous operations (disk I/O, http requests, etc) which can make up for only having one thread.</li>
+</ul>
+
+<p><span class="lead sub-header">Disadvantages</span></p>
+<ul>
+  <li>Single threaded - no concurrency features.</li>
+  <li>Callbacks - a comment paradigm of JavaScript is using callbacks: functions that accept another function which is called once the original function completes. It can often lead to very messy code, with five or six functions nested inside each other.</li>
+</ul>
+
+<!-- Ruby on Rails -->
+<p><img src="/2016/group19/assets/img/ruby.jpg" class="image" alt="node.js" height="120" width="100" /><br /></p>
+
+<p><span class="lead sub-header">Ruby On Rails</span><br />
+Ruby on Rails is a web framework that’s written in Ruby, a dynamic programming language. It relies heavily on scaffolding, and the directory/fire structure is rather rigid. However, it means that applications are developed very quickly, and is often used as a prototyping framework.</p>
+
+<p>The Ruby language is extremely expressive, allowing functions to be written relatively fast without worrying too much about low level features like memory management. Also, like with Node.JS, Ruby has a large developer following and library, using the Rubygems service.</p>
+
+<p><span class="lead sub-header">Advantages</span></p>
+<ul>
+  <li>Fast development time thanks to a readable, dynamic language. Ruby trades off some processing overhead in lieu of developer satisfaction.</li>
+  <li>Rails uses scaffold code to generate projects very quickly, and tasks like page routing, templating and database ORM (object relation model, where a row in a database table is represented with a language’s class) are built in.</li>
+  <li>Ruby contains symbols that can be used instead of strings for hash keys. For instance, <code>:id</code> could represent the id of a user.</li>
+</ul>
+
+<p><span class="lead sub-header">Disadvantages</span></p>
+<ul>
+  <li>Scaffolding can mean that the project structure is inflexible, and code should be distributed between files as the Rails developers intended.</li>
+  <li>Ruby’s dynamic nature can mean that it runs a little slower than compiled/statically typed languages, as there’s overhead resulting from Ruby’s type inference engine.</li>
+</ul>
+
+<p><img src="/2016/group19/assets/img/django.jpg" class="image" alt="node.js" height="75" width="200" /><br /></p>
+
+<p><span class="lead sub-header">Django</span><br />
+Django is a high level web framework that is written in python  that encourages rapid development. Django is also free and open source and is built by experienced developers which takes care of much hassle of certain parts of web development. One of the main advantages of Django is that it is really fast and is designed to help developers take applications from concept to completion very quickly.</p>
+
+<p><span class="lead sub-header">Advantages</span></p>
+<ul>
+  <li>Very fast - Most of the aspects of web development are taken care of by the framework itself such as user authentication and form handling. It also has an inbuilt User Model implementation.</li>
+  <li>Security - Django’s inbuilt user authentication system are reassuringly secure which helps developers avoid security mistakes.</li>
+  <li>Scalability - Despite many in built system takes makes development really fast, Django is exceedingly scalable and flexible.</li>
+</ul>
+
+<p><span class="lead sub-header">Disadvantages</span></p>
+<ul>
+  <li>Maintainability - Since Django runs on python, it needs to maintain backwards compatibility when there are newer versions of python which makes it evolve slowly.</li>
+  <li>Templating - Most inbuilt features in Django require the use of templates, which can be rigid to the developer when trying to implement something different.</li>
+</ul>
+
+<p><img src="/2016/group19/assets/img/revel.jpg" class="image" alt="node.js" height="60" width="140" /><br /></p>
+
+<p><span class="lead sub-header">Revel</span><br />
+Revel is a web framework written using the Go language, a statically and strongly typed language. Go’s main benefits are its strong concurrency and networking features, and is high level enough to hide things like memory management.</p>
+
+<p>The Revel framework is similar to Ruby on Rails in that it employs the MVC (model, view, controller) design pattern to structure the project. It can be used for serving HTML from templates, or it can be also used for serving a RESTful JSON API.</p>
+
+<p><span class="lead sub-header">Advantages</span></p>
+<ul>
+  <li>Statically and strongly typed - the Go language may not have the syntactic sugar of Ruby or Python, but it’s built to run fast.</li>
+  <li>Multithreading - Go uses channels to handle concurrent features, which can be used to create more optimised servers, if needed.</li>
+</ul>
+
+<p><span class="lead sub-header">Disadvantages</span></p>
+<ul>
+  <li>Barebones - as Revel is very lightweight, it also means that the developer needs to implement a lot of features themselves, increasing development time.</li>
+  <li>Revel uses scaffolding to generate the project files, which may mean that the project structure is rigid.</li>
+</ul>
+
+<p><a href="#top" class="btn btn-primary">^ Back to top</a></p>
+
+<h3 id="front-end" class="section-header">Frontend Frameworks/Libraries</h3>
+
+<!-- Angular -->
+<p><img src="/2016/group19/assets/img/angularjs.jpg" class="image" alt="node.js" height="120" width="120" /><br /></p>
+
+<p><span class="lead sub-header">AngularJS</span><br />
+AngularJS is an open-sourced Javascript framework used for developing single-page web application. It aims to overcome the shortages of HTML for building web application.AngularJS is much closer to model-view-view model pattern. Where model is the data in application, view is what shows to user, view-model provides functions and specific data.</p>
+
+<p><span class="lead sub-header">Advantages</span></p>
+<ul>
+  <li>AngularJS is supported by Google and a great development community.</li>
+  <li>AngularJS operate directly on DOM rather than inner HTML, more efficiently.</li>
+  <li>No need to use observable functions.</li>
+  <li>Extended features such as dependency injection, routing, animations, view orchestration, and more.</li>
+</ul>
+
+<p><span class="lead sub-header">Disadvantages</span></p>
+<ul>
+  <li>Source code too complex.</li>
+  <li>Not easy to learn how to write your own directive.</li>
+</ul>
+
+<p><img src="/2016/group19/assets/img/ionic.jpg" class="image" alt="node.js" height="70" width="150" /><br /></p>
+
+<p><span class="lead sub-header">Ionic</span><br />
+Since one of the requirements of our application was being mobile compatible, we decided to look into Ionic Framework as well. Ionic is a HTML5 SDK (software development kit) used to build hybrid mobile app by using Html, Css and Javascript. By using Ionic Creator, we could build a similar user interface interactions like native mobile app. Ionic is based on AngularJS.</p>
+
+<p><span class="lead sub-header">Advantages</span></p>
+<ul>
+  <li>Support cordova plugins to enrich functions in our app.</li>
+  <li>Once produce ionic program it could be run on both IOS and Android development.</li>
+  <li>Powerful CLI tool: Control and manage you project easier.</li>
+  <li>Providing beautiful  UI components.</li>
+  <li>Developing using AngularJS, can use all the modules from angular.</li>
+</ul>
+
+<p><span class="lead sub-header">Disadvantages</span></p>
+<ul>
+  <li>Not equal to native app, native device’s API depends on whether Cordova support it.</li>
+  <li>Can not deal with huge amount of images.</li>
+  <li>Some platforms like windows phone are not supported.</li>
+</ul>
+
+<p><img src="/2016/group19/assets/img/bootstrap.jpg" class="image" alt="node.js" height="80" width="160" /><br /></p>
+
+<p><span class="lead sub-header">Bootstrap</span><br />
+Bootstrap includes CSS, HTML and JavaScript components. It adheres to responsive web design standards, allowing developers to create responsive sites of all complexities and sizes.</p>
+
+<p><span class="lead sub-header">Advantages</span></p>
+<ul>
+  <li>Responsive web design support (can also be disabled if required)</li>
+  <li>Excellent documentation available online</li>
+  <li>Updated continously, hence it includes the latest and best features. It is also upgraded to use Sass as a CSS processor.</li>
+</ul>
+
+<p><span class="lead sub-header">Disadvantages</span></p>
+<ul>
+  <li>Out-of-the-box file size of 276kB due to excessive number of rarely used styles</li>
+  <li>Excessive number of HTML classes and DOM elements can be messy and confusing</li>
+</ul>
+
+<p><img src="/2016/group19/assets/img/reactjs.jpg" class="image" alt="node.js" height="70" width="170" /><br /></p>
+
+<p><span class="lead sub-header">React</span><br />
+React.js is a JavaScript library for building user interfaces, built by top engineers at Facebook. React is all about reusable components. However, unlike frameworks, which are built with the goal of getting whole apps up and running quickly, the only thing you do with React is build components. As React.js’s core functionality, components make reusing code, testing, and separating concerns easy.</p>
+
+<p><span class="lead sub-header">Advantages</span></p>
+<ul>
+  <li>Easy to know how a component is rendered, you just look at the render function.</li>
+  <li>React is able to render on server side.</li>
+  <li>React ensures readability and makes maintainability easier.</li>
+</ul>
+
+<p><span class="lead sub-header">Disadvantages</span></p>
+<ul>
+  <li>It’s not a full framework. There’s no router nor model management libraries built into reactJS – unlike angular or ember. Hence one needs to have some degree of experience in picking libraries to fulfill these needs.</li>
+  <li>React is rather verbose. Writing components isn’t as straight forward as pure HTML &amp; JS</li>
+</ul>
+
+<p><img src="/2016/group19/assets/img/emberjs.jpg" class="image" alt="node.js" height="80" width="160" /><br /></p>
+
+<p><span class="lead sub-header">Ember.Js</span><br />
+Ember.js is an open source JavaScript client-side framework for developing the web applications and uses the MVC(Model-View-Controller) architecture pattern. Ember.js is mainly used to creating reusable and maintainable JavaScript web applications.</p>
+
+<p><span class="lead sub-header">Advantages</span></p>
+<ul>
+  <li>Ember.js is an open source JavaScript framework under (MIT license).</li>
+  <li>It is a flexible framework that embraces the concept of fast web page. It allows to speed up the performance of your application without reloading the whole page.</li>
+  <li>It has the handlebars templating library which is similar as HTML and also embed an expressions that changes the display.</li>
+</ul>
+
+<p><span class="lead sub-header">Disadvantages</span></p>
+<ul>
+  <li>Very dependant on jQuery libraries. Very few libraries are written from scratch.</li>
+  <li>Less space for customization of everything.</li>
+  <li>No server-side rendering.</li>
+</ul>
+
+<p><a href="#top" class="btn btn-primary">^ Back to top</a></p>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</article>
+
+
+            <hr />
+<footer>
+    <div class="container">
+        <p class="lead">ATOS Mentor Matching App</p>
+        <p class="text-muted">Source: 
+            <a href="//github.com/mbellgb/syseng19-site">Site</a> &bull; 
+            <a href="//github.com/mbellgb/syseng19-docs">Documentation</a> &bull; 
+            <a href="//github.com/mbellgb/syseng19-code">Project Code</a>
+        </p>
+        <p class="text-muted">Matthew Bell, Christopher Lau, Harry Chen</p>
+    </div>
+</footer>
+
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+    </body>
+</html>

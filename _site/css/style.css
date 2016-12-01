@@ -35,3 +35,9 @@ thead{
 	color: #497B8C;
 	/*font-family: italic;*/
 }
+
+.image{
+	box-shadow: 0 0 5px 2px lightgray;
+	padding: 8px;
+	margin-top: 5px;
+}
