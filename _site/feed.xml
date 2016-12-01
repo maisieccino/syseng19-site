@@ -1,5 +1,193 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/2016/group19/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/2016/group19/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/2016/group19/" rel="alternate" type="text/html" /><updated>2016-11-29T22:52:28+00:00</updated><id>http://localhost:4000/2016/group19//</id><title type="html">Mentor Matching - Team 19</title><subtitle>Matthew Bell, Christopher Lau and Harry Chen are working on creating a system to match mentors and mentees based on their preferences, on behalf of Atos UK.
-</subtitle><entry><title type="html">Background Research</title><link href="http://localhost:4000/2016/group19/development/2016/11/04/background-research.html" rel="alternate" type="text/html" title="Background Research" /><published>2016-11-04T23:30:51+00:00</published><updated>2016-11-04T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/development/2016/11/04/background-research</id><content type="html" xml:base="http://localhost:4000/2016/group19/development/2016/11/04/background-research.html">&lt;h3 class=&quot;section-header&quot;&gt;Overcoming the Stable Marriage Problem&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/2016/group19/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/2016/group19/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/2016/group19/" rel="alternate" type="text/html" /><updated>2016-12-01T23:03:46+00:00</updated><id>http://localhost:4000/2016/group19//</id><title type="html">Mentor Matching - Team 19</title><subtitle>Matthew Bell, Christopher Lau and Harry Chen are working on creating a system to match mentors and mentees based on their preferences, on behalf of Atos UK.
+</subtitle><entry><title type="html">Technical Research</title><link href="http://localhost:4000/2016/group19/development/2016/11/04/technical-research.html" rel="alternate" type="text/html" title="Technical Research" /><published>2016-11-04T23:30:51+00:00</published><updated>2016-11-04T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/development/2016/11/04/technical-research</id><content type="html" xml:base="http://localhost:4000/2016/group19/development/2016/11/04/technical-research.html">&lt;p&gt;This page details all the technical research we have done (excluding architecture) throughout this project, including open-source libraries and frameworks that could be useful for the final system. Our research was split in to 2 categories which was frontend research and backend research.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#back-end&quot; style=&quot;margin-top: 7px;&quot; class=&quot;btn btn-primary&quot;&gt;1. Backend Frameworks/Libraries&lt;/a&gt;
+&lt;a href=&quot;#front-end&quot; style=&quot;margin-top: 7px;&quot; class=&quot;btn btn-primary&quot;&gt;2. Frontend Frameworks/Libraries&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;back-end&quot; class=&quot;section-header&quot;&gt;Backend Frameworks/Libraries&lt;/h3&gt;
+
+&lt;!-- Node.js --&gt;
+&lt;p&gt;&lt;img src=&quot;/2016/group19/assets/img/node.jpg&quot; class=&quot;image&quot; alt=&quot;node.js&quot; height=&quot;120&quot; width=&quot;120&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Node.JS&lt;/span&gt;&lt;br /&gt;
+Node.JS is an application framework that runs JavaScript code as a native app on computers. It’s gained extreme popularity over the last couple of years and I myself have used it for a few projects in the past. The community is rather large and there’s a library for pretty much anything.&lt;/p&gt;
+
+&lt;p&gt;Node.JS programs are written using JavaScript, a dynamic, untyped language developed originally for scripting web pages in the browser. Recent versions of the language have introduced classes and other useful features, but it’s type inferencing has some weird side effects &lt;code&gt;(try {} == [] and [] == {})&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Advantages&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Large developer community with plenty of libraries.&lt;/li&gt;
+  &lt;li&gt;Easy to write and deploy code.&lt;/li&gt;
+  &lt;li&gt;Shares a common language with web page scripts.&lt;/li&gt;
+  &lt;li&gt;Object variables - JavaScript internally uses hashes/dictionaries/key-value pairs to represent objects, and the value can be of any type… even functions. Makes for very quick development.&lt;/li&gt;
+  &lt;li&gt;Event-driven - your Node app can do other things while waiting for asynchronous operations (disk I/O, http requests, etc) which can make up for only having one thread.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Disadvantages&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Single threaded - no concurrency features.&lt;/li&gt;
+  &lt;li&gt;Callbacks - a comment paradigm of JavaScript is using callbacks: functions that accept another function which is called once the original function completes. It can often lead to very messy code, with five or six functions nested inside each other.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- Ruby on Rails --&gt;
+&lt;p&gt;&lt;img src=&quot;/2016/group19/assets/img/ruby.jpg&quot; class=&quot;image&quot; alt=&quot;node.js&quot; height=&quot;120&quot; width=&quot;100&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Ruby On Rails&lt;/span&gt;&lt;br /&gt;
+Ruby on Rails is a web framework that’s written in Ruby, a dynamic programming language. It relies heavily on scaffolding, and the directory/fire structure is rather rigid. However, it means that applications are developed very quickly, and is often used as a prototyping framework.&lt;/p&gt;
+
+&lt;p&gt;The Ruby language is extremely expressive, allowing functions to be written relatively fast without worrying too much about low level features like memory management. Also, like with Node.JS, Ruby has a large developer following and library, using the Rubygems service.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Advantages&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fast development time thanks to a readable, dynamic language. Ruby trades off some processing overhead in lieu of developer satisfaction.&lt;/li&gt;
+  &lt;li&gt;Rails uses scaffold code to generate projects very quickly, and tasks like page routing, templating and database ORM (object relation model, where a row in a database table is represented with a language’s class) are built in.&lt;/li&gt;
+  &lt;li&gt;Ruby contains symbols that can be used instead of strings for hash keys. For instance, &lt;code&gt;:id&lt;/code&gt; could represent the id of a user.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Disadvantages&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Scaffolding can mean that the project structure is inflexible, and code should be distributed between files as the Rails developers intended.&lt;/li&gt;
+  &lt;li&gt;Ruby’s dynamic nature can mean that it runs a little slower than compiled/statically typed languages, as there’s overhead resulting from Ruby’s type inference engine.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/2016/group19/assets/img/django.jpg&quot; class=&quot;image&quot; alt=&quot;node.js&quot; height=&quot;75&quot; width=&quot;200&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Django&lt;/span&gt;&lt;br /&gt;
+Django is a high level web framework that is written in python  that encourages rapid development. Django is also free and open source and is built by experienced developers which takes care of much hassle of certain parts of web development. One of the main advantages of Django is that it is really fast and is designed to help developers take applications from concept to completion very quickly.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Advantages&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Very fast - Most of the aspects of web development are taken care of by the framework itself such as user authentication and form handling. It also has an inbuilt User Model implementation.&lt;/li&gt;
+  &lt;li&gt;Security - Django’s inbuilt user authentication system are reassuringly secure which helps developers avoid security mistakes.&lt;/li&gt;
+  &lt;li&gt;Scalability - Despite many in built system takes makes development really fast, Django is exceedingly scalable and flexible.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Disadvantages&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Maintainability - Since Django runs on python, it needs to maintain backwards compatibility when there are newer versions of python which makes it evolve slowly.&lt;/li&gt;
+  &lt;li&gt;Templating - Most inbuilt features in Django require the use of templates, which can be rigid to the developer when trying to implement something different.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/2016/group19/assets/img/revel.jpg&quot; class=&quot;image&quot; alt=&quot;node.js&quot; height=&quot;60&quot; width=&quot;140&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Revel&lt;/span&gt;&lt;br /&gt;
+Revel is a web framework written using the Go language, a statically and strongly typed language. Go’s main benefits are its strong concurrency and networking features, and is high level enough to hide things like memory management.&lt;/p&gt;
+
+&lt;p&gt;The Revel framework is similar to Ruby on Rails in that it employs the MVC (model, view, controller) design pattern to structure the project. It can be used for serving HTML from templates, or it can be also used for serving a RESTful JSON API.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Advantages&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Statically and strongly typed - the Go language may not have the syntactic sugar of Ruby or Python, but it’s built to run fast.&lt;/li&gt;
+  &lt;li&gt;Multithreading - Go uses channels to handle concurrent features, which can be used to create more optimised servers, if needed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Disadvantages&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Barebones - as Revel is very lightweight, it also means that the developer needs to implement a lot of features themselves, increasing development time.&lt;/li&gt;
+  &lt;li&gt;Revel uses scaffolding to generate the project files, which may mean that the project structure is rigid.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#top&quot; class=&quot;btn btn-primary&quot;&gt;^ Back to top&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;front-end&quot; class=&quot;section-header&quot;&gt;Frontend Frameworks/Libraries&lt;/h3&gt;
+
+&lt;!-- Angular --&gt;
+&lt;p&gt;&lt;img src=&quot;/2016/group19/assets/img/angularjs.jpg&quot; class=&quot;image&quot; alt=&quot;node.js&quot; height=&quot;120&quot; width=&quot;120&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;AngularJS&lt;/span&gt;&lt;br /&gt;
+AngularJS is an open-sourced Javascript framework used for developing single-page web application. It aims to overcome the shortages of HTML for building web application.AngularJS is much closer to model-view-view model pattern. Where model is the data in application, view is what shows to user, view-model provides functions and specific data.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Advantages&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;AngularJS is supported by Google and a great development community.&lt;/li&gt;
+  &lt;li&gt;AngularJS operate directly on DOM rather than inner HTML, more efficiently.&lt;/li&gt;
+  &lt;li&gt;No need to use observable functions.&lt;/li&gt;
+  &lt;li&gt;Extended features such as dependency injection, routing, animations, view orchestration, and more.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Disadvantages&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Source code too complex.&lt;/li&gt;
+  &lt;li&gt;Not easy to learn how to write your own directive.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/2016/group19/assets/img/ionic.jpg&quot; class=&quot;image&quot; alt=&quot;node.js&quot; height=&quot;70&quot; width=&quot;150&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Ionic&lt;/span&gt;&lt;br /&gt;
+Since one of the requirements of our application was being mobile compatible, we decided to look into Ionic Framework as well. Ionic is a HTML5 SDK (software development kit) used to build hybrid mobile app by using Html, Css and Javascript. By using Ionic Creator, we could build a similar user interface interactions like native mobile app. Ionic is based on AngularJS.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Advantages&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Support cordova plugins to enrich functions in our app.&lt;/li&gt;
+  &lt;li&gt;Once produce ionic program it could be run on both IOS and Android development.&lt;/li&gt;
+  &lt;li&gt;Powerful CLI tool: Control and manage you project easier.&lt;/li&gt;
+  &lt;li&gt;Providing beautiful  UI components.&lt;/li&gt;
+  &lt;li&gt;Developing using AngularJS, can use all the modules from angular.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Disadvantages&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Not equal to native app, native device’s API depends on whether Cordova support it.&lt;/li&gt;
+  &lt;li&gt;Can not deal with huge amount of images.&lt;/li&gt;
+  &lt;li&gt;Some platforms like windows phone are not supported.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/2016/group19/assets/img/bootstrap.jpg&quot; class=&quot;image&quot; alt=&quot;node.js&quot; height=&quot;80&quot; width=&quot;160&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Bootstrap&lt;/span&gt;&lt;br /&gt;
+Bootstrap includes CSS, HTML and JavaScript components. It adheres to responsive web design standards, allowing developers to create responsive sites of all complexities and sizes.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Advantages&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Responsive web design support (can also be disabled if required)&lt;/li&gt;
+  &lt;li&gt;Excellent documentation available online&lt;/li&gt;
+  &lt;li&gt;Updated continously, hence it includes the latest and best features. It is also upgraded to use Sass as a CSS processor.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Disadvantages&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Out-of-the-box file size of 276kB due to excessive number of rarely used styles&lt;/li&gt;
+  &lt;li&gt;Excessive number of HTML classes and DOM elements can be messy and confusing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/2016/group19/assets/img/reactjs.jpg&quot; class=&quot;image&quot; alt=&quot;node.js&quot; height=&quot;70&quot; width=&quot;170&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;React&lt;/span&gt;&lt;br /&gt;
+React.js is a JavaScript library for building user interfaces, built by top engineers at Facebook. React is all about reusable components. However, unlike frameworks, which are built with the goal of getting whole apps up and running quickly, the only thing you do with React is build components. As React.js’s core functionality, components make reusing code, testing, and separating concerns easy.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Advantages&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Easy to know how a component is rendered, you just look at the render function.&lt;/li&gt;
+  &lt;li&gt;React is able to render on server side.&lt;/li&gt;
+  &lt;li&gt;React ensures readability and makes maintainability easier.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Disadvantages&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;It’s not a full framework. There’s no router nor model management libraries built into reactJS – unlike angular or ember. Hence one needs to have some degree of experience in picking libraries to fulfill these needs.&lt;/li&gt;
+  &lt;li&gt;React is rather verbose. Writing components isn’t as straight forward as pure HTML &amp;amp; JS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/2016/group19/assets/img/emberjs.jpg&quot; class=&quot;image&quot; alt=&quot;node.js&quot; height=&quot;80&quot; width=&quot;160&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Ember.Js&lt;/span&gt;&lt;br /&gt;
+Ember.js is an open source JavaScript client-side framework for developing the web applications and uses the MVC(Model-View-Controller) architecture pattern. Ember.js is mainly used to creating reusable and maintainable JavaScript web applications.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Advantages&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ember.js is an open source JavaScript framework under (MIT license).&lt;/li&gt;
+  &lt;li&gt;It is a flexible framework that embraces the concept of fast web page. It allows to speed up the performance of your application without reloading the whole page.&lt;/li&gt;
+  &lt;li&gt;It has the handlebars templating library which is similar as HTML and also embed an expressions that changes the display.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Disadvantages&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Very dependant on jQuery libraries. Very few libraries are written from scratch.&lt;/li&gt;
+  &lt;li&gt;Less space for customization of everything.&lt;/li&gt;
+  &lt;li&gt;No server-side rendering.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#top&quot; class=&quot;btn btn-primary&quot;&gt;^ Back to top&lt;/a&gt;&lt;/p&gt;</content><summary type="html">This page details all the technical research we have done (excluding architecture) throughout this project, including open-source libraries and frameworks that could be useful for the final system. Our research was split in to 2 categories which was frontend research and backend research.</summary></entry><entry><title type="html">Background Research</title><link href="http://localhost:4000/2016/group19/development/2016/11/04/background-research.html" rel="alternate" type="text/html" title="Background Research" /><published>2016-11-04T23:30:51+00:00</published><updated>2016-11-04T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/development/2016/11/04/background-research</id><content type="html" xml:base="http://localhost:4000/2016/group19/development/2016/11/04/background-research.html">&lt;h3 class=&quot;section-header&quot;&gt;Overcoming the Stable Marriage Problem&lt;/h3&gt;
 &lt;p&gt;After researching online regarding solutions to the Stable Marriage Problem, we found that applying the &lt;strong&gt;Gale-Shapley Algorithm&lt;/strong&gt; would be an effective way to find a stable match between mentors and mentees.&lt;/p&gt;
 
 &lt;p&gt;The Gale-Shapley Algorithm involves a number of iterations or “rounds” where mentees are able to choose a fixed number of prefered mentors ordered by rank. Then the system will match mentors and mentees based on how suitable the match is between a mentor and mentee. By using this algortihm, we can ensure that every mentees gets matched with a mentor and no one is unpaired. A more detailed design of thhe matching process is available at the Architecture Research and Design section.&lt;/p&gt;
@@ -16,7 +204,6 @@ Since this website is open to everyone, it makes exchange of knowledge very simp
 &lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Dating Applications&lt;/span&gt;&lt;br /&gt;
 Dating applications may not be the most professional apps to be used in a workplace, however the concept of these types of application is very similar to what was requested by our client. Our Client even quoted that this application “could be considered a kind of dating app”. Most dating applications have simple and elegent user interfaces that users can act easily with. This could be applied to our application so that employees in Atos workplace can use our application with ease. Concepts such as user profiles, notifications, instant messaging could be included in our application which already exist in dating applications.&lt;/p&gt;</content><summary type="html">Overcoming the Stable Marriage Problem
 After researching online regarding solutions to the Stable Marriage Problem, we found that applying the Gale-Shapley Algorithm would be an effective way to find a stable match between mentors and mentees.</summary></entry><entry><title type="html">MosCoW Requirements</title><link href="http://localhost:4000/2016/group19/requirements/2016/11/04/moscow-requirements.html" rel="alternate" type="text/html" title="MosCoW Requirements" /><published>2016-11-04T23:30:51+00:00</published><updated>2016-11-04T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/requirements/2016/11/04/moscow-requirements</id><content type="html" xml:base="http://localhost:4000/2016/group19/requirements/2016/11/04/moscow-requirements.html">&lt;p&gt;This is a list of all the requirements as agreed and finalised with our client. These requirements are subject to change over the course of the development phase of this project.&lt;/p&gt;
->>>>>>> development-background-research
 
 &lt;div class=&quot;table-responsive&quot;&gt;
 	&lt;table class=&quot;table table-bordered&quot;&gt;
@@ -103,90 +290,7 @@ After researching online regarding solutions to the Stable Marriage Problem, we 
 		    &lt;/tr&gt;
 		&lt;/tbody&gt;
 	&lt;/table&gt;
-&lt;/div&gt;</content><summary type="html">This is a list of all the requirements as agreed and finalised with our client. These requirements are subject to change over the course of the development phase of this project.
-
-
-	
-		
-	      	
-	        	Requirement
-	        	Description
-	        	Category
-	      	
-    	
-    	
-    		
-    		Must Have
-		    
-		       	Matching system
-		        There must be a matching algorithm that matches mentors and mentees as best as possible according to their preferences.
-		        Functional
-		    
-		    
-		       	Preferences for matching
-		        There must be a system for mentors and mentees to specify their preferences for matching, for instance interests.
-		        Functional
-		    
-		    
-		        Separate mentorship programmes
-		        The system must allow for a number of separate mentorship programmes with their own matching constraints.
-		        Non-Functional
-		    
-		    
-		        Personal status
-		        Users must be able to see the status of their mentorships, for instance whether they can match with users and how active the mentorship is.
-		        Functional
-		    
-		    
-		        Web Application
-		        The application must be able to be accessed on both mobile and desktop form factors
-		        Functional
-		    
-		    
-		        User Interface and Usability
-		        The application must operate on a user friendly interface which is simple to use
-		        Non-Functional
-		    
-		    
-		    Should Have
-		    
-		       	Profile system
-		        Users should be able to create and manage a simple profile so that other users can learn about them. Should include name, image and perhaps a short bio.
-		        Functional
-		    
-		    
-		       	Notifications
-		        Users should be able to receive notifications about key features of the app, for instance when matches are allocated. Should also work across different form factors
-		        Functional
-		    
-		    
-		        Admin bulk operation interface
-		        There should be an interface that allows admins to perform bulk create/read/update/destroy (CRUD) operatons easily.
-		        Functional
-		    
-		    
-		    Could Have
-		    
-		        Mentorship meeting record
-		        The app could be able to store records of the mentor and mentee meeting each other during the course of the mentorship, with the ability to add comments to this.
-		        Functional
-		    
-		    
-		        Instant messaging
-		        The app could be able to store records of the mentor and mentee meeting each other during the course of the mentorship, with the ability to add comments to this.
-		        Functional
-		    
-		    
-		        Notifications to meet
-		        The app could facilitate instant messaging betweenmentors and mentees.
-		        Functional
-		    
-		    
-		    Would Have
-		     
-		        Corporate Directory Lookup
-		        The app would be able to use the company’s internal “Corporate Directory” to populate users’ profiles
-		        Functional</summary></entry><entry><title type="html">Client Meeting 2 Notes</title><link href="/2016/group19/meetings/2016/10/26/client-meeting.html" rel="alternate" type="text/html" title="Client Meeting 2 Notes" /><published>2016-10-26T14:00:00+01:00</published><updated>2016-10-26T14:00:00+01:00</updated><id>/2016/group19/meetings/2016/10/26/client-meeting</id><content type="html" xml:base="/2016/group19/meetings/2016/10/26/client-meeting.html">&lt;p&gt;Thiss was a quick Skype call to finalize requirements. The discussion was more focussed on the process of matching mentors with mentees and also the criteria that current mentees use when finding mentors. Finally, cleared some outstanding confusion regarding the general structure of the app (eg. the different constraints that different mentorship programs may have).&lt;/p&gt;</content><summary type="html">Thiss was a quick Skype call to finalize requirements. The discussion was more focussed on the process of matching mentors with mentees and also the criteria that current mentees use when finding mentors. Finally, cleared some outstanding confusion regarding the general structure of the app (eg. the different constraints that different mentorship programs may have).</summary></entry><entry><title type="html">Supervisor Meeting 1 Notes</title><link href="/2016/group19/meetings/2016/10/24/supervisor-meeting.html" rel="alternate" type="text/html" title="Supervisor Meeting 1 Notes" /><published>2016-10-24T14:00:00+01:00</published><updated>2016-10-24T14:00:00+01:00</updated><id>/2016/group19/meetings/2016/10/24/supervisor-meeting</id><content type="html" xml:base="/2016/group19/meetings/2016/10/24/supervisor-meeting.html">&lt;p&gt;Next fortnightly meeting, Monday 14th Nov 2pm&lt;/p&gt;
+&lt;/div&gt;</content><summary type="html">This is a list of all the requirements as agreed and finalised with our client. These requirements are subject to change over the course of the development phase of this project.</summary></entry><entry><title type="html">Client Meeting 2 Notes</title><link href="http://localhost:4000/2016/group19/meetings/2016/10/26/client-meeting.html" rel="alternate" type="text/html" title="Client Meeting 2 Notes" /><published>2016-10-26T14:00:00+01:00</published><updated>2016-10-26T14:00:00+01:00</updated><id>http://localhost:4000/2016/group19/meetings/2016/10/26/client-meeting</id><content type="html" xml:base="http://localhost:4000/2016/group19/meetings/2016/10/26/client-meeting.html">&lt;p&gt;Thiss was a quick Skype call to finalize requirements. The discussion was more focussed on the process of matching mentors with mentees and also the criteria that current mentees use when finding mentors. Finally, cleared some outstanding confusion regarding the general structure of the app (eg. the different constraints that different mentorship programs may have).&lt;/p&gt;</content><summary type="html">Thiss was a quick Skype call to finalize requirements. The discussion was more focussed on the process of matching mentors with mentees and also the criteria that current mentees use when finding mentors. Finally, cleared some outstanding confusion regarding the general structure of the app (eg. the different constraints that different mentorship programs may have).</summary></entry><entry><title type="html">Supervisor Meeting 1 Notes</title><link href="http://localhost:4000/2016/group19/meetings/2016/10/24/supervisor-meeting.html" rel="alternate" type="text/html" title="Supervisor Meeting 1 Notes" /><published>2016-10-24T14:00:00+01:00</published><updated>2016-10-24T14:00:00+01:00</updated><id>http://localhost:4000/2016/group19/meetings/2016/10/24/supervisor-meeting</id><content type="html" xml:base="http://localhost:4000/2016/group19/meetings/2016/10/24/supervisor-meeting.html">&lt;p&gt;Next fortnightly meeting, Monday 14th Nov 2pm&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Chase up with Jane, intro supervisor&lt;/li&gt;
   &lt;li&gt;Get existing forms + docs
@@ -223,7 +327,7 @@ After researching online regarding solutions to the Stable Marriage Problem, we 
       ~3/4 page
       3 main objectives + 1 stretch objective
       Link these to deliverables
-      Agreed with client + supervisor</summary></entry><entry><title type="html">Project Background and Initial Considerations</title><link href="/2016/group19/background/2016/10/18/background.html" rel="alternate" type="text/html" title="Project Background and Initial Considerations" /><published>2016-10-18T00:30:51+01:00</published><updated>2016-10-18T00:30:51+01:00</updated><id>/2016/group19/background/2016/10/18/background</id><content type="html" xml:base="/2016/group19/background/2016/10/18/background.html">&lt;h3 class=&quot;section-header&quot;&gt;Our Client&lt;/h3&gt;
+      Agreed with client + supervisor</summary></entry><entry><title type="html">Project Background and Initial Considerations</title><link href="http://localhost:4000/2016/group19/background/2016/10/18/background.html" rel="alternate" type="text/html" title="Project Background and Initial Considerations" /><published>2016-10-18T00:30:51+01:00</published><updated>2016-10-18T00:30:51+01:00</updated><id>http://localhost:4000/2016/group19/background/2016/10/18/background</id><content type="html" xml:base="http://localhost:4000/2016/group19/background/2016/10/18/background.html">&lt;h3 class=&quot;section-header&quot;&gt;Our Client&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Atos&lt;/strong&gt; is a leader in digital services. Serving a global client base, Atos provides Consulting &amp;amp; Systems Integration services, Managed Services &amp;amp; BPO, Cloud operations, Big Data &amp;amp; Cyber-security solutions, as well as transactional services through Worldline, the European leader in the payments and transactional services industry.&lt;/p&gt;
 
 &lt;p&gt;Atos are also focused on business technology that powers progress and helps organizations to create their firm of the future. The client we are working with is based at the Nottingham Office.&lt;/p&gt;
@@ -250,7 +354,7 @@ After researching online regarding solutions to the Stable Marriage Problem, we 
 &lt;p&gt;When meeting our client for the first time, she was favourable of the system being accessible from both her smartphone and laptop/desktop PC. So naturally we decided that a web app would be the best fit for this project. Whether this was to use Angular, Ionic, Meteor or some other framework had not been decided at this point.&lt;/p&gt;
 
 &lt;p&gt;Other things to consider included the possibility of receiving notifications, either in the form of push notifications from the app itself, SMS messages sent to a mobile phone, or emails.&lt;/p&gt;</content><summary type="html">Our Client
-Atos is a leader in digital services. Serving a global client base, Atos provides Consulting &amp;amp; Systems Integration services, Managed Services &amp;amp; BPO, Cloud operations, Big Data &amp;amp; Cyber-security solutions, as well as transactional services through Worldline, the European leader in the payments and transactional services industry.</summary></entry><entry><title type="html">CTO Meeting 1 Notes</title><link href="/2016/group19/meetings/2016/10/10/cto-meeting.html" rel="alternate" type="text/html" title="CTO Meeting 1 Notes" /><published>2016-10-10T14:00:00+01:00</published><updated>2016-10-10T14:00:00+01:00</updated><id>/2016/group19/meetings/2016/10/10/cto-meeting</id><content type="html" xml:base="/2016/group19/meetings/2016/10/10/cto-meeting.html">&lt;p&gt;This meeting involved us talking to Mike Smith, CTO of Atos, about the technical constraints of the project.&lt;/p&gt;
+Atos is a leader in digital services. Serving a global client base, Atos provides Consulting &amp;amp; Systems Integration services, Managed Services &amp;amp; BPO, Cloud operations, Big Data &amp;amp; Cyber-security solutions, as well as transactional services through Worldline, the European leader in the payments and transactional services industry.</summary></entry><entry><title type="html">CTO Meeting 1 Notes</title><link href="http://localhost:4000/2016/group19/meetings/2016/10/10/cto-meeting.html" rel="alternate" type="text/html" title="CTO Meeting 1 Notes" /><published>2016-10-10T14:00:00+01:00</published><updated>2016-10-10T14:00:00+01:00</updated><id>http://localhost:4000/2016/group19/meetings/2016/10/10/cto-meeting</id><content type="html" xml:base="http://localhost:4000/2016/group19/meetings/2016/10/10/cto-meeting.html">&lt;p&gt;This meeting involved us talking to Mike Smith, CTO of Atos, about the technical constraints of the project.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Use what we’re most familiar with&lt;/li&gt;
@@ -309,7 +413,7 @@ Atos is a leader in digital services. Serving a global client base, Atos provide
       &lt;li&gt;They’re happy for us to make the repo public.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><summary type="html">This meeting involved us talking to Mike Smith, CTO of Atos, about the technical constraints of the project.</summary></entry><entry><title type="html">Client Meeting 1 Notes</title><link href="/2016/group19/meetings/2016/10/10/client-meeting.html" rel="alternate" type="text/html" title="Client Meeting 1 Notes" /><published>2016-10-10T14:00:00+01:00</published><updated>2016-10-10T14:00:00+01:00</updated><id>/2016/group19/meetings/2016/10/10/client-meeting</id><content type="html" xml:base="/2016/group19/meetings/2016/10/10/client-meeting.html">&lt;p&gt;different groups with different requirements&lt;/p&gt;
+&lt;/ul&gt;</content><summary type="html">This meeting involved us talking to Mike Smith, CTO of Atos, about the technical constraints of the project.</summary></entry><entry><title type="html">Client Meeting 1 Notes</title><link href="http://localhost:4000/2016/group19/meetings/2016/10/10/client-meeting.html" rel="alternate" type="text/html" title="Client Meeting 1 Notes" /><published>2016-10-10T14:00:00+01:00</published><updated>2016-10-10T14:00:00+01:00</updated><id>http://localhost:4000/2016/group19/meetings/2016/10/10/client-meeting</id><content type="html" xml:base="http://localhost:4000/2016/group19/meetings/2016/10/10/client-meeting.html">&lt;p&gt;different groups with different requirements&lt;/p&gt;
 
 &lt;p&gt;3 groups with option to add more - don’t hardcode this&lt;/p&gt;
 
