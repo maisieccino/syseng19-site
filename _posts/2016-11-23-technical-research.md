@@ -8,6 +8,8 @@ categories: development
 
 This page details all the technical research we have done (excluding architecture) throughout this project, including open-source libraries and frameworks that could be useful for the final system. Our research was split in to 2 categories which was frontend research and backend research.
 
+__MORE__
+
 <a href="#back-end" style="margin-top: 7px;" class="btn btn-primary">1. Backend Frameworks/Libraries</a>
 <a href="#front-end" style="margin-top: 7px;" class="btn btn-primary">2. Frontend Frameworks/Libraries</a>
 

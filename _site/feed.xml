@@ -1,5 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/2016/group19/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/2016/group19/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/2016/group19/" rel="alternate" type="text/html" /><updated>2016-12-08T13:00:54+00:00</updated><id>http://localhost:4000/2016/group19//</id><title type="html">Mentor Matching - Team 19</title><subtitle>Matthew Bell, Christopher Lau and Harry Chen are working on creating a system to match mentors and mentees based on their preferences, on behalf of Atos UK.
-</subtitle><entry><title type="html">Technical Research</title><link href="http://localhost:4000/2016/group19/development/2016/11/04/technical-research.html" rel="alternate" type="text/html" title="Technical Research" /><published>2016-11-04T23:30:51+00:00</published><updated>2016-11-04T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/development/2016/11/04/technical-research</id><content type="html" xml:base="http://localhost:4000/2016/group19/development/2016/11/04/technical-research.html">&lt;p&gt;This page details all the technical research we have done (excluding architecture) throughout this project, including open-source libraries and frameworks that could be useful for the final system. Our research was split in to 2 categories which was frontend research and backend research.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/2016/group19/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="/2016/group19/feed.xml" rel="self" type="application/atom+xml" /><link href="/2016/group19/" rel="alternate" type="text/html" /><updated>2016-12-08T13:40:35+00:00</updated><id>/2016/group19//</id><title type="html">Mentor Matching - Team 19</title><subtitle>Matthew Bell, Christopher Lau and Harry Chen are working on creating a system to match mentors and mentees based on their preferences, on behalf of Atos UK.
+</subtitle><entry><title type="html">Relevant prototypes research</title><link href="/2016/group19/research/2016/12/02/relevant-prototypes.html" rel="alternate" type="text/html" title="Relevant prototypes research" /><published>2016-12-02T23:30:51+00:00</published><updated>2016-12-02T23:30:51+00:00</updated><id>/2016/group19/research/2016/12/02/relevant%20prototypes</id><content type="html" xml:base="/2016/group19/research/2016/12/02/relevant-prototypes.html">&lt;p&gt;We explored a few existing systems to help form the designs for our system.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;mentor-match&quot;&gt;Mentor Match&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.mentormatch.org.uk/&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Mentor Match is an website for UK Civil Servants opens up the search beyond your immediate circle of contacts, helping you find the best people, quickly. Matching based on:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;who you are,&lt;/li&gt;
+  &lt;li&gt;what you’re good at&lt;/li&gt;
+  &lt;li&gt;what you’d like to be better at&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Information needed:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Name, email, where you based&lt;/li&gt;
+  &lt;li&gt;current grade and current role&lt;/li&gt;
+  &lt;li&gt;profession(select), skills&lt;/li&gt;
+  &lt;li&gt;specific goal you want to achieve&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In personal profile, it includes:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Areas you would like to develop (select an area)&lt;/li&gt;
+  &lt;li&gt;Experience you can offer (select an area and a level you currently at)&lt;/li&gt;
+  &lt;li&gt;Matching preferences: prefered contact type, You would like to be involved with(One-off advice sessions,Longer term mentoring) What is the minimum grade you would like your mentor to be?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;what-we-could-learn-from-this-project&quot;&gt;What we could learn from this project&lt;/h2&gt;
+&lt;p&gt;The sign up page and information required to complete are simple and efficiently. The profile of user (current role, about, goals,profession and skills) is easy to edit also the essential information needed for matching are included. Thats what we could use to complete our client’s requirement (simple user profile).&lt;/p&gt;
+
+&lt;h1 id=&quot;business-mentoring&quot;&gt;Business Mentoring&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.management-mentors.com/products/corporate-mentoring-products-overview&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Matching based on:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Focus areas/ competencies: There system have 25 default competencies to choose. (useful)&lt;/li&gt;
+  &lt;li&gt;Forced choice questions:Provide questions that have several answers to select. Make the preferences of matching more specific. (useful)&lt;/li&gt;
+  &lt;li&gt;Personality test:(optional)&lt;/li&gt;
+  &lt;li&gt;Ranking of key roles: In this section, mentorees must decide what type of mentor they want based on how they order the following roles: teacher, sponsor, cheerleader, counselor, and friend (meaning if they put “cheerleader” first and “counselor” last, it’s more important that the mentor is a cheerleader than a friend). Mentors must decide the type of mentor they want to be and do the same thing, ranking the roles in order of most important to least. (useful)&lt;/li&gt;
+  &lt;li&gt;Essay section (not useful)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;They also provide system matching:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Auto matching: makes matches based on algorithm without any review.&lt;/li&gt;
+  &lt;li&gt;three-steps-matching (also combines human touch, not 100% system matching):
+    &lt;ul&gt;
+      &lt;li&gt;Program manager choose 3 tentative mentors for individual mentee.&lt;/li&gt;
+      &lt;li&gt;Comparing mentoring forms(inforamtion) of the mentee with each mentor&lt;/li&gt;
+      &lt;li&gt;The program manager makes the final choice&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;What we could learn from this project:&lt;/p&gt;
+
+&lt;p&gt;As the result of precise matching algorithm,this application has high percentage of successful matching (90% according to its website). From my research, the division of focus areas and ranking of key roles play an important role in matching, thats what we could follow in our app, give a list of skills as tags for user to choose.&lt;/p&gt;</content><summary type="html">We explored a few existing systems to help form the designs for our system.</summary></entry><entry><title type="html">Collaboration</title><link href="/2016/group19/research/2016/12/02/collborative.html" rel="alternate" type="text/html" title="Collaboration" /><published>2016-12-02T23:30:51+00:00</published><updated>2016-12-02T23:30:51+00:00</updated><id>/2016/group19/research/2016/12/02/collborative</id><content type="html" xml:base="/2016/group19/research/2016/12/02/collborative.html">&lt;p&gt;##Facebook Messanger&lt;/p&gt;
+
+&lt;p&gt;In the first day of meeting we set up an facebook group for cmmunicate between each other and share our ideas.&lt;/p&gt;
+
+&lt;p&gt;##Trello&lt;/p&gt;
+
+&lt;p&gt;trello is a collabration tool that organizes our projects on several boards.
+In our team we divided boards into three parts: Backlog, In progress and Completed. We created tasks by making boards and then added it into Backlog part, in each task we assign the due date, members responsible for this task and add labels on it. Once we start working on this task the board would be moved into in progress part. We agreed to take maximum 6 tasks in progress.&lt;/p&gt;
+
+&lt;p&gt;##Github&lt;/p&gt;
+
+&lt;p&gt;Github is a version-control service based on git. Our team built three github repositories: one for project’s documents, one for project’s codes, one for project’s website. Through github each team member could work separately on same project in a time by making branches of master branch and send pull requst to merge each one’s work. Also the version control through github could help us to review our work thus find problems in previous work.&lt;/p&gt;
+
+&lt;p&gt;##Google Drive&lt;/p&gt;
+
+&lt;p&gt;All of our documentations( include bi-weekly report, researches, design works) are shared in google drive  before we converted it into Latex or put in on website.&lt;/p&gt;</content><summary type="html">##Facebook Messanger
+
+In the first day of meeting we set up an facebook group for cmmunicate between each other and share our ideas.
+
+##Trello
+
+trello is a collabration tool that organizes our projects on several boards.
+In our team we divided boards into three parts: Backlog, In progress and Completed. We created tasks by making boards and then added it into Backlog part, in each task we assign the due date, members responsible for this task and add labels on it. Once we start working on this task the board would be moved into in progress part. We agreed to take maximum 6 tasks in progress.
+
+##Github
+
+Github is a version-control service based on git. Our team built three github repositories: one for project’s documents, one for project’s codes, one for project’s website. Through github each team member could work separately on same project in a time by making branches of master branch and send pull requst to merge each one’s work. Also the version control through github could help us to review our work thus find problems in previous work.
+
+##Google Drive
+
+All of our documentations( include bi-weekly report, researches, design works) are shared in google drive  before we converted it into Latex or put in on website.</summary></entry><entry><title type="html">Technical Research</title><link href="/2016/group19/development/2016/11/04/technical-research.html" rel="alternate" type="text/html" title="Technical Research" /><published>2016-11-04T23:30:51+00:00</published><updated>2016-11-04T23:30:51+00:00</updated><id>/2016/group19/development/2016/11/04/technical-research</id><content type="html" xml:base="/2016/group19/development/2016/11/04/technical-research.html">&lt;p&gt;This page details all the technical research we have done (excluding architecture) throughout this project, including open-source libraries and frameworks that could be useful for the final system. Our research was split in to 2 categories which was frontend research and backend research.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
+>>>>>>> 04b9b6c254c7d7f73a4d496d89b7ea091645af22
 
 &lt;p&gt;&lt;a href=&quot;#back-end&quot; style=&quot;margin-top: 7px;&quot; class=&quot;btn btn-primary&quot;&gt;1. Backend Frameworks/Libraries&lt;/a&gt;
 &lt;a href=&quot;#front-end&quot; style=&quot;margin-top: 7px;&quot; class=&quot;btn btn-primary&quot;&gt;2. Frontend Frameworks/Libraries&lt;/a&gt;&lt;/p&gt;
@@ -187,7 +278,7 @@ Ember.js is an open source JavaScript client-side framework for developing the w
   &lt;li&gt;No server-side rendering.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;#top&quot; class=&quot;btn btn-primary&quot;&gt;^ Back to top&lt;/a&gt;&lt;/p&gt;</content><summary type="html">This page details all the technical research we have done (excluding architecture) throughout this project, including open-source libraries and frameworks that could be useful for the final system. Our research was split in to 2 categories which was frontend research and backend research.</summary></entry><entry><title type="html">Background Research</title><link href="http://localhost:4000/2016/group19/development/2016/11/04/background-research.html" rel="alternate" type="text/html" title="Background Research" /><published>2016-11-04T23:30:51+00:00</published><updated>2016-11-04T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/development/2016/11/04/background-research</id><content type="html" xml:base="http://localhost:4000/2016/group19/development/2016/11/04/background-research.html">&lt;h3 class=&quot;section-header&quot;&gt;Overcoming the Stable Marriage Problem&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;#top&quot; class=&quot;btn btn-primary&quot;&gt;^ Back to top&lt;/a&gt;&lt;/p&gt;</content><summary type="html">This page details all the technical research we have done (excluding architecture) throughout this project, including open-source libraries and frameworks that could be useful for the final system. Our research was split in to 2 categories which was frontend research and backend research.</summary></entry><entry><title type="html">Background Research</title><link href="/2016/group19/development/2016/11/04/background-research.html" rel="alternate" type="text/html" title="Background Research" /><published>2016-11-04T23:30:51+00:00</published><updated>2016-11-04T23:30:51+00:00</updated><id>/2016/group19/development/2016/11/04/background-research</id><content type="html" xml:base="/2016/group19/development/2016/11/04/background-research.html">&lt;h3 class=&quot;section-header&quot;&gt;Overcoming the Stable Marriage Problem&lt;/h3&gt;
 &lt;p&gt;After researching online regarding solutions to the Stable Marriage Problem, we found that applying the &lt;strong&gt;Gale-Shapley Algorithm&lt;/strong&gt; would be an effective way to find a stable match between mentors and mentees.&lt;/p&gt;
 
 &lt;p&gt;The Gale-Shapley Algorithm involves a number of iterations or “rounds” where mentees are able to choose a fixed number of prefered mentors ordered by rank. Then the system will match mentors and mentees based on how suitable the match is between a mentor and mentee. By using this algortihm, we can ensure that every mentees gets matched with a mentor and no one is unpaired. A more detailed design of thhe matching process is available at the Architecture Research and Design section.&lt;/p&gt;
@@ -203,7 +294,23 @@ Since this website is open to everyone, it makes exchange of knowledge very simp
 
 &lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Dating Applications&lt;/span&gt;&lt;br /&gt;
 Dating applications may not be the most professional apps to be used in a workplace, however the concept of these types of application is very similar to what was requested by our client. Our Client even quoted that this application “could be considered a kind of dating app”. Most dating applications have simple and elegent user interfaces that users can act easily with. This could be applied to our application so that employees in Atos workplace can use our application with ease. Concepts such as user profiles, notifications, instant messaging could be included in our application which already exist in dating applications.&lt;/p&gt;</content><summary type="html">Overcoming the Stable Marriage Problem
-After researching online regarding solutions to the Stable Marriage Problem, we found that applying the Gale-Shapley Algorithm would be an effective way to find a stable match between mentors and mentees.</summary></entry><entry><title type="html">MosCoW Requirements</title><link href="http://localhost:4000/2016/group19/requirements/2016/11/04/moscow-requirements.html" rel="alternate" type="text/html" title="MosCoW Requirements" /><published>2016-11-04T23:30:51+00:00</published><updated>2016-11-04T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/requirements/2016/11/04/moscow-requirements</id><content type="html" xml:base="http://localhost:4000/2016/group19/requirements/2016/11/04/moscow-requirements.html">&lt;p&gt;This is a list of all the requirements as agreed and finalised with our client. These requirements are subject to change over the course of the development phase of this project.&lt;/p&gt;
+After researching online regarding solutions to the Stable Marriage Problem, we found that applying the Gale-Shapley Algorithm would be an effective way to find a stable match between mentors and mentees.
+
+The Gale-Shapley Algorithm involves a number of iterations or “rounds” where mentees are able to choose a fixed number of prefered mentors ordered by rank. Then the system will match mentors and mentees based on how suitable the match is between a mentor and mentee. By using this algortihm, we can ensure that every mentees gets matched with a mentor and no one is unpaired. A more detailed design of thhe matching process is available at the Architecture Research and Design section.
+
+Existing Solutions
+We searched for some existing applications that does matching between individuals as part of the initial stages of research. This helped us gain a basic idea of some features that we may like to include in our final product.
+
+Mentor Match
+Mentor Match is an existing open source website that had a very similar concept to what our client was trying to acheive. Mentor Match is open to everyone and allows individuals with experience in a particular skillset to act as mentors to help mentees improve on that particular skillset.
+Since this website is open to everyone, it makes exchange of knowledge very simple as anyone could take part in it.
+
+However, there are certain features that the website lacks in terms of security as there is no verification as there is no way to assure that users applying to be a mentor has the skillset to become one. Also there were different types of mentor schemes requested by our client which differ with the schemes provided on the Mentor Match website. Despite the differences in structure of this website with the web application we are about to build, Mentor Match could be a useful guideline on the basic foundation of our web application.
+
+Dating Applications
+Dating applications may not be the most professional apps to be used in a workplace, however the concept of these types of application is very similar to what was requested by our client. Our Client even quoted that this application “could be considered a kind of dating app”. Most dating applications have simple and elegent user interfaces that users can act easily with. This could be applied to our application so that employees in Atos workplace can use our application with ease. Concepts such as user profiles, notifications, instant messaging could be included in our application which already exist in dating applications.</summary></entry><entry><title type="html">MosCoW Requirements</title><link href="/2016/group19/requirements/2016/11/04/moscow-requirements.html" rel="alternate" type="text/html" title="MosCoW Requirements" /><published>2016-11-04T23:30:51+00:00</published><updated>2016-11-04T23:30:51+00:00</updated><id>/2016/group19/requirements/2016/11/04/moscow-requirements</id><content type="html" xml:base="/2016/group19/requirements/2016/11/04/moscow-requirements.html">&lt;p&gt;This is a list of all the requirements as agreed and finalised with our client. These requirements are subject to change over the course of the development phase of this project.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
 
 &lt;div class=&quot;table-responsive&quot;&gt;
 	&lt;table class=&quot;table table-bordered&quot;&gt;
@@ -290,7 +397,7 @@ After researching online regarding solutions to the Stable Marriage Problem, we 
 		    &lt;/tr&gt;
 		&lt;/tbody&gt;
 	&lt;/table&gt;
-&lt;/div&gt;</content><summary type="html">This is a list of all the requirements as agreed and finalised with our client. These requirements are subject to change over the course of the development phase of this project.</summary></entry><entry><title type="html">Client Meeting 2 Notes</title><link href="http://localhost:4000/2016/group19/meetings/2016/10/26/client-meeting.html" rel="alternate" type="text/html" title="Client Meeting 2 Notes" /><published>2016-10-26T14:00:00+01:00</published><updated>2016-10-26T14:00:00+01:00</updated><id>http://localhost:4000/2016/group19/meetings/2016/10/26/client-meeting</id><content type="html" xml:base="http://localhost:4000/2016/group19/meetings/2016/10/26/client-meeting.html">&lt;p&gt;Thiss was a quick Skype call to finalize requirements. The discussion was more focussed on the process of matching mentors with mentees and also the criteria that current mentees use when finding mentors. Finally, cleared some outstanding confusion regarding the general structure of the app (eg. the different constraints that different mentorship programs may have).&lt;/p&gt;</content><summary type="html">Thiss was a quick Skype call to finalize requirements. The discussion was more focussed on the process of matching mentors with mentees and also the criteria that current mentees use when finding mentors. Finally, cleared some outstanding confusion regarding the general structure of the app (eg. the different constraints that different mentorship programs may have).</summary></entry><entry><title type="html">Supervisor Meeting 1 Notes</title><link href="http://localhost:4000/2016/group19/meetings/2016/10/24/supervisor-meeting.html" rel="alternate" type="text/html" title="Supervisor Meeting 1 Notes" /><published>2016-10-24T14:00:00+01:00</published><updated>2016-10-24T14:00:00+01:00</updated><id>http://localhost:4000/2016/group19/meetings/2016/10/24/supervisor-meeting</id><content type="html" xml:base="http://localhost:4000/2016/group19/meetings/2016/10/24/supervisor-meeting.html">&lt;p&gt;Next fortnightly meeting, Monday 14th Nov 2pm&lt;/p&gt;
+&lt;/div&gt;</content><summary type="html">This is a list of all the requirements as agreed and finalised with our client. These requirements are subject to change over the course of the development phase of this project.</summary></entry><entry><title type="html">Client Meeting 2 Notes</title><link href="/2016/group19/meetings/2016/10/26/client-meeting.html" rel="alternate" type="text/html" title="Client Meeting 2 Notes" /><published>2016-10-26T14:00:00+01:00</published><updated>2016-10-26T14:00:00+01:00</updated><id>/2016/group19/meetings/2016/10/26/client-meeting</id><content type="html" xml:base="/2016/group19/meetings/2016/10/26/client-meeting.html">&lt;p&gt;Thiss was a quick Skype call to finalize requirements. The discussion was more focussed on the process of matching mentors with mentees and also the criteria that current mentees use when finding mentors. Finally, cleared some outstanding confusion regarding the general structure of the app (eg. the different constraints that different mentorship programs may have).&lt;/p&gt;</content><summary type="html">Thiss was a quick Skype call to finalize requirements. The discussion was more focussed on the process of matching mentors with mentees and also the criteria that current mentees use when finding mentors. Finally, cleared some outstanding confusion regarding the general structure of the app (eg. the different constraints that different mentorship programs may have).</summary></entry><entry><title type="html">Supervisor Meeting 1 Notes</title><link href="/2016/group19/meetings/2016/10/24/supervisor-meeting.html" rel="alternate" type="text/html" title="Supervisor Meeting 1 Notes" /><published>2016-10-24T14:00:00+01:00</published><updated>2016-10-24T14:00:00+01:00</updated><id>/2016/group19/meetings/2016/10/24/supervisor-meeting</id><content type="html" xml:base="/2016/group19/meetings/2016/10/24/supervisor-meeting.html">&lt;p&gt;Next fortnightly meeting, Monday 14th Nov 2pm&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Chase up with Jane, intro supervisor&lt;/li&gt;
   &lt;li&gt;Get existing forms + docs
@@ -327,7 +434,7 @@ After researching online regarding solutions to the Stable Marriage Problem, we 
       ~3/4 page
       3 main objectives + 1 stretch objective
       Link these to deliverables
-      Agreed with client + supervisor</summary></entry><entry><title type="html">Project Background and Initial Considerations</title><link href="http://localhost:4000/2016/group19/background/2016/10/18/background.html" rel="alternate" type="text/html" title="Project Background and Initial Considerations" /><published>2016-10-18T00:30:51+01:00</published><updated>2016-10-18T00:30:51+01:00</updated><id>http://localhost:4000/2016/group19/background/2016/10/18/background</id><content type="html" xml:base="http://localhost:4000/2016/group19/background/2016/10/18/background.html">&lt;h3 class=&quot;section-header&quot;&gt;Our Client&lt;/h3&gt;
+      Agreed with client + supervisor</summary></entry><entry><title type="html">Project Background and Initial Considerations</title><link href="/2016/group19/background/2016/10/18/background.html" rel="alternate" type="text/html" title="Project Background and Initial Considerations" /><published>2016-10-18T00:30:51+01:00</published><updated>2016-10-18T00:30:51+01:00</updated><id>/2016/group19/background/2016/10/18/background</id><content type="html" xml:base="/2016/group19/background/2016/10/18/background.html">&lt;h3 class=&quot;section-header&quot;&gt;Our Client&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Atos&lt;/strong&gt; is a leader in digital services. Serving a global client base, Atos provides Consulting &amp;amp; Systems Integration services, Managed Services &amp;amp; BPO, Cloud operations, Big Data &amp;amp; Cyber-security solutions, as well as transactional services through Worldline, the European leader in the payments and transactional services industry.&lt;/p&gt;
 
 &lt;p&gt;Atos are also focused on business technology that powers progress and helps organizations to create their firm of the future. The client we are working with is based at the Nottingham Office.&lt;/p&gt;
@@ -354,7 +461,32 @@ After researching online regarding solutions to the Stable Marriage Problem, we 
 &lt;p&gt;When meeting our client for the first time, she was favourable of the system being accessible from both her smartphone and laptop/desktop PC. So naturally we decided that a web app would be the best fit for this project. Whether this was to use Angular, Ionic, Meteor or some other framework had not been decided at this point.&lt;/p&gt;
 
 &lt;p&gt;Other things to consider included the possibility of receiving notifications, either in the form of push notifications from the app itself, SMS messages sent to a mobile phone, or emails.&lt;/p&gt;</content><summary type="html">Our Client
-Atos is a leader in digital services. Serving a global client base, Atos provides Consulting &amp;amp; Systems Integration services, Managed Services &amp;amp; BPO, Cloud operations, Big Data &amp;amp; Cyber-security solutions, as well as transactional services through Worldline, the European leader in the payments and transactional services industry.</summary></entry><entry><title type="html">CTO Meeting 1 Notes</title><link href="http://localhost:4000/2016/group19/meetings/2016/10/10/cto-meeting.html" rel="alternate" type="text/html" title="CTO Meeting 1 Notes" /><published>2016-10-10T14:00:00+01:00</published><updated>2016-10-10T14:00:00+01:00</updated><id>http://localhost:4000/2016/group19/meetings/2016/10/10/cto-meeting</id><content type="html" xml:base="http://localhost:4000/2016/group19/meetings/2016/10/10/cto-meeting.html">&lt;p&gt;This meeting involved us talking to Mike Smith, CTO of Atos, about the technical constraints of the project.&lt;/p&gt;
+Atos is a leader in digital services. Serving a global client base, Atos provides Consulting &amp;amp; Systems Integration services, Managed Services &amp;amp; BPO, Cloud operations, Big Data &amp;amp; Cyber-security solutions, as well as transactional services through Worldline, the European leader in the payments and transactional services industry.
+
+Atos are also focused on business technology that powers progress and helps organizations to create their firm of the future. The client we are working with is based at the Nottingham Office.
+
+Problem Definition
+
+  Atos is a large firm consisting of multiple employees of different skillset and age group working in various departments.
+  Our client wanted a way that would allow employees in their workplace to help improve each other’s skillset.
+  Our cliet proposed an application that would pair up mentors who are experienced employees with newer employees which acts as their mentees.
+  The client also addressed the stable marriage problem which is the problem of finding stable matching between the sample size of mentors and mentees.
+
+
+Stable Marriage Problem
+The stable marriage problem marriage problem is the problem of finding a stable matching between two equally sized sets of elements given an ordering of preferences for each element. This problem can be modeled by using the employees as an example where there are equal number of employees willing to act as mentors and similarly apply to become a mentee.
+
+Currently the process of matching a mentor and mentee is done manually by human resources in Atos. Our client wanted an application that does this automatically and is also able to handle non-perfect data size such as when the number of mentors and mentees differ.
+
+Project brief
+The brief for our project is to create a system that matches mentors and mentees on behalf of Atos. The system will allow employees to sign up to various company programmes as either a mentor or a mentee, and then once applications are closed the system will use the users’ profiles (as well as any constraints the program has) to find the most suitable mentor-mentee matchings.
+
+The brief was deliberately left as open-ended as possible, to allow us to focus on completing the problem rather than working with an unfamiliar technology stack.
+
+User Interface Considerations
+When meeting our client for the first time, she was favourable of the system being accessible from both her smartphone and laptop/desktop PC. So naturally we decided that a web app would be the best fit for this project. Whether this was to use Angular, Ionic, Meteor or some other framework had not been decided at this point.
+
+Other things to consider included the possibility of receiving notifications, either in the form of push notifications from the app itself, SMS messages sent to a mobile phone, or emails.</summary></entry><entry><title type="html">CTO Meeting 1 Notes</title><link href="/2016/group19/meetings/2016/10/10/cto-meeting.html" rel="alternate" type="text/html" title="CTO Meeting 1 Notes" /><published>2016-10-10T14:00:00+01:00</published><updated>2016-10-10T14:00:00+01:00</updated><id>/2016/group19/meetings/2016/10/10/cto-meeting</id><content type="html" xml:base="/2016/group19/meetings/2016/10/10/cto-meeting.html">&lt;p&gt;This meeting involved us talking to Mike Smith, CTO of Atos, about the technical constraints of the project.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Use what we’re most familiar with&lt;/li&gt;
@@ -413,7 +545,63 @@ Atos is a leader in digital services. Serving a global client base, Atos provide
       &lt;li&gt;They’re happy for us to make the repo public.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><summary type="html">This meeting involved us talking to Mike Smith, CTO of Atos, about the technical constraints of the project.</summary></entry><entry><title type="html">Client Meeting 1 Notes</title><link href="http://localhost:4000/2016/group19/meetings/2016/10/10/client-meeting.html" rel="alternate" type="text/html" title="Client Meeting 1 Notes" /><published>2016-10-10T14:00:00+01:00</published><updated>2016-10-10T14:00:00+01:00</updated><id>http://localhost:4000/2016/group19/meetings/2016/10/10/client-meeting</id><content type="html" xml:base="http://localhost:4000/2016/group19/meetings/2016/10/10/client-meeting.html">&lt;p&gt;different groups with different requirements&lt;/p&gt;
+&lt;/ul&gt;</content><summary type="html">This meeting involved us talking to Mike Smith, CTO of Atos, about the technical constraints of the project.
+
+
+  Use what we’re most familiar with
+  looking for ideas not the final system necessarily (although it’s a challenge!)
+  they’re not able to provide infrastructure
+  ask department for a VPS (done!)
+  may be a different no of pairs (i.e. more mentees than mentors)
+  may be times when a mentee has no mentor and has to miss out
+  natural language processing would be pretty cool
+  unlikely to use corporate DB - privacy reasons etc
+  list things that might be important
+  work out primary considerations (for matching)
+  score matches? (i.e. out of 100)
+
+
+User story
+
+  individual registers on system
+  registers for mentor position or mentee position
+  add details
+  processing step
+  then.. shortlist?
+  recommendation?
+  preferences?
+  match made?
+  where does the final decision rest?
+  will there be a “cooling-off” period where mentees can change their minds?
+  “think about design”
+  relationship object separate from user object
+  “status” object
+  admin view “very useful”
+  how will we report status? rating out of 5stars? text?
+  authentication:
+    
+      Atos have their own SSO
+      Don’t waste time writing our own
+      Use Twitter/Facebook login, or OAuth
+      Modular is good so that it can integrate
+    
+  
+  Branding guidelines
+    
+      no hard guidelines
+      don’t worry about this too much.
+    
+  
+  Catch up with Jane…?
+    
+      book every 2-4 weeks?
+    
+  
+  No restrictions on code
+    
+      we apparently have IP on our work..?
+      Atos has permission to use our work if they like it though.
+      They’re happy for us to make the repo public.</summary></entry><entry><title type="html">Client Meeting 1 Notes</title><link href="/2016/group19/meetings/2016/10/10/client-meeting.html" rel="alternate" type="text/html" title="Client Meeting 1 Notes" /><published>2016-10-10T14:00:00+01:00</published><updated>2016-10-10T14:00:00+01:00</updated><id>/2016/group19/meetings/2016/10/10/client-meeting</id><content type="html" xml:base="/2016/group19/meetings/2016/10/10/client-meeting.html">&lt;p&gt;different groups with different requirements&lt;/p&gt;
 
 &lt;p&gt;3 groups with option to add more - don’t hardcode this&lt;/p&gt;
 
@@ -479,4 +667,70 @@ WOULD HAVE&lt;/li&gt;
 &lt;p&gt;finalise requirements (our side) by 14th October. Jane will then confirm this after weekend.
 Create user stories&lt;/p&gt;
 
-&lt;p&gt;Are we using agile…?&lt;/p&gt;</content><summary type="html">different groups with different requirements</summary></entry></feed>
+&lt;p&gt;Are we using agile…?&lt;/p&gt;</content><summary type="html">different groups with different requirements
+
+3 groups with option to add more - don’t hardcode this
+
+~60 people in talent program, could be higher for others
+
+stable marriage problem
+
+kinda like a dating site problem
+
+same people may/may not be available, max. no of mentees per mentor, status of pairing..?
+
+example: one person has three mentees out their maximum of three. one may be actively meeting, one may not have started meeting, one may have just left scheme
+
+open window for two weeks to apply, and then the system matches mentors to mentees.. what about surplus mentees? could happen multiple times in a year
+user could be both mentor and mentees, depending on mentorship programme constraints
+
+admin function for bulk CRUD operations
+
+web app is probably best. app is for internal use only. system picks matches, users do not.
+
+examples of preferences etc will be emailed over
+
+features?
+must be easy to use, easy to enter matching preferences
+
+would like to do it on laptop or phone
+
+notifications would be “brilliant”
+
+something that could be looked at
+
+status, record of meetings… nice to have.
+
+prompts to meet if there hasn’t been activity.
+
+user profile idea “good”, needs to be fairly simple so that the user doesn’t get invested in working on the profile rather than other things. clearly low priority. focus on the users’ skills.
+
+internal DB? SAP or there’s a “corporate directory”
+could use to populate profile, but best to check as these things tend to be locked down
+
+Requirements
+
+MUST HAVE:
+
+  matching system
+  preferences for matching
+  separate programs with their own requirements
+  status of each persons’ matches
+SHOULD HAVE:
+  profile system
+  notifications
+  admin - bulk create/read/update/write (CRUD) operations
+COULD HAVE:
+  recording meetings of mentorship
+  prompts to meet
+WOULD HAVE
+  corporate directory lookup
+
+
+mentor can’t be line manager -&amp;gt; not the same team is easiest way?
+
+Next steps
+finalise requirements (our side) by 14th October. Jane will then confirm this after weekend.
+Create user stories
+
+Are we using agile…?</summary></entry></feed>

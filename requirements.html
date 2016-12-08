@@ -8,13 +8,5 @@ navigation: true
 {% assign requirements = (site.posts | where_exp:"item","item.categories contains 'requirements'") %}
 {% for p in requirements %}
 <div class="card">
-    {% if p.cover %}
-    <img class="card-img-top" src="{{ p.cover }}" alt="Cover image for {{ p.title }}" />
-    {% endif %}
-    <div class="card-block">
-        <h4 class="card-title"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h4>
-        <h6 class="card-subtitle text-muted">{{ p.date | date_to_string }}</h6>
-        <p class="card-text">{{ p.excerpt }}</p>
-    </div>
-</div>
+    {% include post.html p=p %}
 {% endfor %}
