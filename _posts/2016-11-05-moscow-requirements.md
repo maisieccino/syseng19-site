@@ -7,6 +7,8 @@ categories: requirements
 
 This is a list of all the requirements as agreed and finalised with our client. These requirements are subject to change over the course of the development phase of this project.
 
+__MORE__
+
 <div class="table-responsive">
 	<table class="table table-bordered">
 		<thead>

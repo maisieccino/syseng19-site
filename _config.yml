@@ -43,3 +43,5 @@ exclude:
 
 github: https://github.com/mbellgb/syseng19-code
 paginate: 5
+
+excerpt_separator: __MORE__
