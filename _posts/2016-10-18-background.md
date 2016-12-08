@@ -9,6 +9,8 @@ categories: background
 
 Atos are also focused on business technology that powers progress and helps organizations to create their firm of the future. The client we are working with is based at the Nottingham Office.
 
+__MORE__
+
 <h3 class="section-header">Problem Definition</h3>
 *	 Atos is a large firm consisting of multiple employees of different skillset and age group working in various departments.
 *	 Our client wanted a way that would allow employees in their workplace to help improve each other's skillset.
