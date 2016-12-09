@@ -1,5 +1,116 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/2016/group19/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/2016/group19/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/2016/group19/" rel="alternate" type="text/html" /><updated>2016-12-08T23:42:01+00:00</updated><id>http://localhost:4000/2016/group19//</id><title type="html">Mentor Matching - Team 19</title><subtitle>Matthew Bell, Christopher Lau and Harry Chen are working on creating a system to match mentors and mentees based on their preferences, on behalf of Atos UK.
-</subtitle><entry><title type="html">Project Management Tools</title><link href="http://localhost:4000/2016/group19/management/2016/12/02/collborative.html" rel="alternate" type="text/html" title="Project Management Tools" /><published>2016-12-02T23:30:51+00:00</published><updated>2016-12-02T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/management/2016/12/02/collborative</id><content type="html" xml:base="http://localhost:4000/2016/group19/management/2016/12/02/collborative.html">&lt;p&gt;This page includes all of the tools we have used to manage our project. This includes communication, documentation, prototype design and others.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/2016/group19/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/2016/group19/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/2016/group19/" rel="alternate" type="text/html" /><updated>2016-12-09T22:42:30+00:00</updated><id>http://localhost:4000/2016/group19//</id><title type="html">Mentor Matching - Team 19</title><subtitle>Matthew Bell, Christopher Lau and Harry Chen are working on creating a system to match mentors and mentees based on their preferences, on behalf of Atos UK.
+</subtitle><entry><title type="html">Architecture Research and Algorithm Design</title><link href="http://localhost:4000/2016/group19/development/2016/12/02/architecture-designs.html" rel="alternate" type="text/html" title="Architecture Research and Algorithm Design " /><published>2016-12-02T23:30:51+00:00</published><updated>2016-12-02T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/development/2016/12/02/architecture-designs</id><content type="html" xml:base="http://localhost:4000/2016/group19/development/2016/12/02/architecture-designs.html">&lt;p&gt;This page details the research we have done through the course of designing the architecture for our system. It also includes details of the design of our matching algorithm.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#important-decision&quot; style=&quot;margin-top: 7px;&quot; class=&quot;btn btn-primary&quot;&gt;Important Decisions&lt;/a&gt;
+&lt;a href=&quot;#algorithm-design&quot; style=&quot;margin-top: 7px;&quot; class=&quot;btn btn-primary&quot;&gt;Algorithm Design&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 class=&quot;section-header&quot; id=&quot;important-decision&quot;&gt;Important Decisions&lt;/h3&gt;
+&lt;p&gt;This section highlights the decisions we have made as a team for future development of this project. These decisions include the technology and tools used to build the final system.&lt;/p&gt;
+
+&lt;div class=&quot;table-responsive&quot;&gt;
+	&lt;table class=&quot;table table-bordered decisionTable&quot;&gt;
+		&lt;tbody&gt;
+			&lt;col width=&quot;15%&quot; /&gt;
+  			&lt;col width=&quot;85%&quot; /&gt;
+			&lt;tr&gt;
+				&lt;td width=&quot;100px;&quot;&gt;&lt;strong&gt;Decision 1&lt;/strong&gt;&lt;/td&gt;
+				&lt;td&gt;Which web application framework do we use for the &lt;strong&gt;front-end?&lt;/strong&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td rowspan=&quot;3&quot;&gt;&lt;strong&gt;Option Considered&lt;/strong&gt;&lt;/td&gt;
+				&lt;td&gt;Angular JS and Ionic&lt;/td&gt;
+			&lt;/tr&gt;	
+			&lt;tr&gt;&lt;td&gt;React JS&lt;/td&gt;&lt;/tr&gt;
+			&lt;tr&gt;&lt;td&gt;Ember JS&lt;/td&gt;&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;&lt;strong&gt;Final Decision&lt;/strong&gt;&lt;/td&gt;
+				&lt;td&gt;Angular JS and Ionic&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;&lt;strong&gt;Justifications&lt;/strong&gt;&lt;/td&gt;
+				&lt;td&gt;
+					&lt;strong&gt;Why not React JS?&lt;/strong&gt;
+					&lt;p&gt;We considered React JS due to its ability to build components and functionality which are well maintained. React is also able to render on server side which makes integration with backend easier. However, React is not a full framework as there are no router nor model management libraries built into ReactJS. Hence writing components is not as easy.&lt;/p&gt;
+					&lt;strong&gt;Why not Ember JS&lt;/strong&gt;
+					&lt;p&gt;We chose Ember JS as it is a flexible framework which speeds up the performance of our application without reloading the whole page. Ember is also good for REST API querying which is what we plan to use for communication with database. However, we have to write our own ajax requests since a lot of ember addons are ports of existing jQuery libraries and very few are written from scartch.&lt;/p&gt;
+					&lt;strong&gt;Why Angular JS and Ionic&lt;/strong&gt;
+					&lt;p&gt;The main advantages of Angular is the flexibility and support by the community. Angular JS is supported by Google and has a great development community. It also operates directly on DOM rather than inner HTML more efficiently. Our Client also heavily emphasised that the application should be available on mobile. Ionic is able to produce applications that can run on both IOS and Android environment. It also makes developing with Angular easier because modules from Angular ca be used.&lt;/p&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;table-responsive&quot;&gt;
+	&lt;table class=&quot;table table-bordered decisionTable&quot;&gt;
+		&lt;tbody&gt;
+			&lt;col width=&quot;15%&quot; /&gt;
+  			&lt;col width=&quot;85%&quot; /&gt;
+			&lt;tr&gt;
+				&lt;td width=&quot;100px;&quot;&gt;&lt;strong&gt;Decision 2&lt;/strong&gt;&lt;/td&gt;
+				&lt;td&gt;Which web application framework do we use for the &lt;strong&gt;back-end?&lt;/strong&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td rowspan=&quot;4&quot;&gt;&lt;strong&gt;Option Considered&lt;/strong&gt;&lt;/td&gt;
+				&lt;td&gt;Django&lt;/td&gt;	
+			&lt;/tr&gt;
+			&lt;tr&gt;&lt;td&gt;Ruby On Rails&lt;/td&gt;&lt;/tr&gt;
+			&lt;tr&gt;&lt;td&gt;Node JS&lt;/td&gt;&lt;/tr&gt;
+			&lt;tr&gt;&lt;td&gt;Revel&lt;/td&gt;&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;&lt;strong&gt;Final Decision&lt;/strong&gt;&lt;/td&gt;
+				&lt;td&gt;Django&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;&lt;strong&gt;Justifications&lt;/strong&gt;&lt;/td&gt;
+				&lt;td&gt;
+					&lt;strong&gt;Why not Ruby on Rails?&lt;/strong&gt;
+					&lt;p&gt;We considered Ruby on Rails as one of our options due to the expressive nature of the ruby language, allowing funtions to be written very fast. Ruby also had a large developer following and library. However, due to scaffolding could mean that ou application is inflexible and also the dynamic nature of Ruby meant that it runs a little slower compares to statically typed languages.&lt;/p&gt;
+					&lt;strong&gt;Why not Revel&lt;/strong&gt;
+					&lt;p&gt;Revel was also an option due to its similarity to Ruby on Rails. Revel was written using the Go language which is statically and strongly typed language. Go has strong concurrency and has many multithreading features. However, Revel may not be the most suitable framework due to being too lightweight. This meant that we had to implement a lot features ourselves, making development inefficient.&lt;/p&gt;
+					&lt;strong&gt;Deciding between Node JS and Django.&lt;/strong&gt;
+					&lt;p&gt;After some discussion the team agreed that Node JS and Django was the most suitable for this application. However, we it was hard to decide between the two frameworks. Node JS is extremely popular over the last cople of years since the community is large and there is easily to find resources Node JS also shares a common language with web page scripts as Node JS programs are written in Javascript. Node applications are also Event-driven which means it can perform other tasks while wating for asynchronous operations.&lt;br /&gt;
+					On the other hand, Django is a very high level framework written in python which could lead to rapid development. Django takes care of most aspects of web development such as user authentication and also has an in built admin system. The scalabitlity of Django also makes it very suitable for our application since there are a reasonable amount of users that could potentially use this application.&lt;br /&gt;
+					Ultimately, the team decided on Django as the framework for the backend as we felt that Django had many in built systems that could be useful to our application, making development the most efficient.&lt;/p&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;#top&quot; class=&quot;btn btn-primary&quot;&gt;^ Back to top&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 class=&quot;section-header&quot; id=&quot;algorithm-design&quot;&gt;Algorithm Design&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Abstract&lt;/span&gt;&lt;br /&gt;
+&lt;strong&gt;Input&lt;/strong&gt;: The algorithm will accept  two lists, Mentors and Mentees, containing users. Users have a name, as well as a list of tags.&lt;br /&gt;
+&lt;strong&gt;Final Output&lt;/strong&gt;: A list of matches between mentors and mentees.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Process&lt;/span&gt;&lt;br /&gt;
+&lt;strong&gt;Stage 1: Ranking&lt;/strong&gt;&lt;br /&gt;
+The algorithm will iterate through each mentee in turn: It will look at each mentor, and assign a ‘score’ between the mentee and mentor, which begins at 0. For each matching tag, the score should be increased by 10. Next, it should consider the constraints of the current mentorship programme. For each match in the mentorship programme (e.g., preferences on time served in company), the score should be increased by 5. If the match should absolutely not happen for whatever reason, the score should be set to 0 and the matching algorithm should move onto the next mentor.&lt;/p&gt;
+
+&lt;p&gt;By the end of this process, for each mentee, there should be a list of mentors and their scores. These should be sorted by the highest score first.&lt;/p&gt;
+
+&lt;p&gt;How can we make this faster? Potentially we could cache some of the scores to adapt to similar matches, but for now it’s better to just write a brute force approach and optimise later if need be. To begin with, we should allow users to input tags for themselves. In the future though, we could use semantic analysis to find these tags automatically from their user bio.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Stage 2: Selecting&lt;/strong&gt;&lt;br /&gt;
+Each mentee then will be presented with their top three mentors. They will be invited to sort these according to preference (within a time limit), and once these have all been completed, the next stage will begin.&lt;/p&gt;
+
+&lt;p&gt;How will we implement this in reality? Most likely, we’ll use the first three values from each mentee’s matches/scores array and sort them in place to save memory.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Stage 3: Matching&lt;/strong&gt;&lt;br /&gt;
+The algorithm will now implement a version of the Gale-Shapley Algorithm to find an optimal set of matches given the mentee’s preferences. The difference here is that there is most likely an uneven amount of mentees to mentors. It’s worth noting at this point that mentors may be after more than one mentee; in this case, the score arrays need to be adjusted so that a mentor with x spaces has x values in the arrays.&lt;/p&gt;
+
+&lt;p&gt;Once this algorithm is run, the matches are then sent to the DB to be saved.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Pseudocode&lt;/span&gt;&lt;br /&gt;
+Below is the pseuodocode lllustrating the the 3 stages explained above. A user class is used to store the ID of the mentee or mentor, along with the required tags needed for matching.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/2016/group19/assets/img/pseuodocode.jpg&quot; class=&quot;image&quot; alt=&quot;node.js&quot; height=&quot;80%&quot; width=&quot;95%&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#top&quot; class=&quot;btn btn-primary&quot;&gt;^ Back to top&lt;/a&gt;&lt;/p&gt;</content><summary type="html">This page details the research we have done through the course of designing the architecture for our system. It also includes details of the design of our matching algorithm.</summary></entry><entry><title type="html">Project Management Tools</title><link href="http://localhost:4000/2016/group19/management/2016/12/02/collborative.html" rel="alternate" type="text/html" title="Project Management Tools" /><published>2016-12-02T23:30:51+00:00</published><updated>2016-12-02T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/management/2016/12/02/collborative</id><content type="html" xml:base="http://localhost:4000/2016/group19/management/2016/12/02/collborative.html">&lt;p&gt;This page includes all of the tools we have used to manage our project. This includes communication, documentation, prototype design and others.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
 
@@ -214,13 +325,13 @@ Ember.js is an open source JavaScript client-side framework for developing the w
 &lt;p&gt;We searched for some existing applications that does matching between individuals as part of the initial stages of research. This helped us gain a basic idea of some features that we may like to include in our final product.&lt;/p&gt;
 
 &lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Mentor Match&lt;/span&gt;&lt;br /&gt;
-&lt;strong&gt;Mentor Match&lt;/strong&gt; is an existing open source website that had a very similar concept to what our client was trying to acheive. Mentor Match is open to everyone and allows individuals with experience in a particular skillset to act as mentors to help mentees improve on that particular skillset.
+&lt;a href=&quot;https://www.mentormatch.org.uk/&quot;&gt;&lt;strong&gt;Mentor Match&lt;/strong&gt;&lt;/a&gt; is an existing open source website that had a very similar concept to what our client was trying to acheive. Mentor Match is open to everyone and allows individuals with experience in a particular skillset to act as mentors to help mentees improve on that particular skillset.
 Since this website is open to everyone, it makes exchange of knowledge very simple as anyone could take part in it.&lt;/p&gt;
 
 &lt;p&gt;However, there are certain features that the website lacks in terms of security as there is no verification as there is no way to assure that users applying to be a mentor has the skillset to become one. Also there were different types of mentor schemes requested by our client which differ with the schemes provided on the Mentor Match website. Despite the differences in structure of this website with the web application we are about to build, Mentor Match could be a useful guideline on the basic foundation of our web application.&lt;/p&gt;
 
 &lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Business Mentoring&lt;/span&gt;&lt;br /&gt;
-Matching based on:&lt;/p&gt;
+&lt;a href=&quot;http://www.management-mentors.com/products/corporate-mentoring-products-overview&quot;&gt;&lt;strong&gt;Business Mentoring&lt;/strong&gt;&lt;/a&gt; matches based on:&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;Focus areas/ competencies: There system have 25 default competencies to choose. (useful)&lt;/li&gt;
   &lt;li&gt;Forced choice questions:Provide questions that have several answers to select. Make the preferences of matching more specific. (useful)&lt;/li&gt;

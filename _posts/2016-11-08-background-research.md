@@ -16,13 +16,13 @@ __MORE__
 We searched for some existing applications that does matching between individuals as part of the initial stages of research. This helped us gain a basic idea of some features that we may like to include in our final product.
 
 <span class="lead sub-header">Mentor Match</span><br>
-**Mentor Match** is an existing open source website that had a very similar concept to what our client was trying to acheive. Mentor Match is open to everyone and allows individuals with experience in a particular skillset to act as mentors to help mentees improve on that particular skillset.
+[**Mentor Match**](https://www.mentormatch.org.uk/) is an existing open source website that had a very similar concept to what our client was trying to acheive. Mentor Match is open to everyone and allows individuals with experience in a particular skillset to act as mentors to help mentees improve on that particular skillset.
 Since this website is open to everyone, it makes exchange of knowledge very simple as anyone could take part in it. 
 
 However, there are certain features that the website lacks in terms of security as there is no verification as there is no way to assure that users applying to be a mentor has the skillset to become one. Also there were different types of mentor schemes requested by our client which differ with the schemes provided on the Mentor Match website. Despite the differences in structure of this website with the web application we are about to build, Mentor Match could be a useful guideline on the basic foundation of our web application.
 
 <span class="lead sub-header">Business Mentoring</span><br>
-Matching based on:
+[**Business Mentoring**](http://www.management-mentors.com/products/corporate-mentoring-products-overview) matches based on:
 1. Focus areas/ competencies: There system have 25 default competencies to choose. (useful)
 2. Forced choice questions:Provide questions that have several answers to select. Make the preferences of matching more specific. (useful)
 3. Personality test:(optional)

@@ -9,6 +9,11 @@ body{
     box-shadow: 0 2px 3px rgba(99,99,99,0.7);
 }
 
+.navbar-brand{
+	font-family: 'Francois One', sans-serif;
+	font-family: 'Crete Round', serif;
+}
+
 .section-header{
 	font-family: 'Roboto', sans-serif;
 	color: #497B8C;
@@ -40,4 +45,8 @@ thead{
 	box-shadow: 0 0 5px 2px lightgray;
 	padding: 8px;
 	margin-top: 5px;
+}
+
+.decisionTable, .decisionTable td{
+   border-color:#b1afaf;
 }
