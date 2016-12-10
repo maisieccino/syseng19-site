@@ -8,6 +8,5 @@ order: 5
 
 {% assign management = (site.posts | where_exp:"item","item.categories contains 'management'") %}
 {% for p in management %}
-<div class="card">
     {% include post.html p=p %}
 {% endfor %}
