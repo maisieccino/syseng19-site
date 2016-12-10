@@ -3,6 +3,7 @@ layout: page
 title: About Us
 permalink: /about/
 navigation: true
+order: 1
 ---
 
 <h3 class="section-header">The Team</h3>

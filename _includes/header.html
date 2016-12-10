@@ -5,7 +5,7 @@
 			<div class="collapse navbar-toggleable-md" id="navbarResponsive">
 			    <a class="navbar-brand" href="{{ site.baseurl }}">Mentor Match</a>
 			    <ul class="nav navbar-nav">
-			    	{% assign nav_pages = site.pages | where: "navigation",true %}
+			    	{% assign nav_pages = site.pages | where: "navigation",true | sort: "order"%}
 			        {% for p in nav_pages %}
 			        <li class="nav-item pull-right {% if p.url == page.url %}active{% endif %}">
 		                <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title | escape }}
