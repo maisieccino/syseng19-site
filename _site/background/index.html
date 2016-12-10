@@ -8,12 +8,14 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
-
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="/2016/group19/css/style.css">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round|Francois+One" rel="stylesheet">
 
     <title>Background - Mentor Matching - Team 19</title>
 </head>
@@ -26,7 +28,7 @@
 		<div class="container">
 			<button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
 			<div class="collapse navbar-toggleable-md" id="navbarResponsive">
-			    <a class="navbar-brand" href="/2016/group19">Mentor Matching - Team 19</a>
+			    <a class="navbar-brand" href="/2016/group19">Mentor Match</a>
 			    <ul class="nav navbar-nav">
 			    	
 			        
@@ -42,6 +44,11 @@
 			        
 			        <li class="nav-item pull-right ">
 		                <a class="nav-link" href="/2016/group19/development/">Development
+		                </a>
+			        </li>
+			        
+			        <li class="nav-item pull-right ">
+		                <a class="nav-link" href="/2016/group19/management/">Management
 		                </a>
 			        </li>
 			        
@@ -82,34 +89,10 @@
     <div class="card-block">
         <h4 class="card-title"><a href="/2016/group19/background/2016/10/18/background.html">Project Background and Initial Considerations</a></h4>
         <h6 class="card-subtitle text-muted">18 Oct 2016</h6>
-        <!--<p class="card-text">Our Client Atos is a leader in digital services. Serving a global client base, Atos provides Consulting &amp; Systems Integration services, Managed Services &amp; BPO, Cloud operations, Big Data &amp; Cyber-security solutions, as well as transactional services through Worldline, the European leader in the payments and transactional services industry. Atos...</p>-->
+        <!--<p class="card-text">Our Client Atos is a leader in digital services. Serving a global client base, Atos provides Consulting &amp; Systems Integration services, Managed Services &amp; BPO, Cloud operations, Big Data &amp; Cyber-security solutions, as well as transactional services through Worldline, the European leader in the payments and transactional services industry. MORE...</p>-->
         <p class="card-text"><h3 class="section-header">Our Client</h3>
 <p><strong>Atos</strong> is a leader in digital services. Serving a global client base, Atos provides Consulting &amp; Systems Integration services, Managed Services &amp; BPO, Cloud operations, Big Data &amp; Cyber-security solutions, as well as transactional services through Worldline, the European leader in the payments and transactional services industry.</p>
 
-<p>Atos are also focused on business technology that powers progress and helps organizations to create their firm of the future. The client we are working with is based at the Nottingham Office.</p>
-
-<h3 class="section-header">Problem Definition</h3>
-<ul>
-  <li>Atos is a large firm consisting of multiple employees of different skillset and age group working in various departments.</li>
-  <li>Our client wanted a way that would allow employees in their workplace to help improve each other’s skillset.</li>
-  <li>Our cliet proposed an application that would pair up mentors who are experienced employees with newer employees which acts as their mentees.</li>
-  <li>The client also addressed the stable marriage problem which is the problem of finding stable matching between the sample size of mentors and mentees.</li>
-</ul>
-
-<h3 class="section-header">Stable Marriage Problem</h3>
-<p>The stable marriage problem marriage problem is the problem of finding a stable matching between two equally sized sets of elements given an ordering of preferences for each element. This problem can be modeled by using the employees as an example where there are equal number of employees willing to act as mentors and similarly apply to become a mentee.</p>
-
-<p>Currently the process of matching a mentor and mentee is done manually by human resources in Atos. Our client wanted an application that does this automatically and is also able to handle non-perfect data size such as when the number of mentors and mentees differ.</p>
-
-<h3 class="section-header">Project brief</h3>
-<p>The brief for our project is to create a system that matches mentors and mentees on behalf of Atos. The system will allow employees to sign up to various company programmes as either a mentor or a mentee, and then once applications are closed the system will use the users’ profiles (as well as any constraints the program has) to find the most suitable mentor-mentee matchings.</p>
-
-<p>The brief was deliberately left as open-ended as possible, to allow us to focus on completing the problem rather than working with an unfamiliar technology stack.</p>
-
-<h3 class="section-header">User Interface Considerations</h3>
-<p>When meeting our client for the first time, she was favourable of the system being accessible from both her smartphone and laptop/desktop PC. So naturally we decided that a web app would be the best fit for this project. Whether this was to use Angular, Ionic, Meteor or some other framework had not been decided at this point.</p>
-
-<p>Other things to consider included the possibility of receiving notifications, either in the form of push notifications from the app itself, SMS messages sent to a mobile phone, or emails.</p>
 </p>
     </div>
 </div>

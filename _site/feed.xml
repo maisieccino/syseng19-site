@@ -1,93 +1,217 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/2016/group19/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="/2016/group19/feed.xml" rel="self" type="application/atom+xml" /><link href="/2016/group19/" rel="alternate" type="text/html" /><updated>2016-12-08T13:40:35+00:00</updated><id>/2016/group19//</id><title type="html">Mentor Matching - Team 19</title><subtitle>Matthew Bell, Christopher Lau and Harry Chen are working on creating a system to match mentors and mentees based on their preferences, on behalf of Atos UK.
-</subtitle><entry><title type="html">Relevant prototypes research</title><link href="/2016/group19/research/2016/12/02/relevant-prototypes.html" rel="alternate" type="text/html" title="Relevant prototypes research" /><published>2016-12-02T23:30:51+00:00</published><updated>2016-12-02T23:30:51+00:00</updated><id>/2016/group19/research/2016/12/02/relevant%20prototypes</id><content type="html" xml:base="/2016/group19/research/2016/12/02/relevant-prototypes.html">&lt;p&gt;We explored a few existing systems to help form the designs for our system.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/2016/group19/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="/2016/group19/feed.xml" rel="self" type="application/atom+xml" /><link href="/2016/group19/" rel="alternate" type="text/html" /><updated>2016-12-10T13:26:49+00:00</updated><id>/2016/group19//</id><title type="html">Mentor Matching - Team 19</title><subtitle>Matthew Bell, Christopher Lau and Harry Chen are working on creating a system to match mentors and mentees based on their preferences, on behalf of Atos UK.
+</subtitle><entry><title type="html">User Interface Development</title><link href="/2016/group19/development/2016/12/02/user-interface.html" rel="alternate" type="text/html" title="User Interface Development" /><published>2016-12-02T23:30:51+00:00</published><updated>2016-12-02T23:30:51+00:00</updated><id>/2016/group19/development/2016/12/02/user-interface</id><content type="html" xml:base="/2016/group19/development/2016/12/02/user-interface.html">&lt;p&gt;This page highlights the design and development of the user interface and user experience of the front end system. This includes initial sketches, wireframes and also first prototype of our application.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;mentor-match&quot;&gt;Mentor Match&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.mentormatch.org.uk/&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;#initial-sketch&quot; style=&quot;margin-top: 7px;&quot; class=&quot;btn btn-primary&quot;&gt;Initial sketches&lt;/a&gt;
+&lt;a href=&quot;#wireframes&quot; style=&quot;margin-top: 7px;&quot; class=&quot;btn btn-primary&quot;&gt;Initial Wireframes&lt;/a&gt;
+&lt;a href=&quot;#hci-principles&quot; style=&quot;margin-top: 7px;&quot; class=&quot;btn btn-primary&quot;&gt;HCI Principles&lt;/a&gt;
+&lt;a href=&quot;#first-prototype&quot; style=&quot;margin-top: 7px;&quot; class=&quot;btn btn-primary&quot;&gt;First prototype&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Mentor Match is an website for UK Civil Servants opens up the search beyond your immediate circle of contacts, helping you find the best people, quickly. Matching based on:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;who you are,&lt;/li&gt;
-  &lt;li&gt;what you’re good at&lt;/li&gt;
-  &lt;li&gt;what you’d like to be better at&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h3 class=&quot;section-header&quot; id=&quot;initial-sketch&quot;&gt;Initial sketches&lt;/h3&gt;
+&lt;p&gt;During the beginning stages of developing the user interface, we sketched out some ideas on how the various screens/pages/views will look layout-wise. We decided that the system will have 6 main pages, 1 for user authentication, a clean and user friendly home page, and also 4 other pages for the application process.&lt;/p&gt;
 
-&lt;p&gt;Information needed:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Name, email, where you based&lt;/li&gt;
-  &lt;li&gt;current grade and current role&lt;/li&gt;
-  &lt;li&gt;profession(select), skills&lt;/li&gt;
-  &lt;li&gt;specific goal you want to achieve&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;/2016/group19/assets/img/first-sketch.jpg&quot; class=&quot;image&quot; alt=&quot;first sketch&quot; height=&quot;55%&quot; width=&quot;60%&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;In personal profile, it includes:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Areas you would like to develop (select an area)&lt;/li&gt;
-  &lt;li&gt;Experience you can offer (select an area and a level you currently at)&lt;/li&gt;
-  &lt;li&gt;Matching preferences: prefered contact type, You would like to be involved with(One-off advice sessions,Longer term mentoring) What is the minimum grade you would like your mentor to be?&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&quot;#top&quot; class=&quot;btn btn-primary&quot;&gt;^ Back to top&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;what-we-could-learn-from-this-project&quot;&gt;What we could learn from this project&lt;/h2&gt;
-&lt;p&gt;The sign up page and information required to complete are simple and efficiently. The profile of user (current role, about, goals,profession and skills) is easy to edit also the essential information needed for matching are included. Thats what we could use to complete our client’s requirement (simple user profile).&lt;/p&gt;
+&lt;h3 class=&quot;section-header&quot; id=&quot;wireframes&quot;&gt;Initial Wireframes&lt;/h3&gt;
+&lt;p&gt;After sketching out how we think the layout of the different views should be, we proceeded to produce the first wireframe; creating cleaner and clearer overviews of the layouts. The wireframes were designed using Ionic.&lt;/p&gt;
 
-&lt;h1 id=&quot;business-mentoring&quot;&gt;Business Mentoring&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.management-mentors.com/products/corporate-mentoring-products-overview&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There are 5 main layouts for the wireframe. The first is the user authentication pages where users create an account to use the application. The second page is the landing page which is where users can choose to enrol in any of the available mentorship programs. When the user selects a mentorship program, there would be a page that shows the details and information of that specific program. After that the user will have to enter their respective interests so that the system can match them to a mentor or mentee. Users can also manually enter some of their interests if it is not available in the selection. Finally the process of application is the confirmation page, where users choose to register themselves as a mentor or mentee. &lt;strong&gt;(Please click to enlarge images)&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Matching based on:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Focus areas/ competencies: There system have 25 default competencies to choose. (useful)&lt;/li&gt;
-  &lt;li&gt;Forced choice questions:Provide questions that have several answers to select. Make the preferences of matching more specific. (useful)&lt;/li&gt;
-  &lt;li&gt;Personality test:(optional)&lt;/li&gt;
-  &lt;li&gt;Ranking of key roles: In this section, mentorees must decide what type of mentor they want based on how they order the following roles: teacher, sponsor, cheerleader, counselor, and friend (meaning if they put “cheerleader” first and “counselor” last, it’s more important that the mentor is a cheerleader than a friend). Mentors must decide the type of mentor they want to be and do the same thing, ranking the roles in order of most important to least. (useful)&lt;/li&gt;
-  &lt;li&gt;Essay section (not useful)&lt;/li&gt;
-&lt;/ol&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-4&quot;&gt;
+		&lt;a href=&quot;#&quot; class=&quot;image-pop-up&quot;&gt;&lt;img src=&quot;/2016/group19/assets/img/signup.png&quot; class=&quot;image&quot; alt=&quot;first sketch&quot; height=&quot;30%&quot; width=&quot;50%&quot; /&gt;&lt;/a&gt;
+		&lt;p&gt;Authentication page&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-md-4&quot;&gt;
+		&lt;a href=&quot;#&quot; class=&quot;image-pop-up&quot;&gt;&lt;img src=&quot;/2016/group19/assets/img/home.png&quot; class=&quot;image&quot; alt=&quot;first sketch&quot; height=&quot;30%&quot; width=&quot;50%&quot; /&gt;&lt;/a&gt;
+		&lt;p&gt;Landing page&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-md-4&quot;&gt;
+		&lt;a href=&quot;#&quot; class=&quot;image-pop-up&quot;&gt;&lt;img src=&quot;/2016/group19/assets/img/overview.png&quot; class=&quot;image&quot; alt=&quot;first sketch&quot; height=&quot;30%&quot; width=&quot;50%&quot; /&gt;&lt;/a&gt;
+		&lt;p&gt;Overview of mentorship program&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-4&quot;&gt;
+		&lt;a href=&quot;#&quot; class=&quot;image-pop-up&quot;&gt;&lt;img src=&quot;/2016/group19/assets/img/interest.png&quot; class=&quot;image&quot; alt=&quot;first sketch&quot; height=&quot;30%&quot; width=&quot;50%&quot; /&gt;&lt;/a&gt;
+		&lt;p&gt;Application page(Entering interests)&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-md-4&quot;&gt;
+		&lt;a href=&quot;#&quot; class=&quot;image-pop-up&quot;&gt;&lt;img src=&quot;/2016/group19/assets/img/confirmation.png&quot; class=&quot;image&quot; alt=&quot;first sketch&quot; height=&quot;30%&quot; width=&quot;50%&quot; /&gt;&lt;/a&gt;
+		&lt;p&gt;Confirmation page&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
 
-&lt;p&gt;They also provide system matching:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Auto matching: makes matches based on algorithm without any review.&lt;/li&gt;
-  &lt;li&gt;three-steps-matching (also combines human touch, not 100% system matching):
-    &lt;ul&gt;
-      &lt;li&gt;Program manager choose 3 tentative mentors for individual mentee.&lt;/li&gt;
-      &lt;li&gt;Comparing mentoring forms(inforamtion) of the mentee with each mentor&lt;/li&gt;
-      &lt;li&gt;The program manager makes the final choice&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&quot;#top&quot; class=&quot;btn btn-primary&quot;&gt;^ Back to top&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;What we could learn from this project:&lt;/p&gt;
+&lt;h3 class=&quot;section-header&quot; id=&quot;hci-principles&quot;&gt;HCI Principles&lt;/h3&gt;
+&lt;p&gt;While designing the UI, we focused on anticipating the needs of our user and ensuring that the interface has elements that are easy to access, understand and use to facilitate those actions. While choosing elements to use within our interface, we tried to be as consistent and as possible to acheive a UI that supports efficiency, task completion and user satisfaction. The ways that we were able to acheive this were:&lt;/p&gt;
 
-&lt;p&gt;As the result of precise matching algorithm,this application has high percentage of successful matching (90% according to its website). From my research, the division of focus areas and ranking of key roles play an important role in matching, thats what we could follow in our app, give a list of skills as tags for user to choose.&lt;/p&gt;</content><summary type="html">We explored a few existing systems to help form the designs for our system.</summary></entry><entry><title type="html">Collaboration</title><link href="/2016/group19/research/2016/12/02/collborative.html" rel="alternate" type="text/html" title="Collaboration" /><published>2016-12-02T23:30:51+00:00</published><updated>2016-12-02T23:30:51+00:00</updated><id>/2016/group19/research/2016/12/02/collborative</id><content type="html" xml:base="/2016/group19/research/2016/12/02/collborative.html">&lt;p&gt;##Facebook Messanger&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Visibility&lt;/span&gt;&lt;br /&gt;
+In order to acheive visibility, we made sure that elements were lay out in a manner that makes it obvious what they are used for. We tried to keep elements in large sections and also position important information at a center location. We also try to arrange elements in an orderly row and column system. Icons were also used to help express specific functionalities.&lt;/p&gt;
 
-&lt;p&gt;In the first day of meeting we set up an facebook group for cmmunicate between each other and share our ideas.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Feedback&lt;/span&gt;&lt;br /&gt;
+This is when the users presses a button and the system reacts in a manner that clearly communicates what has just been accomplished. In order to acheive this, we used functionalities such as hovers on buttons and links and pop ups. We also try to incorporate as much transtition when switching from different pages.&lt;/p&gt;
 
-&lt;p&gt;##Trello&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Consistency&lt;/span&gt;&lt;br /&gt;
+The main way in which we were able to achieve consistency in our UI, was by making sure that all our structures and elements were consistent. We tried to make sure that every page followed the same general theme. For example, colour themes and font styles and sizes would be maintained throughout the individal pages.&lt;/p&gt;
 
-&lt;p&gt;trello is a collabration tool that organizes our projects on several boards.
-In our team we divided boards into three parts: Backlog, In progress and Completed. We created tasks by making boards and then added it into Backlog part, in each task we assign the due date, members responsible for this task and add labels on it. Once we start working on this task the board would be moved into in progress part. We agreed to take maximum 6 tasks in progress.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;#top&quot; class=&quot;btn btn-primary&quot;&gt;^ Back to top&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;##Github&lt;/p&gt;
+&lt;h3 class=&quot;section-header&quot; id=&quot;first-prototype&quot;&gt;First Prototype&lt;/h3&gt;
+&lt;p&gt;We decided to create the first prototype of the user interface. This prototype builds on what we have got from the wireframes, adding links between the different views and responsive elements such as drop-down menus and tick-boxes to demonstrate how those elements work. However, this prototype does not aim to represent the visual design of the UI. A link to the interactive Ionic prototype is available below.&lt;/p&gt;
 
-&lt;p&gt;Github is a version-control service based on git. Our team built three github repositories: one for project’s documents, one for project’s codes, one for project’s website. Through github each team member could work separately on same project in a time by making branches of master branch and send pull requst to merge each one’s work. Also the version control through github could help us to review our work thus find problems in previous work.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://creator.ionic.io/share/23059853fc12&quot; target=&quot;blank&quot; style=&quot;margin-top: 7px;&quot; class=&quot;btn btn-info btn-lg&quot;&gt;First prototype&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;##Google Drive&lt;/p&gt;
+&lt;!-- Modal for images --&gt;
+&lt;div class=&quot;modal fade&quot; id=&quot;imagemodal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;myModalLabel&quot; aria-hidden=&quot;true&quot;&gt;
+    &lt;div class=&quot;modal-dialog&quot;&gt;
+    	&lt;div class=&quot;modal-content&quot;&gt;              
+      		&lt;div class=&quot;modal-body&quot;&gt;
+      			&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;span class=&quot;sr-only&quot;&gt;Close&lt;/span&gt;&lt;/button&gt;
+        		&lt;img src=&quot;&quot; class=&quot;imagepreview&quot; style=&quot;width: 90%; height: 60%;&quot; /&gt;
+      			&lt;/div&gt;
+    	&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;p&gt;All of our documentations( include bi-weekly report, researches, design works) are shared in google drive  before we converted it into Latex or put in on website.&lt;/p&gt;</content><summary type="html">##Facebook Messanger
+&lt;!-- Pop up for images --&gt;
+&lt;script&gt;
+	$(function() {
+		$('.image-pop-up').on('click', function() {
+			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+			$('#imagemodal').modal('show');   
+		});		
+	});
+&lt;/script&gt;</content><summary type="html">This page highlights the design and development of the user interface and user experience of the front end system. This includes initial sketches, wireframes and also first prototype of our application.</summary></entry><entry><title type="html">Architecture Research and Algorithm Design</title><link href="/2016/group19/development/2016/12/02/architecture-designs.html" rel="alternate" type="text/html" title="Architecture Research and Algorithm Design " /><published>2016-12-02T23:30:51+00:00</published><updated>2016-12-02T23:30:51+00:00</updated><id>/2016/group19/development/2016/12/02/architecture-designs</id><content type="html" xml:base="/2016/group19/development/2016/12/02/architecture-designs.html">&lt;p&gt;This page details the research we have done through the course of designing the architecture for our system. It also includes details of the design of our matching algorithm.&lt;/p&gt;
 
-In the first day of meeting we set up an facebook group for cmmunicate between each other and share our ideas.
+&lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
 
-##Trello
+&lt;p&gt;&lt;a href=&quot;#important-decision&quot; style=&quot;margin-top: 7px;&quot; class=&quot;btn btn-primary&quot;&gt;Important Decisions&lt;/a&gt;
+&lt;a href=&quot;#algorithm-design&quot; style=&quot;margin-top: 7px;&quot; class=&quot;btn btn-primary&quot;&gt;Algorithm Design&lt;/a&gt;&lt;/p&gt;
 
-trello is a collabration tool that organizes our projects on several boards.
-In our team we divided boards into three parts: Backlog, In progress and Completed. We created tasks by making boards and then added it into Backlog part, in each task we assign the due date, members responsible for this task and add labels on it. Once we start working on this task the board would be moved into in progress part. We agreed to take maximum 6 tasks in progress.
+&lt;h3 class=&quot;section-header&quot; id=&quot;important-decision&quot;&gt;Important Decisions&lt;/h3&gt;
+&lt;p&gt;This section highlights the decisions we have made as a team for future development of this project. These decisions include the technology and tools used to build the final system.&lt;/p&gt;
 
-##Github
+&lt;div class=&quot;table-responsive&quot;&gt;
+	&lt;table class=&quot;table table-bordered decisionTable&quot;&gt;
+		&lt;tbody&gt;
+			&lt;col width=&quot;15%&quot; /&gt;
+  			&lt;col width=&quot;85%&quot; /&gt;
+			&lt;tr&gt;
+				&lt;td width=&quot;100px;&quot;&gt;&lt;strong&gt;Decision 1&lt;/strong&gt;&lt;/td&gt;
+				&lt;td&gt;Which web application framework do we use for the &lt;strong&gt;front-end?&lt;/strong&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td rowspan=&quot;3&quot;&gt;&lt;strong&gt;Option Considered&lt;/strong&gt;&lt;/td&gt;
+				&lt;td&gt;Angular JS and Ionic&lt;/td&gt;
+			&lt;/tr&gt;	
+			&lt;tr&gt;&lt;td&gt;React JS&lt;/td&gt;&lt;/tr&gt;
+			&lt;tr&gt;&lt;td&gt;Ember JS&lt;/td&gt;&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;&lt;strong&gt;Final Decision&lt;/strong&gt;&lt;/td&gt;
+				&lt;td&gt;Angular JS and Ionic&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;&lt;strong&gt;Justifications&lt;/strong&gt;&lt;/td&gt;
+				&lt;td&gt;
+					&lt;strong&gt;Why not React JS?&lt;/strong&gt;
+					&lt;p&gt;We considered React JS due to its ability to build components and functionality which are well maintained. React is also able to render on server side which makes integration with backend easier. However, React is not a full framework as there are no router nor model management libraries built into ReactJS. Hence writing components is not as easy.&lt;/p&gt;
+					&lt;strong&gt;Why not Ember JS&lt;/strong&gt;
+					&lt;p&gt;We chose Ember JS as it is a flexible framework which speeds up the performance of our application without reloading the whole page. Ember is also good for REST API querying which is what we plan to use for communication with database. However, we have to write our own ajax requests since a lot of ember addons are ports of existing jQuery libraries and very few are written from scartch.&lt;/p&gt;
+					&lt;strong&gt;Why Angular JS and Ionic&lt;/strong&gt;
+					&lt;p&gt;The main advantages of Angular is the flexibility and support by the community. Angular JS is supported by Google and has a great development community. It also operates directly on DOM rather than inner HTML more efficiently. Our Client also heavily emphasised that the application should be available on mobile. Ionic is able to produce applications that can run on both IOS and Android environment. It also makes developing with Angular easier because modules from Angular ca be used.&lt;/p&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;
 
-Github is a version-control service based on git. Our team built three github repositories: one for project’s documents, one for project’s codes, one for project’s website. Through github each team member could work separately on same project in a time by making branches of master branch and send pull requst to merge each one’s work. Also the version control through github could help us to review our work thus find problems in previous work.
+&lt;div class=&quot;table-responsive&quot;&gt;
+	&lt;table class=&quot;table table-bordered decisionTable&quot;&gt;
+		&lt;tbody&gt;
+			&lt;col width=&quot;15%&quot; /&gt;
+  			&lt;col width=&quot;85%&quot; /&gt;
+			&lt;tr&gt;
+				&lt;td width=&quot;100px;&quot;&gt;&lt;strong&gt;Decision 2&lt;/strong&gt;&lt;/td&gt;
+				&lt;td&gt;Which web application framework do we use for the &lt;strong&gt;back-end?&lt;/strong&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td rowspan=&quot;4&quot;&gt;&lt;strong&gt;Option Considered&lt;/strong&gt;&lt;/td&gt;
+				&lt;td&gt;Django&lt;/td&gt;	
+			&lt;/tr&gt;
+			&lt;tr&gt;&lt;td&gt;Ruby On Rails&lt;/td&gt;&lt;/tr&gt;
+			&lt;tr&gt;&lt;td&gt;Node JS&lt;/td&gt;&lt;/tr&gt;
+			&lt;tr&gt;&lt;td&gt;Revel&lt;/td&gt;&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;&lt;strong&gt;Final Decision&lt;/strong&gt;&lt;/td&gt;
+				&lt;td&gt;Django&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;&lt;strong&gt;Justifications&lt;/strong&gt;&lt;/td&gt;
+				&lt;td&gt;
+					&lt;strong&gt;Why not Ruby on Rails?&lt;/strong&gt;
+					&lt;p&gt;We considered Ruby on Rails as one of our options due to the expressive nature of the ruby language, allowing funtions to be written very fast. Ruby also had a large developer following and library. However, due to scaffolding could mean that ou application is inflexible and also the dynamic nature of Ruby meant that it runs a little slower compares to statically typed languages.&lt;/p&gt;
+					&lt;strong&gt;Why not Revel&lt;/strong&gt;
+					&lt;p&gt;Revel was also an option due to its similarity to Ruby on Rails. Revel was written using the Go language which is statically and strongly typed language. Go has strong concurrency and has many multithreading features. However, Revel may not be the most suitable framework due to being too lightweight. This meant that we had to implement a lot features ourselves, making development inefficient.&lt;/p&gt;
+					&lt;strong&gt;Deciding between Node JS and Django.&lt;/strong&gt;
+					&lt;p&gt;After some discussion the team agreed that Node JS and Django was the most suitable for this application. However, we it was hard to decide between the two frameworks. Node JS is extremely popular over the last cople of years since the community is large and there is easily to find resources Node JS also shares a common language with web page scripts as Node JS programs are written in Javascript. Node applications are also Event-driven which means it can perform other tasks while wating for asynchronous operations.&lt;br /&gt;
+					On the other hand, Django is a very high level framework written in python which could lead to rapid development. Django takes care of most aspects of web development such as user authentication and also has an in built admin system. The scalabitlity of Django also makes it very suitable for our application since there are a reasonable amount of users that could potentially use this application.&lt;br /&gt;
+					Ultimately, the team decided on Django as the framework for the backend as we felt that Django had many in built systems that could be useful to our application, making development the most efficient.&lt;/p&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;
 
-##Google Drive
+&lt;p&gt;&lt;a href=&quot;#top&quot; class=&quot;btn btn-primary&quot;&gt;^ Back to top&lt;/a&gt;&lt;/p&gt;
 
-All of our documentations( include bi-weekly report, researches, design works) are shared in google drive  before we converted it into Latex or put in on website.</summary></entry><entry><title type="html">Technical Research</title><link href="/2016/group19/development/2016/11/04/technical-research.html" rel="alternate" type="text/html" title="Technical Research" /><published>2016-11-04T23:30:51+00:00</published><updated>2016-11-04T23:30:51+00:00</updated><id>/2016/group19/development/2016/11/04/technical-research</id><content type="html" xml:base="/2016/group19/development/2016/11/04/technical-research.html">&lt;p&gt;This page details all the technical research we have done (excluding architecture) throughout this project, including open-source libraries and frameworks that could be useful for the final system. Our research was split in to 2 categories which was frontend research and backend research.&lt;/p&gt;
+&lt;h3 class=&quot;section-header&quot; id=&quot;algorithm-design&quot;&gt;Algorithm Design&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Abstract&lt;/span&gt;&lt;br /&gt;
+&lt;strong&gt;Input&lt;/strong&gt;: The algorithm will accept  two lists, Mentors and Mentees, containing users. Users have a name, as well as a list of tags.&lt;br /&gt;
+&lt;strong&gt;Final Output&lt;/strong&gt;: A list of matches between mentors and mentees.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Process&lt;/span&gt;&lt;br /&gt;
+&lt;strong&gt;Stage 1: Ranking&lt;/strong&gt;&lt;br /&gt;
+The algorithm will iterate through each mentee in turn: It will look at each mentor, and assign a ‘score’ between the mentee and mentor, which begins at 0. For each matching tag, the score should be increased by 10. Next, it should consider the constraints of the current mentorship programme. For each match in the mentorship programme (e.g., preferences on time served in company), the score should be increased by 5. If the match should absolutely not happen for whatever reason, the score should be set to 0 and the matching algorithm should move onto the next mentor.&lt;/p&gt;
+
+&lt;p&gt;By the end of this process, for each mentee, there should be a list of mentors and their scores. These should be sorted by the highest score first.&lt;/p&gt;
+
+&lt;p&gt;How can we make this faster? Potentially we could cache some of the scores to adapt to similar matches, but for now it’s better to just write a brute force approach and optimise later if need be. To begin with, we should allow users to input tags for themselves. In the future though, we could use semantic analysis to find these tags automatically from their user bio.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Stage 2: Selecting&lt;/strong&gt;&lt;br /&gt;
+Each mentee then will be presented with their top three mentors. They will be invited to sort these according to preference (within a time limit), and once these have all been completed, the next stage will begin.&lt;/p&gt;
+
+&lt;p&gt;How will we implement this in reality? Most likely, we’ll use the first three values from each mentee’s matches/scores array and sort them in place to save memory.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Stage 3: Matching&lt;/strong&gt;&lt;br /&gt;
+The algorithm will now implement a version of the Gale-Shapley Algorithm to find an optimal set of matches given the mentee’s preferences. The difference here is that there is most likely an uneven amount of mentees to mentors. It’s worth noting at this point that mentors may be after more than one mentee; in this case, the score arrays need to be adjusted so that a mentor with x spaces has x values in the arrays.&lt;/p&gt;
+
+&lt;p&gt;Once this algorithm is run, the matches are then sent to the DB to be saved.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Pseudocode&lt;/span&gt;&lt;br /&gt;
+Below is the pseuodocode lllustrating the the 3 stages explained above. A user class is used to store the ID of the mentee or mentor, along with the required tags needed for matching.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/2016/group19/assets/img/pseuodocode.jpg&quot; class=&quot;image&quot; alt=&quot;node.js&quot; height=&quot;80%&quot; width=&quot;95%&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#top&quot; class=&quot;btn btn-primary&quot;&gt;^ Back to top&lt;/a&gt;&lt;/p&gt;</content><summary type="html">This page details the research we have done through the course of designing the architecture for our system. It also includes details of the design of our matching algorithm.</summary></entry><entry><title type="html">Project Management Tools</title><link href="/2016/group19/management/2016/12/02/collborative.html" rel="alternate" type="text/html" title="Project Management Tools" /><published>2016-12-02T23:30:51+00:00</published><updated>2016-12-02T23:30:51+00:00</updated><id>/2016/group19/management/2016/12/02/collborative</id><content type="html" xml:base="/2016/group19/management/2016/12/02/collborative.html">&lt;p&gt;This page includes all of the tools we have used to manage our project. This includes communication, documentation, prototype design and others.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 class=&quot;section-header&quot;&gt;Facebook Messenger&lt;/h3&gt;
+&lt;p&gt;During our first meeting we set up a facebook group for communication between each other and share our ideas.&lt;/p&gt;
+
+&lt;h3 class=&quot;section-header&quot;&gt;Trello&lt;/h3&gt;
+&lt;p&gt;Trello is a collabration tool that organizes our projects on several boards. In our team we divided boards into three parts: Backlog, In progress and Completed. We create tasks by making boards and then add it into the Backlog section, for every task we assign a due date, members responsible for that task and add labels on it to indicate urgency. Once we start working on a task the card would be moved into the in progress section. The team agreed to take a maximum of 6 tasks in progress every week.&lt;/p&gt;
+
+&lt;h3 class=&quot;section-header&quot;&gt;Github&lt;/h3&gt;
+&lt;p&gt;Github is a version-control service based on git. Our team built three github repositories: one for documentation, main code repository, one repository for the project website. Through github each team member could work separately on same project simultaneously by making branches of master branch and send pull requst to merge each one’s work. Also the version control through github could help us to review our work thus find problems in previous work.&lt;/p&gt;
+
+&lt;h3 class=&quot;section-header&quot;&gt;Google Drive and Google Docs&lt;/h3&gt;
+&lt;p&gt;All of the documentation we have completed so far (which includes bi-weekly reports, research, design) are shared in google drive before converting it into Latex for submission or adding the content to the project website.&lt;/p&gt;</content><summary type="html">This page includes all of the tools we have used to manage our project. This includes communication, documentation, prototype design and others.</summary></entry><entry><title type="html">Technical Research</title><link href="/2016/group19/development/2016/11/04/technical-research.html" rel="alternate" type="text/html" title="Technical Research" /><published>2016-11-04T23:30:51+00:00</published><updated>2016-11-04T23:30:51+00:00</updated><id>/2016/group19/development/2016/11/04/technical-research</id><content type="html" xml:base="/2016/group19/development/2016/11/04/technical-research.html">&lt;p&gt;This page details all the technical research we have done (excluding architecture) throughout this project, including open-source libraries and frameworks that could be useful for the final system. Our research was split in to 2 categories which was frontend research and backend research.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
 
@@ -282,32 +406,47 @@ Ember.js is an open source JavaScript client-side framework for developing the w
 
 &lt;p&gt;The Gale-Shapley Algorithm involves a number of iterations or “rounds” where mentees are able to choose a fixed number of prefered mentors ordered by rank. Then the system will match mentors and mentees based on how suitable the match is between a mentor and mentee. By using this algortihm, we can ensure that every mentees gets matched with a mentor and no one is unpaired. A more detailed design of thhe matching process is available at the Architecture Research and Design section.&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
+
 &lt;h3 class=&quot;section-header&quot;&gt;Existing Solutions&lt;/h3&gt;
 &lt;p&gt;We searched for some existing applications that does matching between individuals as part of the initial stages of research. This helped us gain a basic idea of some features that we may like to include in our final product.&lt;/p&gt;
 
 &lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Mentor Match&lt;/span&gt;&lt;br /&gt;
-&lt;strong&gt;Mentor Match&lt;/strong&gt; is an existing open source website that had a very similar concept to what our client was trying to acheive. Mentor Match is open to everyone and allows individuals with experience in a particular skillset to act as mentors to help mentees improve on that particular skillset.
+&lt;a href=&quot;https://www.mentormatch.org.uk/&quot;&gt;&lt;strong&gt;Mentor Match&lt;/strong&gt;&lt;/a&gt; is an existing open source website that had a very similar concept to what our client was trying to acheive. Mentor Match is open to everyone and allows individuals with experience in a particular skillset to act as mentors to help mentees improve on that particular skillset.
 Since this website is open to everyone, it makes exchange of knowledge very simple as anyone could take part in it.&lt;/p&gt;
 
 &lt;p&gt;However, there are certain features that the website lacks in terms of security as there is no verification as there is no way to assure that users applying to be a mentor has the skillset to become one. Also there were different types of mentor schemes requested by our client which differ with the schemes provided on the Mentor Match website. Despite the differences in structure of this website with the web application we are about to build, Mentor Match could be a useful guideline on the basic foundation of our web application.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Business Mentoring&lt;/span&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.management-mentors.com/products/corporate-mentoring-products-overview&quot;&gt;&lt;strong&gt;Business Mentoring&lt;/strong&gt;&lt;/a&gt; matches based on:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Focus areas/ competencies: There system have 25 default competencies to choose. (useful)&lt;/li&gt;
+  &lt;li&gt;Forced choice questions:Provide questions that have several answers to select. Make the preferences of matching more specific. (useful)&lt;/li&gt;
+  &lt;li&gt;Personality test:(optional)&lt;/li&gt;
+  &lt;li&gt;Ranking of key roles: In this section, mentorees must decide what type of mentor they want based on how they order the following roles: teacher, sponsor, cheerleader, counselor, and friend (meaning if they put “cheerleader” first and “counselor” last, it’s more important that the mentor is a cheerleader than a friend). Mentors must decide the type of mentor they want to be and do the same thing, ranking the roles in order of most important to least. (useful)&lt;/li&gt;
+  &lt;li&gt;Essay section (not useful)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;They also provide system matching:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Auto matching: makes matches based on algorithm without any review.&lt;/li&gt;
+  &lt;li&gt;three-steps-matching (also combines human touch, not 100% system matching):
+    &lt;ul&gt;
+      &lt;li&gt;Program manager choose 3 tentative mentors for individual mentee.&lt;/li&gt;
+      &lt;li&gt;Comparing mentoring forms(inforamtion) of the mentee with each mentor&lt;/li&gt;
+      &lt;li&gt;The program manager makes the final choice&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;What we could learn from this project:
+As the result of precise matching algorithm,this application has high percentage of successful matching (90% according to its website). From my research, the division of focus areas and ranking of key roles play an important role in matching, thats what we could follow in our app, give a list of skills as tags for user to choose.&lt;/p&gt;
 
 &lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Dating Applications&lt;/span&gt;&lt;br /&gt;
 Dating applications may not be the most professional apps to be used in a workplace, however the concept of these types of application is very similar to what was requested by our client. Our Client even quoted that this application “could be considered a kind of dating app”. Most dating applications have simple and elegent user interfaces that users can act easily with. This could be applied to our application so that employees in Atos workplace can use our application with ease. Concepts such as user profiles, notifications, instant messaging could be included in our application which already exist in dating applications.&lt;/p&gt;</content><summary type="html">Overcoming the Stable Marriage Problem
 After researching online regarding solutions to the Stable Marriage Problem, we found that applying the Gale-Shapley Algorithm would be an effective way to find a stable match between mentors and mentees.
 
-The Gale-Shapley Algorithm involves a number of iterations or “rounds” where mentees are able to choose a fixed number of prefered mentors ordered by rank. Then the system will match mentors and mentees based on how suitable the match is between a mentor and mentee. By using this algortihm, we can ensure that every mentees gets matched with a mentor and no one is unpaired. A more detailed design of thhe matching process is available at the Architecture Research and Design section.
-
-Existing Solutions
-We searched for some existing applications that does matching between individuals as part of the initial stages of research. This helped us gain a basic idea of some features that we may like to include in our final product.
-
-Mentor Match
-Mentor Match is an existing open source website that had a very similar concept to what our client was trying to acheive. Mentor Match is open to everyone and allows individuals with experience in a particular skillset to act as mentors to help mentees improve on that particular skillset.
-Since this website is open to everyone, it makes exchange of knowledge very simple as anyone could take part in it.
-
-However, there are certain features that the website lacks in terms of security as there is no verification as there is no way to assure that users applying to be a mentor has the skillset to become one. Also there were different types of mentor schemes requested by our client which differ with the schemes provided on the Mentor Match website. Despite the differences in structure of this website with the web application we are about to build, Mentor Match could be a useful guideline on the basic foundation of our web application.
-
-Dating Applications
-Dating applications may not be the most professional apps to be used in a workplace, however the concept of these types of application is very similar to what was requested by our client. Our Client even quoted that this application “could be considered a kind of dating app”. Most dating applications have simple and elegent user interfaces that users can act easily with. This could be applied to our application so that employees in Atos workplace can use our application with ease. Concepts such as user profiles, notifications, instant messaging could be included in our application which already exist in dating applications.</summary></entry><entry><title type="html">MosCoW Requirements</title><link href="/2016/group19/requirements/2016/11/04/moscow-requirements.html" rel="alternate" type="text/html" title="MosCoW Requirements" /><published>2016-11-04T23:30:51+00:00</published><updated>2016-11-04T23:30:51+00:00</updated><id>/2016/group19/requirements/2016/11/04/moscow-requirements</id><content type="html" xml:base="/2016/group19/requirements/2016/11/04/moscow-requirements.html">&lt;p&gt;This is a list of all the requirements as agreed and finalised with our client. These requirements are subject to change over the course of the development phase of this project.&lt;/p&gt;
+The Gale-Shapley Algorithm involves a number of iterations or “rounds” where mentees are able to choose a fixed number of prefered mentors ordered by rank. Then the system will match mentors and mentees based on how suitable the match is between a mentor and mentee. By using this algortihm, we can ensure that every mentees gets matched with a mentor and no one is unpaired. A more detailed design of thhe matching process is available at the Architecture Research and Design section.</summary></entry><entry><title type="html">MosCoW Requirements</title><link href="/2016/group19/requirements/2016/11/04/moscow-requirements.html" rel="alternate" type="text/html" title="MosCoW Requirements" /><published>2016-11-04T23:30:51+00:00</published><updated>2016-11-04T23:30:51+00:00</updated><id>/2016/group19/requirements/2016/11/04/moscow-requirements</id><content type="html" xml:base="/2016/group19/requirements/2016/11/04/moscow-requirements.html">&lt;p&gt;This is a list of all the requirements as agreed and finalised with our client. These requirements are subject to change over the course of the development phase of this project.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
 
@@ -436,7 +575,11 @@ Dating applications may not be the most professional apps to be used in a workpl
       Agreed with client + supervisor</summary></entry><entry><title type="html">Project Background and Initial Considerations</title><link href="/2016/group19/background/2016/10/18/background.html" rel="alternate" type="text/html" title="Project Background and Initial Considerations" /><published>2016-10-18T00:30:51+01:00</published><updated>2016-10-18T00:30:51+01:00</updated><id>/2016/group19/background/2016/10/18/background</id><content type="html" xml:base="/2016/group19/background/2016/10/18/background.html">&lt;h3 class=&quot;section-header&quot;&gt;Our Client&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Atos&lt;/strong&gt; is a leader in digital services. Serving a global client base, Atos provides Consulting &amp;amp; Systems Integration services, Managed Services &amp;amp; BPO, Cloud operations, Big Data &amp;amp; Cyber-security solutions, as well as transactional services through Worldline, the European leader in the payments and transactional services industry.&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
+
 &lt;p&gt;Atos are also focused on business technology that powers progress and helps organizations to create their firm of the future. The client we are working with is based at the Nottingham Office.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h3 class=&quot;section-header&quot;&gt;Problem Definition&lt;/h3&gt;
 &lt;ul&gt;
@@ -460,32 +603,7 @@ Dating applications may not be the most professional apps to be used in a workpl
 &lt;p&gt;When meeting our client for the first time, she was favourable of the system being accessible from both her smartphone and laptop/desktop PC. So naturally we decided that a web app would be the best fit for this project. Whether this was to use Angular, Ionic, Meteor or some other framework had not been decided at this point.&lt;/p&gt;
 
 &lt;p&gt;Other things to consider included the possibility of receiving notifications, either in the form of push notifications from the app itself, SMS messages sent to a mobile phone, or emails.&lt;/p&gt;</content><summary type="html">Our Client
-Atos is a leader in digital services. Serving a global client base, Atos provides Consulting &amp;amp; Systems Integration services, Managed Services &amp;amp; BPO, Cloud operations, Big Data &amp;amp; Cyber-security solutions, as well as transactional services through Worldline, the European leader in the payments and transactional services industry.
-
-Atos are also focused on business technology that powers progress and helps organizations to create their firm of the future. The client we are working with is based at the Nottingham Office.
-
-Problem Definition
-
-  Atos is a large firm consisting of multiple employees of different skillset and age group working in various departments.
-  Our client wanted a way that would allow employees in their workplace to help improve each other’s skillset.
-  Our cliet proposed an application that would pair up mentors who are experienced employees with newer employees which acts as their mentees.
-  The client also addressed the stable marriage problem which is the problem of finding stable matching between the sample size of mentors and mentees.
-
-
-Stable Marriage Problem
-The stable marriage problem marriage problem is the problem of finding a stable matching between two equally sized sets of elements given an ordering of preferences for each element. This problem can be modeled by using the employees as an example where there are equal number of employees willing to act as mentors and similarly apply to become a mentee.
-
-Currently the process of matching a mentor and mentee is done manually by human resources in Atos. Our client wanted an application that does this automatically and is also able to handle non-perfect data size such as when the number of mentors and mentees differ.
-
-Project brief
-The brief for our project is to create a system that matches mentors and mentees on behalf of Atos. The system will allow employees to sign up to various company programmes as either a mentor or a mentee, and then once applications are closed the system will use the users’ profiles (as well as any constraints the program has) to find the most suitable mentor-mentee matchings.
-
-The brief was deliberately left as open-ended as possible, to allow us to focus on completing the problem rather than working with an unfamiliar technology stack.
-
-User Interface Considerations
-When meeting our client for the first time, she was favourable of the system being accessible from both her smartphone and laptop/desktop PC. So naturally we decided that a web app would be the best fit for this project. Whether this was to use Angular, Ionic, Meteor or some other framework had not been decided at this point.
-
-Other things to consider included the possibility of receiving notifications, either in the form of push notifications from the app itself, SMS messages sent to a mobile phone, or emails.</summary></entry><entry><title type="html">CTO Meeting 1 Notes</title><link href="/2016/group19/meetings/2016/10/10/cto-meeting.html" rel="alternate" type="text/html" title="CTO Meeting 1 Notes" /><published>2016-10-10T14:00:00+01:00</published><updated>2016-10-10T14:00:00+01:00</updated><id>/2016/group19/meetings/2016/10/10/cto-meeting</id><content type="html" xml:base="/2016/group19/meetings/2016/10/10/cto-meeting.html">&lt;p&gt;This meeting involved us talking to Mike Smith, CTO of Atos, about the technical constraints of the project.&lt;/p&gt;
+Atos is a leader in digital services. Serving a global client base, Atos provides Consulting &amp;amp; Systems Integration services, Managed Services &amp;amp; BPO, Cloud operations, Big Data &amp;amp; Cyber-security solutions, as well as transactional services through Worldline, the European leader in the payments and transactional services industry.</summary></entry><entry><title type="html">CTO Meeting 1 Notes</title><link href="/2016/group19/meetings/2016/10/10/cto-meeting.html" rel="alternate" type="text/html" title="CTO Meeting 1 Notes" /><published>2016-10-10T14:00:00+01:00</published><updated>2016-10-10T14:00:00+01:00</updated><id>/2016/group19/meetings/2016/10/10/cto-meeting</id><content type="html" xml:base="/2016/group19/meetings/2016/10/10/cto-meeting.html">&lt;p&gt;This meeting involved us talking to Mike Smith, CTO of Atos, about the technical constraints of the project.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Use what we’re most familiar with&lt;/li&gt;
@@ -600,136 +718,4 @@ User story
     
       we apparently have IP on our work..?
       Atos has permission to use our work if they like it though.
-      They’re happy for us to make the repo public.</summary></entry><entry><title type="html">Client Meeting 1 Notes</title><link href="/2016/group19/meetings/2016/10/10/client-meeting.html" rel="alternate" type="text/html" title="Client Meeting 1 Notes" /><published>2016-10-10T14:00:00+01:00</published><updated>2016-10-10T14:00:00+01:00</updated><id>/2016/group19/meetings/2016/10/10/client-meeting</id><content type="html" xml:base="/2016/group19/meetings/2016/10/10/client-meeting.html">&lt;p&gt;different groups with different requirements&lt;/p&gt;
-
-&lt;p&gt;3 groups with option to add more - don’t hardcode this&lt;/p&gt;
-
-&lt;p&gt;~60 people in talent program, could be higher for others&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;stable marriage problem&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;kinda like a dating site problem&lt;/p&gt;
-
-&lt;p&gt;same people may/may not be available, max. no of mentees per mentor, status of pairing..?&lt;/p&gt;
-
-&lt;p&gt;example: one person has three mentees out their maximum of three. one may be actively meeting, one may not have started meeting, one may have just left scheme&lt;/p&gt;
-
-&lt;p&gt;open window for two weeks to apply, and then the system matches mentors to mentees.. what about surplus mentees? could happen multiple times in a year
-user could be both mentor and mentees, depending on mentorship programme constraints&lt;/p&gt;
-
-&lt;p&gt;admin function for bulk CRUD operations&lt;/p&gt;
-
-&lt;p&gt;web app is probably best. app is for internal use only. system picks matches, users do not.&lt;/p&gt;
-
-&lt;p&gt;examples of preferences etc will be emailed over&lt;/p&gt;
-
-&lt;h2 id=&quot;features&quot;&gt;features?&lt;/h2&gt;
-&lt;p&gt;must be easy to use, easy to enter matching preferences&lt;/p&gt;
-
-&lt;p&gt;would like to do it on laptop or phone&lt;/p&gt;
-
-&lt;p&gt;notifications would be “brilliant”&lt;/p&gt;
-
-&lt;p&gt;something that could be looked at&lt;/p&gt;
-
-&lt;p&gt;status, record of meetings… nice to have.&lt;/p&gt;
-
-&lt;p&gt;prompts to meet if there hasn’t been activity.&lt;/p&gt;
-
-&lt;p&gt;user profile idea “good”, needs to be fairly simple so that the user doesn’t get invested in working on the profile rather than other things. clearly low priority. focus on the users’ skills.&lt;/p&gt;
-
-&lt;p&gt;internal DB? SAP or there’s a “corporate directory”
-could use to populate profile, but best to check as these things tend to be locked down&lt;/p&gt;
-
-&lt;h2 id=&quot;requirements&quot;&gt;Requirements&lt;/h2&gt;
-
-&lt;p&gt;MUST HAVE:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;matching system&lt;/li&gt;
-  &lt;li&gt;preferences for matching&lt;/li&gt;
-  &lt;li&gt;separate programs with their own requirements&lt;/li&gt;
-  &lt;li&gt;status of each persons’ matches
-SHOULD HAVE:&lt;/li&gt;
-  &lt;li&gt;profile system&lt;/li&gt;
-  &lt;li&gt;notifications&lt;/li&gt;
-  &lt;li&gt;admin - bulk create/read/update/write (CRUD) operations
-COULD HAVE:&lt;/li&gt;
-  &lt;li&gt;recording meetings of mentorship&lt;/li&gt;
-  &lt;li&gt;prompts to meet
-WOULD HAVE&lt;/li&gt;
-  &lt;li&gt;corporate directory lookup&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;mentor can’t be line manager -&amp;gt; not the same team is easiest way?&lt;/p&gt;
-
-&lt;h2 id=&quot;next-steps&quot;&gt;Next steps&lt;/h2&gt;
-&lt;p&gt;finalise requirements (our side) by 14th October. Jane will then confirm this after weekend.
-Create user stories&lt;/p&gt;
-
-&lt;p&gt;Are we using agile…?&lt;/p&gt;</content><summary type="html">different groups with different requirements
-
-3 groups with option to add more - don’t hardcode this
-
-~60 people in talent program, could be higher for others
-
-stable marriage problem
-
-kinda like a dating site problem
-
-same people may/may not be available, max. no of mentees per mentor, status of pairing..?
-
-example: one person has three mentees out their maximum of three. one may be actively meeting, one may not have started meeting, one may have just left scheme
-
-open window for two weeks to apply, and then the system matches mentors to mentees.. what about surplus mentees? could happen multiple times in a year
-user could be both mentor and mentees, depending on mentorship programme constraints
-
-admin function for bulk CRUD operations
-
-web app is probably best. app is for internal use only. system picks matches, users do not.
-
-examples of preferences etc will be emailed over
-
-features?
-must be easy to use, easy to enter matching preferences
-
-would like to do it on laptop or phone
-
-notifications would be “brilliant”
-
-something that could be looked at
-
-status, record of meetings… nice to have.
-
-prompts to meet if there hasn’t been activity.
-
-user profile idea “good”, needs to be fairly simple so that the user doesn’t get invested in working on the profile rather than other things. clearly low priority. focus on the users’ skills.
-
-internal DB? SAP or there’s a “corporate directory”
-could use to populate profile, but best to check as these things tend to be locked down
-
-Requirements
-
-MUST HAVE:
-
-  matching system
-  preferences for matching
-  separate programs with their own requirements
-  status of each persons’ matches
-SHOULD HAVE:
-  profile system
-  notifications
-  admin - bulk create/read/update/write (CRUD) operations
-COULD HAVE:
-  recording meetings of mentorship
-  prompts to meet
-WOULD HAVE
-  corporate directory lookup
-
-
-mentor can’t be line manager -&amp;gt; not the same team is easiest way?
-
-Next steps
-finalise requirements (our side) by 14th October. Jane will then confirm this after weekend.
-Create user stories
-
-Are we using agile…?</summary></entry></feed>
+      They’re happy for us to make the repo public.</summary></entry></feed>
