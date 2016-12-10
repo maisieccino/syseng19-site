@@ -1,5 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/2016/group19/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/2016/group19/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/2016/group19/" rel="alternate" type="text/html" /><updated>2016-12-09T22:42:30+00:00</updated><id>http://localhost:4000/2016/group19//</id><title type="html">Mentor Matching - Team 19</title><subtitle>Matthew Bell, Christopher Lau and Harry Chen are working on creating a system to match mentors and mentees based on their preferences, on behalf of Atos UK.
-</subtitle><entry><title type="html">Architecture Research and Algorithm Design</title><link href="http://localhost:4000/2016/group19/development/2016/12/02/architecture-designs.html" rel="alternate" type="text/html" title="Architecture Research and Algorithm Design " /><published>2016-12-02T23:30:51+00:00</published><updated>2016-12-02T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/development/2016/12/02/architecture-designs</id><content type="html" xml:base="http://localhost:4000/2016/group19/development/2016/12/02/architecture-designs.html">&lt;p&gt;This page details the research we have done through the course of designing the architecture for our system. It also includes details of the design of our matching algorithm.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/2016/group19/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/2016/group19/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/2016/group19/" rel="alternate" type="text/html" /><updated>2016-12-10T02:35:23+00:00</updated><id>http://localhost:4000/2016/group19//</id><title type="html">Mentor Matching - Team 19</title><subtitle>Matthew Bell, Christopher Lau and Harry Chen are working on creating a system to match mentors and mentees based on their preferences, on behalf of Atos UK.
+</subtitle><entry><title type="html">User Interface Development</title><link href="http://localhost:4000/2016/group19/development/2016/12/02/user-interface.html" rel="alternate" type="text/html" title="User Interface Development" /><published>2016-12-02T23:30:51+00:00</published><updated>2016-12-02T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/development/2016/12/02/user-interface</id><content type="html" xml:base="http://localhost:4000/2016/group19/development/2016/12/02/user-interface.html">&lt;p&gt;This page highlights the design and development of the user interface and user experience of the front end system. This includes initial sketches, wireframes and also first prototype of our application.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#initial-sketch&quot; style=&quot;margin-top: 7px;&quot; class=&quot;btn btn-primary&quot;&gt;Initial sketches&lt;/a&gt;
+&lt;a href=&quot;#wireframes&quot; style=&quot;margin-top: 7px;&quot; class=&quot;btn btn-primary&quot;&gt;Initial Wireframes&lt;/a&gt;
+&lt;a href=&quot;#hci-principles&quot; style=&quot;margin-top: 7px;&quot; class=&quot;btn btn-primary&quot;&gt;HCI Principles&lt;/a&gt;
+&lt;a href=&quot;#first-prototype&quot; style=&quot;margin-top: 7px;&quot; class=&quot;btn btn-primary&quot;&gt;First prototype&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 class=&quot;section-header&quot; id=&quot;initial-sketch&quot;&gt;Initial sketches&lt;/h3&gt;
+&lt;p&gt;During the beginning stages of developing the user interface, we sketched out some ideas on how the various screens/pages/views will look layout-wise. We decided that the system will have 6 main pages, 1 for user authentication, a clean and user friendly home page, and also 4 other pages for the application process.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/2016/group19/assets/img/first-sketch.jpg&quot; class=&quot;image&quot; alt=&quot;first sketch&quot; height=&quot;55%&quot; width=&quot;60%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#top&quot; class=&quot;btn btn-primary&quot;&gt;^ Back to top&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 class=&quot;section-header&quot; id=&quot;wireframes&quot;&gt;Initial Wireframes&lt;/h3&gt;
+&lt;p&gt;After sketching out how we think the layout of the different views should be, we proceeded to produce the first wireframe; creating cleaner and clearer overviews of the layouts. The wireframes were designed using Ionic.&lt;/p&gt;
+
+&lt;p&gt;There are 5 main layouts for the wireframe. The first is the user authentication pages where users create an account to use the application. The second page is the landing page which is where users can choose to enrol in any of the available mentorship programs. When the user selects a mentorship program, there would be a page that shows the details and information of that specific program. After that the user will have to enter their respective interests so that the system can match them to a mentor or mentee. Users can also manually enter some of their interests if it is not available in the selection. Finally the process of application is the confirmation page, where users choose to register themselves as a mentor or mentee. &lt;strong&gt;(Please click to enlarge images)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-4&quot;&gt;
+		&lt;a href=&quot;#&quot; class=&quot;image-pop-up&quot;&gt;&lt;img src=&quot;/2016/group19/assets/img/signup.png&quot; class=&quot;image&quot; alt=&quot;first sketch&quot; height=&quot;30%&quot; width=&quot;50%&quot; /&gt;&lt;/a&gt;
+		&lt;p&gt;Authentication page&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-md-4&quot;&gt;
+		&lt;a href=&quot;#&quot; class=&quot;image-pop-up&quot;&gt;&lt;img src=&quot;/2016/group19/assets/img/home.png&quot; class=&quot;image&quot; alt=&quot;first sketch&quot; height=&quot;30%&quot; width=&quot;50%&quot; /&gt;&lt;/a&gt;
+		&lt;p&gt;Landing page&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-md-4&quot;&gt;
+		&lt;a href=&quot;#&quot; class=&quot;image-pop-up&quot;&gt;&lt;img src=&quot;/2016/group19/assets/img/overview.png&quot; class=&quot;image&quot; alt=&quot;first sketch&quot; height=&quot;30%&quot; width=&quot;50%&quot; /&gt;&lt;/a&gt;
+		&lt;p&gt;Overview of mentorship program&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-4&quot;&gt;
+		&lt;a href=&quot;#&quot; class=&quot;image-pop-up&quot;&gt;&lt;img src=&quot;/2016/group19/assets/img/interest.png&quot; class=&quot;image&quot; alt=&quot;first sketch&quot; height=&quot;30%&quot; width=&quot;50%&quot; /&gt;&lt;/a&gt;
+		&lt;p&gt;Application page(Entering interests)&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-md-4&quot;&gt;
+		&lt;a href=&quot;#&quot; class=&quot;image-pop-up&quot;&gt;&lt;img src=&quot;/2016/group19/assets/img/confirmation.png&quot; class=&quot;image&quot; alt=&quot;first sketch&quot; height=&quot;30%&quot; width=&quot;50%&quot; /&gt;&lt;/a&gt;
+		&lt;p&gt;Confirmation page&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;#top&quot; class=&quot;btn btn-primary&quot;&gt;^ Back to top&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 class=&quot;section-header&quot; id=&quot;hci-principles&quot;&gt;HCI Principles&lt;/h3&gt;
+&lt;p&gt;While designing the UI, we focused on anticipating the needs of our user and ensuring that the interface has elements that are easy to access, understand and use to facilitate those actions. While choosing elements to use within our interface, we tried to be as consistent and as possible to acheive a UI that supports efficiency, task completion and user satisfaction. The ways that we were able to acheive this were:&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Visibility&lt;/span&gt;&lt;br /&gt;
+In order to acheive visibility, we made sure that elements were lay out in a manner that makes it obvious what they are used for. We tried to keep elements in large sections and also position important information at a center location. We also try to arrange elements in an orderly row and column system. Icons were also used to help express specific functionalities.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Feedback&lt;/span&gt;&lt;br /&gt;
+This is when the users presses a button and the system reacts in a manner that clearly communicates what has just been accomplished. In order to acheive this, we used functionalities such as hovers on buttons and links and pop ups. We also try to incorporate as much transtition when switching from different pages.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Consistency&lt;/span&gt;&lt;br /&gt;
+The main way in which we were able to achieve consistency in our UI, was by making sure that all our structures and elements were consistent. We tried to make sure that every page followed the same general theme. For example, colour themes and font styles and sizes would be maintained throughout the individal pages.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#top&quot; class=&quot;btn btn-primary&quot;&gt;^ Back to top&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 class=&quot;section-header&quot; id=&quot;first-prototype&quot;&gt;First Prototype&lt;/h3&gt;
+&lt;p&gt;We decided to create the first prototype of the user interface. This prototype builds on what we have got from the wireframes, adding links between the different views and responsive elements such as drop-down menus and tick-boxes to demonstrate how those elements work. However, this prototype does not aim to represent the visual design of the UI. A link to the interactive Ionic prototype is available below.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://creator.ionic.io/share/23059853fc12&quot; target=&quot;blank&quot; style=&quot;margin-top: 7px;&quot; class=&quot;btn btn-info btn-lg&quot;&gt;First prototype&lt;/a&gt;&lt;/p&gt;
+
+&lt;!-- Modal for images --&gt;
+&lt;div class=&quot;modal fade&quot; id=&quot;imagemodal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;myModalLabel&quot; aria-hidden=&quot;true&quot;&gt;
+    &lt;div class=&quot;modal-dialog&quot;&gt;
+    	&lt;div class=&quot;modal-content&quot;&gt;              
+      		&lt;div class=&quot;modal-body&quot;&gt;
+      			&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;span class=&quot;sr-only&quot;&gt;Close&lt;/span&gt;&lt;/button&gt;
+        		&lt;img src=&quot;&quot; class=&quot;imagepreview&quot; style=&quot;width: 90%; height: 60%;&quot; /&gt;
+      			&lt;/div&gt;
+    	&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Pop up for images --&gt;
+&lt;script&gt;
+	$(function() {
+		$('.image-pop-up').on('click', function() {
+			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+			$('#imagemodal').modal('show');   
+		});		
+	});
+&lt;/script&gt;</content><summary type="html">This page highlights the design and development of the user interface and user experience of the front end system. This includes initial sketches, wireframes and also first prototype of our application.</summary></entry><entry><title type="html">Architecture Research and Algorithm Design</title><link href="http://localhost:4000/2016/group19/development/2016/12/02/architecture-designs.html" rel="alternate" type="text/html" title="Architecture Research and Algorithm Design " /><published>2016-12-02T23:30:51+00:00</published><updated>2016-12-02T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/development/2016/12/02/architecture-designs</id><content type="html" xml:base="http://localhost:4000/2016/group19/development/2016/12/02/architecture-designs.html">&lt;p&gt;This page details the research we have done through the course of designing the architecture for our system. It also includes details of the design of our matching algorithm.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
 
@@ -631,136 +718,4 @@ User story
     
       we apparently have IP on our work..?
       Atos has permission to use our work if they like it though.
-      They’re happy for us to make the repo public.</summary></entry><entry><title type="html">Client Meeting 1 Notes</title><link href="http://localhost:4000/2016/group19/meetings/2016/10/10/client-meeting.html" rel="alternate" type="text/html" title="Client Meeting 1 Notes" /><published>2016-10-10T14:00:00+01:00</published><updated>2016-10-10T14:00:00+01:00</updated><id>http://localhost:4000/2016/group19/meetings/2016/10/10/client-meeting</id><content type="html" xml:base="http://localhost:4000/2016/group19/meetings/2016/10/10/client-meeting.html">&lt;p&gt;different groups with different requirements&lt;/p&gt;
-
-&lt;p&gt;3 groups with option to add more - don’t hardcode this&lt;/p&gt;
-
-&lt;p&gt;~60 people in talent program, could be higher for others&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;stable marriage problem&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;kinda like a dating site problem&lt;/p&gt;
-
-&lt;p&gt;same people may/may not be available, max. no of mentees per mentor, status of pairing..?&lt;/p&gt;
-
-&lt;p&gt;example: one person has three mentees out their maximum of three. one may be actively meeting, one may not have started meeting, one may have just left scheme&lt;/p&gt;
-
-&lt;p&gt;open window for two weeks to apply, and then the system matches mentors to mentees.. what about surplus mentees? could happen multiple times in a year
-user could be both mentor and mentees, depending on mentorship programme constraints&lt;/p&gt;
-
-&lt;p&gt;admin function for bulk CRUD operations&lt;/p&gt;
-
-&lt;p&gt;web app is probably best. app is for internal use only. system picks matches, users do not.&lt;/p&gt;
-
-&lt;p&gt;examples of preferences etc will be emailed over&lt;/p&gt;
-
-&lt;h2 id=&quot;features&quot;&gt;features?&lt;/h2&gt;
-&lt;p&gt;must be easy to use, easy to enter matching preferences&lt;/p&gt;
-
-&lt;p&gt;would like to do it on laptop or phone&lt;/p&gt;
-
-&lt;p&gt;notifications would be “brilliant”&lt;/p&gt;
-
-&lt;p&gt;something that could be looked at&lt;/p&gt;
-
-&lt;p&gt;status, record of meetings… nice to have.&lt;/p&gt;
-
-&lt;p&gt;prompts to meet if there hasn’t been activity.&lt;/p&gt;
-
-&lt;p&gt;user profile idea “good”, needs to be fairly simple so that the user doesn’t get invested in working on the profile rather than other things. clearly low priority. focus on the users’ skills.&lt;/p&gt;
-
-&lt;p&gt;internal DB? SAP or there’s a “corporate directory”
-could use to populate profile, but best to check as these things tend to be locked down&lt;/p&gt;
-
-&lt;h2 id=&quot;requirements&quot;&gt;Requirements&lt;/h2&gt;
-
-&lt;p&gt;MUST HAVE:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;matching system&lt;/li&gt;
-  &lt;li&gt;preferences for matching&lt;/li&gt;
-  &lt;li&gt;separate programs with their own requirements&lt;/li&gt;
-  &lt;li&gt;status of each persons’ matches
-SHOULD HAVE:&lt;/li&gt;
-  &lt;li&gt;profile system&lt;/li&gt;
-  &lt;li&gt;notifications&lt;/li&gt;
-  &lt;li&gt;admin - bulk create/read/update/write (CRUD) operations
-COULD HAVE:&lt;/li&gt;
-  &lt;li&gt;recording meetings of mentorship&lt;/li&gt;
-  &lt;li&gt;prompts to meet
-WOULD HAVE&lt;/li&gt;
-  &lt;li&gt;corporate directory lookup&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;mentor can’t be line manager -&amp;gt; not the same team is easiest way?&lt;/p&gt;
-
-&lt;h2 id=&quot;next-steps&quot;&gt;Next steps&lt;/h2&gt;
-&lt;p&gt;finalise requirements (our side) by 14th October. Jane will then confirm this after weekend.
-Create user stories&lt;/p&gt;
-
-&lt;p&gt;Are we using agile…?&lt;/p&gt;</content><summary type="html">different groups with different requirements
-
-3 groups with option to add more - don’t hardcode this
-
-~60 people in talent program, could be higher for others
-
-stable marriage problem
-
-kinda like a dating site problem
-
-same people may/may not be available, max. no of mentees per mentor, status of pairing..?
-
-example: one person has three mentees out their maximum of three. one may be actively meeting, one may not have started meeting, one may have just left scheme
-
-open window for two weeks to apply, and then the system matches mentors to mentees.. what about surplus mentees? could happen multiple times in a year
-user could be both mentor and mentees, depending on mentorship programme constraints
-
-admin function for bulk CRUD operations
-
-web app is probably best. app is for internal use only. system picks matches, users do not.
-
-examples of preferences etc will be emailed over
-
-features?
-must be easy to use, easy to enter matching preferences
-
-would like to do it on laptop or phone
-
-notifications would be “brilliant”
-
-something that could be looked at
-
-status, record of meetings… nice to have.
-
-prompts to meet if there hasn’t been activity.
-
-user profile idea “good”, needs to be fairly simple so that the user doesn’t get invested in working on the profile rather than other things. clearly low priority. focus on the users’ skills.
-
-internal DB? SAP or there’s a “corporate directory”
-could use to populate profile, but best to check as these things tend to be locked down
-
-Requirements
-
-MUST HAVE:
-
-  matching system
-  preferences for matching
-  separate programs with their own requirements
-  status of each persons’ matches
-SHOULD HAVE:
-  profile system
-  notifications
-  admin - bulk create/read/update/write (CRUD) operations
-COULD HAVE:
-  recording meetings of mentorship
-  prompts to meet
-WOULD HAVE
-  corporate directory lookup
-
-
-mentor can’t be line manager -&amp;gt; not the same team is easiest way?
-
-Next steps
-finalise requirements (our side) by 14th October. Jane will then confirm this after weekend.
-Create user stories
-
-Are we using agile…?</summary></entry></feed>
+      They’re happy for us to make the repo public.</summary></entry></feed>
