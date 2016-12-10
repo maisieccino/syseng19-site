@@ -11,7 +11,6 @@ __MORE__
 
 Atos are also focused on business technology that powers progress and helps organizations to create their firm of the future. The client we are working with is based at the Nottingham Office.
 
-__MORE__
 
 <h3 class="section-header">Problem Definition</h3>
 *	 Atos is a large firm consisting of multiple employees of different skillset and age group working in various departments.
