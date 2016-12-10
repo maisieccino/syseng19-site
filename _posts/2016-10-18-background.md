@@ -7,6 +7,8 @@ categories: background
 <h3 class="section-header">Our Client</h3>
 **Atos** is a leader in digital services. Serving a global client base, Atos provides Consulting & Systems Integration services, Managed Services & BPO, Cloud operations, Big Data & Cyber-security solutions, as well as transactional services through Worldline, the European leader in the payments and transactional services industry.
 
+__MORE__
+
 Atos are also focused on business technology that powers progress and helps organizations to create their firm of the future. The client we are working with is based at the Nottingham Office.
 
 __MORE__
