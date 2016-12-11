@@ -1,5 +1,390 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/2016/group19/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/2016/group19/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/2016/group19/" rel="alternate" type="text/html" /><updated>2016-12-10T19:24:37+00:00</updated><id>http://localhost:4000/2016/group19//</id><title type="html">Mentor Matching - Team 19</title><subtitle>Matthew Bell, Christopher Lau and Harry Chen are working on creating a system to match mentors and mentees based on their preferences, on behalf of Atos UK.
-</subtitle><entry><title type="html">Testing</title><link href="http://localhost:4000/2016/group19/development/2016/12/07/testing.html" rel="alternate" type="text/html" title="Testing" /><published>2016-12-07T23:30:51+00:00</published><updated>2016-12-07T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/development/2016/12/07/testing</id><content type="html" xml:base="http://localhost:4000/2016/group19/development/2016/12/07/testing.html">&lt;p&gt;This page details the testing stratedies we plan to execute for the project. This is to ensure that our system meets the specified requirements and quality standards.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/2016/group19/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/2016/group19/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/2016/group19/" rel="alternate" type="text/html" /><updated>2016-12-11T03:00:34+00:00</updated><id>http://localhost:4000/2016/group19//</id><title type="html">Mentor Matching - Team 19</title><subtitle>Matthew Bell, Christopher Lau and Harry Chen are working on creating a system to match mentors and mentees based on their preferences, on behalf of Atos UK.
+</subtitle><entry><title type="html">Use-cases</title><link href="http://localhost:4000/2016/group19/requirements/2016/12/09/usecases.html" rel="alternate" type="text/html" title="Use-cases" /><published>2016-12-09T23:30:51+00:00</published><updated>2016-12-09T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/requirements/2016/12/09/usecases</id><content type="html" xml:base="http://localhost:4000/2016/group19/requirements/2016/12/09/usecases.html">&lt;p&gt;This is a list of use cases.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;!--  List OverView --&gt;
+&lt;div class=&quot;table-responsive decisionTable&quot;&gt; 
+	&lt;table class=&quot;table table-bordered&quot;&gt;
+		&lt;thead&gt;
+	      	&lt;tr&gt;
+	        	&lt;th&gt;Use case ID&lt;/th&gt;
+	        	&lt;th&gt;Use Case Name&lt;/th&gt;
+	      	&lt;/tr&gt;
+    	&lt;/thead&gt;
+    	&lt;tbody&gt;
+    		&lt;col width=&quot;20%&quot; /&gt;
+  			&lt;col width=&quot;80%&quot; /&gt;    		
+		    &lt;tr&gt;
+		       	&lt;td&gt;UC1&lt;/td&gt;
+		        &lt;td&gt;Create Account&lt;/td&gt;		        
+		    &lt;/tr&gt;
+		    &lt;tr&gt;
+		       	&lt;td&gt;UC2&lt;/td&gt;
+		        &lt;td&gt;Explore information of program &lt;/td&gt;		        
+		    &lt;/tr&gt;
+		    &lt;tr&gt;
+		       	&lt;td&gt;UC3&lt;/td&gt;
+		        &lt;td&gt;Register Mentor group&lt;/td&gt;		        
+		    &lt;/tr&gt;
+		    &lt;tr&gt;
+		       	&lt;td&gt;UC4&lt;/td&gt;
+		        &lt;td&gt;Setting matching preference&lt;/td&gt;		        
+		    &lt;/tr&gt;
+		    &lt;tr&gt;
+		       	&lt;td&gt;UC5&lt;/td&gt;
+		        &lt;td&gt;Define user's own interests&lt;/td&gt;		        
+		    &lt;/tr&gt;
+		    &lt;tr&gt;
+		       	&lt;td&gt;UC6&lt;/td&gt;
+		        &lt;td&gt;Get messages from mentor or mentee&lt;/td&gt;		        
+		    &lt;/tr&gt;
+		    &lt;tr&gt;
+		       	&lt;td&gt;UC7&lt;/td&gt;
+		        &lt;td&gt;Check user's profile&lt;/td&gt;		        
+		    &lt;/tr&gt;
+		    &lt;tr&gt;
+		       	&lt;td&gt;UC8&lt;/td&gt;		        
+		        &lt;td&gt;Get information about user's mentor or mentee&lt;/td&gt;		        	        
+		    &lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;br /&gt;
+	&lt;table class=&quot;table table-bordered&quot;&gt;  &lt;!-- Usecase1 --&gt;
+		&lt;tbody&gt;
+			&lt;col width=&quot;20%&quot; /&gt;
+  			&lt;col width=&quot;80%&quot; /&gt;
+			&lt;tr&gt;
+				&lt;td&gt;USE CASE&lt;/td&gt;
+				&lt;td&gt;Create Account&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;ID&lt;/td&gt;
+				&lt;td&gt;UC1&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
+				&lt;td&gt;Allow uses to create their own account and set up basic information &lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
+				&lt;td&gt;User&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRECONDITIONS&lt;/td&gt;
+				&lt;td&gt;None&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;MAIN FLOW&lt;/td&gt;
+				&lt;td&gt;
+					1.Click 'or create an account' button.&lt;br /&gt;
+					2.Fill the required information in sign up page.&lt;br /&gt;
+					3.Click 'Sign up' button
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
+				&lt;td&gt;User had own account&lt;/td&gt;
+			&lt;/tr&gt;
+			
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;br /&gt;
+	&lt;table class=&quot;table table-bordered&quot;&gt; &lt;!-- 2 --&gt;
+		&lt;tbody&gt;
+			&lt;col width=&quot;20%&quot; /&gt;
+  			&lt;col width=&quot;80%&quot; /&gt;
+			&lt;tr&gt;
+				&lt;td&gt;USE CASE&lt;/td&gt;
+				&lt;td&gt;Explore Information of program&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;ID&lt;/td&gt;
+				&lt;td&gt;UC2&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
+				&lt;td&gt;Find more specific information about the mentoring program&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
+				&lt;td&gt;User&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRECONDITIONS&lt;/td&gt;
+				&lt;td&gt;User had own account and signed in&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;MAIN FLOW&lt;/td&gt;
+				&lt;td&gt;
+				1.Go to home page&lt;br /&gt;
+				2.Click the program section
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
+				&lt;td&gt;get details of program&lt;/td&gt;
+			&lt;/tr&gt;
+			
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;br /&gt;
+	&lt;table class=&quot;table table-bordered&quot;&gt; &lt;!-- 3 --&gt;
+		&lt;tbody&gt;
+			&lt;col width=&quot;20%&quot; /&gt;
+  			&lt;col width=&quot;80%&quot; /&gt;
+			&lt;tr&gt;
+				&lt;td&gt;USE CASE&lt;/td&gt;
+				&lt;td&gt;Register Mentor Group&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;ID&lt;/td&gt;
+				&lt;td&gt;UC3&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
+				&lt;td&gt;Register interested program&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
+				&lt;td&gt;User&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRECONDITIONS&lt;/td&gt;
+				&lt;td&gt;User loged in their account&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;MAIN FLOW&lt;/td&gt;
+				&lt;td&gt;
+					1.go to home page&lt;br /&gt;
+					2.click section of program&lt;br /&gt;
+					3.click 'register here' button&lt;br /&gt;
+					4.Choose the option signing mentor or mentee &lt;br /&gt;
+					5.click 'submit' button
+
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
+				&lt;td&gt;
+					1.back to home page &lt;br /&gt;
+					2.got information of mentor(if sign as mentee)
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;br /&gt;
+	&lt;table class=&quot;table table-bordered&quot;&gt;
+	  &lt;!--  4 --&gt;
+		&lt;tbody&gt;
+			&lt;col width=&quot;20%&quot; /&gt;
+  			&lt;col width=&quot;80%&quot; /&gt;
+			&lt;tr&gt;
+				&lt;td&gt;USE CASE&lt;/td&gt;
+				&lt;td&gt;Setting matching preference&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;ID&lt;/td&gt;
+				&lt;td&gt;UC4&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
+				&lt;td&gt;Users customize their own preferences for matching&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
+				&lt;td&gt;User&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRECONDITIONS&lt;/td&gt;
+				&lt;td&gt;
+					1.Logged in successfully
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;MAIN FLOW&lt;/td&gt;
+				&lt;td&gt;
+					1.Choose an program in home page&lt;br /&gt;
+					2.Clicked register&lt;br /&gt;
+					3.Clicked 'to find your interests' button&lt;br /&gt;
+					4.Choose preferences&lt;br /&gt;
+					5.Click 'finish' button
+
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
+				&lt;td&gt;Own preferences being set up&lt;/td&gt;
+			&lt;/tr&gt;	
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;br /&gt;
+	&lt;table class=&quot;table table-bordered&quot;&gt;  &lt;!-- 5 --&gt;
+		&lt;tbody&gt;
+			&lt;col width=&quot;20%&quot; /&gt;
+  			&lt;col width=&quot;80%&quot; /&gt;
+			&lt;tr&gt;
+				&lt;td&gt;USE CASE&lt;/td&gt;
+				&lt;td&gt;Define user's own interests&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;ID&lt;/td&gt;
+				&lt;td&gt;UC5&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
+				&lt;td&gt;Users define their own prefernce tags&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
+				&lt;td&gt;User&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRECONDITIONS&lt;/td&gt;
+				&lt;td&gt;Logged in successfully&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;MAIN FLOW&lt;/td&gt;
+				&lt;td&gt;
+					1.Choose an program in home page&lt;br /&gt;
+					2.Clicked register&lt;br /&gt;
+					3.Clicked 'to find your interests' button&lt;br /&gt;
+					4.Type in skill name &lt;br /&gt;
+					5.Click 'Add' button
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
+				&lt;td&gt;Self-defined tag being set up&lt;/td&gt;
+			&lt;/tr&gt;	
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;br /&gt;
+	&lt;table class=&quot;table table-bordered&quot;&gt;  &lt;!-- 6 --&gt;
+		&lt;tbody&gt;
+			&lt;col width=&quot;20%&quot; /&gt;
+  			&lt;col width=&quot;80%&quot; /&gt;
+			&lt;tr&gt;
+				&lt;td&gt;USE CASE&lt;/td&gt;
+				&lt;td&gt;Get messages from mentor or mentee&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;ID&lt;/td&gt;
+				&lt;td&gt;UC6&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
+				&lt;td&gt;Users could get notified from their mentor or mentee&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
+				&lt;td&gt;User&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRECONDITIONS&lt;/td&gt;
+				&lt;td&gt;Logged in successfully&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;MAIN FLOW&lt;/td&gt;
+				&lt;td&gt;
+					1.Go to home page&lt;br /&gt;
+					2.Click the side-bar menu
+					3.Clicked 'Contact' button
+					
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
+				&lt;td&gt;Users could see notification from their mentee or mentor&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;br /&gt;
+	&lt;table class=&quot;table table-bordered&quot;&gt;  &lt;!-- 7 --&gt;
+		&lt;tbody&gt;
+			&lt;col width=&quot;20%&quot; /&gt;
+  			&lt;col width=&quot;80%&quot; /&gt;
+			&lt;tr&gt;
+				&lt;td&gt;USE CASE&lt;/td&gt;
+				&lt;td&gt;Check user's profile&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;ID&lt;/td&gt;
+				&lt;td&gt;UC7&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
+				&lt;td&gt;Users could see information about themselves include current role and current programs registered&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
+				&lt;td&gt;User&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRECONDITIONS&lt;/td&gt;
+				&lt;td&gt;Logged in successfully&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;MAIN FLOW&lt;/td&gt;
+				&lt;td&gt;
+					1.Go to home page&lt;br /&gt;
+					2.Click the side-bar menu
+					3.Clicked 'Profile' button
+					
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
+				&lt;td&gt;Users could see their own profiles&lt;/td&gt;
+			&lt;/tr&gt;
+			
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;br /&gt;
+	&lt;table class=&quot;table table-bordered&quot;&gt;  &lt;!-- 8 --&gt;
+		&lt;tbody&gt;
+			&lt;col width=&quot;20%&quot; /&gt;
+  			&lt;col width=&quot;80%&quot; /&gt;
+			&lt;tr&gt;
+				&lt;td&gt;USE CASE&lt;/td&gt;
+				&lt;td&gt;Get information about user's mentor or mentee&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;ID&lt;/td&gt;
+				&lt;td&gt;UC8&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
+				&lt;td&gt;Users could see information about their mentor or mentee &lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
+				&lt;td&gt;User&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRECONDITIONS&lt;/td&gt;
+				&lt;td&gt;Logged in successfully &lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;MAIN FLOW&lt;/td&gt;
+				&lt;td&gt;
+					1.Go to home page&lt;br /&gt;
+					2.Click the side-bar menu
+					3.Clicked 'My mentor' button or 'My mentee' button
+					
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
+				&lt;td&gt;Users could see their mentor or mentee's information&lt;/td&gt;
+			&lt;/tr&gt;
+			
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;#top&quot; class=&quot;btn btn-primary&quot;&gt;^ Back to top&lt;/a&gt;&lt;/p&gt;</content><summary type="html">This is a list of use cases.</summary></entry><entry><title type="html">Testing</title><link href="http://localhost:4000/2016/group19/development/2016/12/07/testing.html" rel="alternate" type="text/html" title="Testing" /><published>2016-12-07T23:30:51+00:00</published><updated>2016-12-07T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/development/2016/12/07/testing</id><content type="html" xml:base="http://localhost:4000/2016/group19/development/2016/12/07/testing.html">&lt;p&gt;This page details the testing stratedies we plan to execute for the project. This is to ensure that our system meets the specified requirements and quality standards.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
 
@@ -588,33 +973,4 @@ The Gale-Shapley Algorithm involves a number of iterations or “rounds” where
 		    &lt;/tr&gt;
 		&lt;/tbody&gt;
 	&lt;/table&gt;
-&lt;/div&gt;</content><summary type="html">This is a list of all the requirements as agreed and finalised with our client. These requirements are subject to change over the course of the development phase of this project.</summary></entry><entry><title type="html">Project Background and Initial Considerations</title><link href="http://localhost:4000/2016/group19/background/2016/10/18/background.html" rel="alternate" type="text/html" title="Project Background and Initial Considerations" /><published>2016-10-18T00:30:51+01:00</published><updated>2016-10-18T00:30:51+01:00</updated><id>http://localhost:4000/2016/group19/background/2016/10/18/background</id><content type="html" xml:base="http://localhost:4000/2016/group19/background/2016/10/18/background.html">&lt;h3 class=&quot;section-header&quot;&gt;Our Client&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Atos&lt;/strong&gt; is a leader in digital services. Serving a global client base, Atos provides Consulting &amp;amp; Systems Integration services, Managed Services &amp;amp; BPO, Cloud operations, Big Data &amp;amp; Cyber-security solutions, as well as transactional services through Worldline, the European leader in the payments and transactional services industry.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Atos are also focused on business technology that powers progress and helps organizations to create their firm of the future. The client we are working with is based at the Nottingham Office.&lt;/p&gt;
-
-&lt;h3 class=&quot;section-header&quot;&gt;Problem Definition&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Atos is a large firm consisting of multiple employees of different skillset and age group working in various departments.&lt;/li&gt;
-  &lt;li&gt;Our client wanted a way that would allow employees in their workplace to help improve each other’s skillset.&lt;/li&gt;
-  &lt;li&gt;Our cliet proposed an application that would pair up mentors who are experienced employees with newer employees which acts as their mentees.&lt;/li&gt;
-  &lt;li&gt;The client also addressed the stable marriage problem which is the problem of finding stable matching between the sample size of mentors and mentees.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 class=&quot;section-header&quot;&gt;Stable Marriage Problem&lt;/h3&gt;
-&lt;p&gt;The stable marriage problem marriage problem is the problem of finding a stable matching between two equally sized sets of elements given an ordering of preferences for each element. This problem can be modeled by using the employees as an example where there are equal number of employees willing to act as mentors and similarly apply to become a mentee.&lt;/p&gt;
-
-&lt;p&gt;Currently the process of matching a mentor and mentee is done manually by human resources in Atos. Our client wanted an application that does this automatically and is also able to handle non-perfect data size such as when the number of mentors and mentees differ.&lt;/p&gt;
-
-&lt;h3 class=&quot;section-header&quot;&gt;Project brief&lt;/h3&gt;
-&lt;p&gt;The brief for our project is to create a system that matches mentors and mentees on behalf of Atos. The system will allow employees to sign up to various company programmes as either a mentor or a mentee, and then once applications are closed the system will use the users’ profiles (as well as any constraints the program has) to find the most suitable mentor-mentee matchings.&lt;/p&gt;
-
-&lt;p&gt;The brief was deliberately left as open-ended as possible, to allow us to focus on completing the problem rather than working with an unfamiliar technology stack.&lt;/p&gt;
-
-&lt;h3 class=&quot;section-header&quot;&gt;User Interface Considerations&lt;/h3&gt;
-&lt;p&gt;When meeting our client for the first time, she was favourable of the system being accessible from both her smartphone and laptop/desktop PC. So naturally we decided that a web app would be the best fit for this project. Whether this was to use Angular, Ionic, Meteor or some other framework had not been decided at this point.&lt;/p&gt;
-
-&lt;p&gt;Other things to consider included the possibility of receiving notifications, either in the form of push notifications from the app itself, SMS messages sent to a mobile phone, or emails.&lt;/p&gt;</content><summary type="html">Our Client
-Atos is a leader in digital services. Serving a global client base, Atos provides Consulting &amp;amp; Systems Integration services, Managed Services &amp;amp; BPO, Cloud operations, Big Data &amp;amp; Cyber-security solutions, as well as transactional services through Worldline, the European leader in the payments and transactional services industry.</summary></entry></feed>
+&lt;/div&gt;</content><summary type="html">This is a list of all the requirements as agreed and finalised with our client. These requirements are subject to change over the course of the development phase of this project.</summary></entry></feed>

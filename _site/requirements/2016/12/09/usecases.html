@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="/2016/group19/css/style.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round|Francois+One" rel="stylesheet">
+
+    <title>Use-cases - Mentor Matching - Team 19</title>
+</head>
+
+    <body>
+
+        <div class="container">
+            <nav class="navbar-fixed-top container">
+	<div class="navbar navbar-dark bg-inverse">
+		<div class="container">
+			<button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
+			<div class="collapse navbar-toggleable-md" id="navbarResponsive">
+			    <a class="navbar-brand" href="/2016/group19">Mentor Match</a>
+			    <ul class="nav navbar-nav">
+			    	
+			        
+			        <li class="nav-item pull-right ">
+		                <a class="nav-link" href="/2016/group19/about/">About Us
+		                </a>
+			        </li>
+			        
+			        <li class="nav-item pull-right ">
+		                <a class="nav-link" href="/2016/group19/background/">Background
+		                </a>
+			        </li>
+			        
+			        <li class="nav-item pull-right ">
+		                <a class="nav-link" href="/2016/group19/requirements/">Requirements
+		                </a>
+			        </li>
+			        
+			        <li class="nav-item pull-right ">
+		                <a class="nav-link" href="/2016/group19/development/">Development
+		                </a>
+			        </li>
+			        
+			        <li class="nav-item pull-right ">
+		                <a class="nav-link" href="/2016/group19/management/">Management
+		                </a>
+			        </li>
+			        
+			    </ul>
+		    </div>
+	    </div>
+	</div>
+</nav>
+
+
+            <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <header class="post-header">
+        <div class="jumbotron" id="top">
+            <h1 class="display-4">Use-cases</h1>
+            <p class="lead"><time datetime="2016-12-09T23:30:51+00:00" itemprop="datePublished">Dec 9, 2016</time></p>
+            <p class="lead"></p>
+            <p class="lead">
+                
+            </p>
+        </div>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+        <div class="row">
+            <div class="container">
+                <div class="col-md-12">
+                    <p>This is a list of use cases.</p>
+
+<p><strong>MORE</strong></p>
+
+<!--  List OverView -->
+<div class="table-responsive decisionTable"> 
+	<table class="table table-bordered">
+		<thead>
+	      	<tr>
+	        	<th>Use case ID</th>
+	        	<th>Use Case Name</th>
+	      	</tr>
+    	</thead>
+    	<tbody>
+    		<col width="20%" />
+  			<col width="80%" />    		
+		    <tr>
+		       	<td>UC1</td>
+		        <td>Create Account</td>		        
+		    </tr>
+		    <tr>
+		       	<td>UC2</td>
+		        <td>Explore information of program </td>		        
+		    </tr>
+		    <tr>
+		       	<td>UC3</td>
+		        <td>Register Mentor group</td>		        
+		    </tr>
+		    <tr>
+		       	<td>UC4</td>
+		        <td>Setting matching preference</td>		        
+		    </tr>
+		    <tr>
+		       	<td>UC5</td>
+		        <td>Define user's own interests</td>		        
+		    </tr>
+		    <tr>
+		       	<td>UC6</td>
+		        <td>Get messages from mentor or mentee</td>		        
+		    </tr>
+		    <tr>
+		       	<td>UC7</td>
+		        <td>Check user's profile</td>		        
+		    </tr>
+		    <tr>
+		       	<td>UC8</td>		        
+		        <td>Get information about user's mentor or mentee</td>		        	        
+		    </tr>
+		</tbody>
+	</table>
+<br />
+	<table class="table table-bordered">  <!-- Usecase1 -->
+		<tbody>
+			<col width="20%" />
+  			<col width="80%" />
+			<tr>
+				<td>USE CASE</td>
+				<td>Create Account</td>
+			</tr>
+			<tr>
+				<td>ID</td>
+				<td>UC1</td>
+			</tr>
+			<tr>
+				<td>BREIF DESCRIPTION</td>
+				<td>Allow uses to create their own account and set up basic information </td>
+			</tr>
+			<tr>
+				<td>PRIMARY ACTORS</td>
+				<td>User</td>
+			</tr>
+			<tr>
+				<td>PRECONDITIONS</td>
+				<td>None</td>
+			</tr>
+			<tr>
+				<td>MAIN FLOW</td>
+				<td>
+					1.Click 'or create an account' button.<br />
+					2.Fill the required information in sign up page.<br />
+					3.Click 'Sign up' button
+				</td>
+			</tr>
+			<tr>
+				<td>POSTCONDITIONS</td>
+				<td>User had own account</td>
+			</tr>
+			
+		</tbody>
+	</table>
+<br />
+	<table class="table table-bordered"> <!-- 2 -->
+		<tbody>
+			<col width="20%" />
+  			<col width="80%" />
+			<tr>
+				<td>USE CASE</td>
+				<td>Explore Information of program</td>
+			</tr>
+			<tr>
+				<td>ID</td>
+				<td>UC2</td>
+			</tr>
+			<tr>
+				<td>BREIF DESCRIPTION</td>
+				<td>Find more specific information about the mentoring program</td>
+			</tr>
+			<tr>
+				<td>PRIMARY ACTORS</td>
+				<td>User</td>
+			</tr>
+			<tr>
+				<td>PRECONDITIONS</td>
+				<td>User had own account and signed in</td>
+			</tr>
+			<tr>
+				<td>MAIN FLOW</td>
+				<td>
+				1.Go to home page<br />
+				2.Click the program section
+				</td>
+			</tr>
+			<tr>
+				<td>POSTCONDITIONS</td>
+				<td>get details of program</td>
+			</tr>
+			
+		</tbody>
+	</table>
+<br />
+	<table class="table table-bordered"> <!-- 3 -->
+		<tbody>
+			<col width="20%" />
+  			<col width="80%" />
+			<tr>
+				<td>USE CASE</td>
+				<td>Register Mentor Group</td>
+			</tr>
+			<tr>
+				<td>ID</td>
+				<td>UC3</td>
+			</tr>
+			<tr>
+				<td>BREIF DESCRIPTION</td>
+				<td>Register interested program</td>
+			</tr>
+			<tr>
+				<td>PRIMARY ACTORS</td>
+				<td>User</td>
+			</tr>
+			<tr>
+				<td>PRECONDITIONS</td>
+				<td>User loged in their account</td>
+			</tr>
+			<tr>
+				<td>MAIN FLOW</td>
+				<td>
+					1.go to home page<br />
+					2.click section of program<br />
+					3.click 'register here' button<br />
+					4.Choose the option signing mentor or mentee <br />
+					5.click 'submit' button
+
+				</td>
+			</tr>
+			<tr>
+				<td>POSTCONDITIONS</td>
+				<td>
+					1.back to home page <br />
+					2.got information of mentor(if sign as mentee)
+				</td>
+			</tr>
+			
+		</tbody>
+	</table>
+<br />
+	<table class="table table-bordered">
+	  <!--  4 -->
+		<tbody>
+			<col width="20%" />
+  			<col width="80%" />
+			<tr>
+				<td>USE CASE</td>
+				<td>Setting matching preference</td>
+			</tr>
+			<tr>
+				<td>ID</td>
+				<td>UC4</td>
+			</tr>
+			<tr>
+				<td>BREIF DESCRIPTION</td>
+				<td>Users customize their own preferences for matching</td>
+			</tr>
+			<tr>
+				<td>PRIMARY ACTORS</td>
+				<td>User</td>
+			</tr>
+			<tr>
+				<td>PRECONDITIONS</td>
+				<td>
+					1.Logged in successfully
+				</td>
+			</tr>
+			<tr>
+				<td>MAIN FLOW</td>
+				<td>
+					1.Choose an program in home page<br />
+					2.Clicked register<br />
+					3.Clicked 'to find your interests' button<br />
+					4.Choose preferences<br />
+					5.Click 'finish' button
+
+				</td>
+			</tr>
+			<tr>
+				<td>POSTCONDITIONS</td>
+				<td>Own preferences being set up</td>
+			</tr>	
+		</tbody>
+	</table>
+<br />
+	<table class="table table-bordered">  <!-- 5 -->
+		<tbody>
+			<col width="20%" />
+  			<col width="80%" />
+			<tr>
+				<td>USE CASE</td>
+				<td>Define user's own interests</td>
+			</tr>
+			<tr>
+				<td>ID</td>
+				<td>UC5</td>
+			</tr>
+			<tr>
+				<td>BREIF DESCRIPTION</td>
+				<td>Users define their own prefernce tags</td>
+			</tr>
+			<tr>
+				<td>PRIMARY ACTORS</td>
+				<td>User</td>
+			</tr>
+			<tr>
+				<td>PRECONDITIONS</td>
+				<td>Logged in successfully</td>
+			</tr>
+			<tr>
+				<td>MAIN FLOW</td>
+				<td>
+					1.Choose an program in home page<br />
+					2.Clicked register<br />
+					3.Clicked 'to find your interests' button<br />
+					4.Type in skill name <br />
+					5.Click 'Add' button
+				</td>
+			</tr>
+			<tr>
+				<td>POSTCONDITIONS</td>
+				<td>Self-defined tag being set up</td>
+			</tr>	
+		</tbody>
+	</table>
+<br />
+	<table class="table table-bordered">  <!-- 6 -->
+		<tbody>
+			<col width="20%" />
+  			<col width="80%" />
+			<tr>
+				<td>USE CASE</td>
+				<td>Get messages from mentor or mentee</td>
+			</tr>
+			<tr>
+				<td>ID</td>
+				<td>UC6</td>
+			</tr>
+			<tr>
+				<td>BREIF DESCRIPTION</td>
+				<td>Users could get notified from their mentor or mentee</td>
+			</tr>
+			<tr>
+				<td>PRIMARY ACTORS</td>
+				<td>User</td>
+			</tr>
+			<tr>
+				<td>PRECONDITIONS</td>
+				<td>Logged in successfully</td>
+			</tr>
+			<tr>
+				<td>MAIN FLOW</td>
+				<td>
+					1.Go to home page<br />
+					2.Click the side-bar menu
+					3.Clicked 'Contact' button
+					
+				</td>
+			</tr>
+			<tr>
+				<td>POSTCONDITIONS</td>
+				<td>Users could see notification from their mentee or mentor</td>
+			</tr>
+		</tbody>
+	</table>
+<br />
+	<table class="table table-bordered">  <!-- 7 -->
+		<tbody>
+			<col width="20%" />
+  			<col width="80%" />
+			<tr>
+				<td>USE CASE</td>
+				<td>Check user's profile</td>
+			</tr>
+			<tr>
+				<td>ID</td>
+				<td>UC7</td>
+			</tr>
+			<tr>
+				<td>BREIF DESCRIPTION</td>
+				<td>Users could see information about themselves include current role and current programs registered</td>
+			</tr>
+			<tr>
+				<td>PRIMARY ACTORS</td>
+				<td>User</td>
+			</tr>
+			<tr>
+				<td>PRECONDITIONS</td>
+				<td>Logged in successfully</td>
+			</tr>
+			<tr>
+				<td>MAIN FLOW</td>
+				<td>
+					1.Go to home page<br />
+					2.Click the side-bar menu
+					3.Clicked 'Profile' button
+					
+				</td>
+			</tr>
+			<tr>
+				<td>POSTCONDITIONS</td>
+				<td>Users could see their own profiles</td>
+			</tr>
+			
+		</tbody>
+	</table>
+<br />
+	<table class="table table-bordered">  <!-- 8 -->
+		<tbody>
+			<col width="20%" />
+  			<col width="80%" />
+			<tr>
+				<td>USE CASE</td>
+				<td>Get information about user's mentor or mentee</td>
+			</tr>
+			<tr>
+				<td>ID</td>
+				<td>UC8</td>
+			</tr>
+			<tr>
+				<td>BREIF DESCRIPTION</td>
+				<td>Users could see information about their mentor or mentee </td>
+			</tr>
+			<tr>
+				<td>PRIMARY ACTORS</td>
+				<td>User</td>
+			</tr>
+			<tr>
+				<td>PRECONDITIONS</td>
+				<td>Logged in successfully </td>
+			</tr>
+			<tr>
+				<td>MAIN FLOW</td>
+				<td>
+					1.Go to home page<br />
+					2.Click the side-bar menu
+					3.Clicked 'My mentor' button or 'My mentee' button
+					
+				</td>
+			</tr>
+			<tr>
+				<td>POSTCONDITIONS</td>
+				<td>Users could see their mentor or mentee's information</td>
+			</tr>
+			
+		</tbody>
+	</table>
+</div>
+
+<p><a href="#top" class="btn btn-primary">^ Back to top</a></p>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</article>
+
+
+            <hr />
+<footer>
+    <div class="container">
+        <p class="lead">ATOS Mentor Matching App</p>
+        <p class="text-muted">Source: 
+            <a href="//github.com/mbellgb/syseng19-site">Site</a> &bull; 
+            <a href="//github.com/mbellgb/syseng19-docs">Documentation</a> &bull; 
+            <a href="//github.com/mbellgb/syseng19-code">Project Code</a>
+        </p>
+        <p class="text-muted">Matthew Bell, Christopher Lau, Harry Chen</p>
+    </div>
+</footer>
+
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+    </body>
+</html>
