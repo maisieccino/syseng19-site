@@ -119,11 +119,11 @@
 		    </tr>
 		    <tr>
 		       	<td>UC6</td>
-		        <td>Get messages from mentor or mentee</td>		        
+		        <td>Messaging system for mentor and mentee</td>		        
 		    </tr>
 		    <tr>
 		       	<td>UC7</td>
-		        <td>Check user's profile</td>		        
+		        <td>Check individual profile</td> 
 		    </tr>
 		    <tr>
 		       	<td>UC8</td>		        
@@ -166,7 +166,7 @@
 			</tr>
 			<tr>
 				<td>POSTCONDITIONS</td>
-				<td>User had own account</td>
+				<td>User account is set up and is redirected to home page</td>
 			</tr>
 			
 		</tbody>
@@ -178,7 +178,7 @@
   			<col width="80%" />
 			<tr>
 				<td>USE CASE</td>
-				<td>Explore Information of program</td>
+				<td>Explore information of specific mentorship program</td>
 			</tr>
 			<tr>
 				<td>ID</td>
@@ -186,7 +186,7 @@
 			</tr>
 			<tr>
 				<td>BREIF DESCRIPTION</td>
-				<td>Find more specific information about the mentoring program</td>
+				<td>Users chooses from the listed mentorship programs to find more information about the mentoring program</td>
 			</tr>
 			<tr>
 				<td>PRIMARY ACTORS</td>
@@ -194,18 +194,18 @@
 			</tr>
 			<tr>
 				<td>PRECONDITIONS</td>
-				<td>User had own account and signed in</td>
+				<td>User must be registered and is already signed in</td>
 			</tr>
 			<tr>
 				<td>MAIN FLOW</td>
 				<td>
 				1.Go to home page<br />
-				2.Click the program section
+				2.Click on the desired mentorship program which are listed
 				</td>
 			</tr>
 			<tr>
 				<td>POSTCONDITIONS</td>
-				<td>get details of program</td>
+				<td>User is redirected to a decription page of the specific mentorship program before proceeding to next step.</td>
 			</tr>
 			
 		</tbody>
@@ -217,7 +217,7 @@
   			<col width="80%" />
 			<tr>
 				<td>USE CASE</td>
-				<td>Register Mentor Group</td>
+				<td>Register for a Mentor Group</td>
 			</tr>
 			<tr>
 				<td>ID</td>
@@ -225,7 +225,7 @@
 			</tr>
 			<tr>
 				<td>BREIF DESCRIPTION</td>
-				<td>Register interested program</td>
+				<td>User registers for mentorship program of their interest.</td>
 			</tr>
 			<tr>
 				<td>PRIMARY ACTORS</td>
@@ -233,27 +233,30 @@
 			</tr>
 			<tr>
 				<td>PRECONDITIONS</td>
-				<td>User loged in their account</td>
+				<td>User must be logged in to their account</td>
 			</tr>
 			<tr>
 				<td>MAIN FLOW</td>
 				<td>
-					1.go to home page<br />
-					2.click section of program<br />
-					3.click 'register here' button<br />
-					4.Choose the option signing mentor or mentee <br />
-					5.click 'submit' button
-
+					1.Go to home page<br />
+					2.Click section of program<br />
+					3.Click the 'Register Here' button<br />
+					4.Choose the option of signing up as a mentor or mentee <br />
+					5.Click 'Submit' button
 				</td>
 			</tr>
 			<tr>
 				<td>POSTCONDITIONS</td>
 				<td>
-					1.back to home page <br />
-					2.got information of mentor(if sign as mentee)
+					1.Redirected back to home page.<br />
 				</td>
 			</tr>
-			
+			<tr>
+				<td>ALTERNATIVE FLOW</td>
+				<td>
+					User decides to set their preference for matching. Use case ID: UC4.
+				</td>
+			</tr>
 		</tbody>
 	</table>
 <br />
@@ -287,17 +290,16 @@
 			<tr>
 				<td>MAIN FLOW</td>
 				<td>
-					1.Choose an program in home page<br />
-					2.Clicked register<br />
-					3.Clicked 'to find your interests' button<br />
-					4.Choose preferences<br />
-					5.Click 'finish' button
-
+					1.Choose a program in home page<br />
+					2.Clicked Register<br />
+					3.Clicked 'Find Your Interests' button<br />
+					4.Choose Preferences<br />
+					5.Click 'Finish' button
 				</td>
 			</tr>
 			<tr>
 				<td>POSTCONDITIONS</td>
-				<td>Own preferences being set up</td>
+				<td>User's preferences for matching is saved</td>
 			</tr>	
 		</tbody>
 	</table>
@@ -316,7 +318,7 @@
 			</tr>
 			<tr>
 				<td>BREIF DESCRIPTION</td>
-				<td>Users define their own prefernce tags</td>
+				<td>Users define their own preference tags which is not listed.</td>
 			</tr>
 			<tr>
 				<td>PRIMARY ACTORS</td>
@@ -332,13 +334,13 @@
 					1.Choose an program in home page<br />
 					2.Clicked register<br />
 					3.Clicked 'to find your interests' button<br />
-					4.Type in skill name <br />
+					4.Type in skill name in textbox<br />
 					5.Click 'Add' button
 				</td>
 			</tr>
 			<tr>
 				<td>POSTCONDITIONS</td>
-				<td>Self-defined tag being set up</td>
+				<td>Self-defined preference is saved along with other preferences</td>
 			</tr>	
 		</tbody>
 	</table>
@@ -349,7 +351,7 @@
   			<col width="80%" />
 			<tr>
 				<td>USE CASE</td>
-				<td>Get messages from mentor or mentee</td>
+				<td>Messanging system for mentor and mentee</td>
 			</tr>
 			<tr>
 				<td>ID</td>
@@ -357,7 +359,7 @@
 			</tr>
 			<tr>
 				<td>BREIF DESCRIPTION</td>
-				<td>Users could get notified from their mentor or mentee</td>
+				<td>Users get a notification when they receive a message.</td>
 			</tr>
 			<tr>
 				<td>PRIMARY ACTORS</td>
@@ -371,14 +373,13 @@
 				<td>MAIN FLOW</td>
 				<td>
 					1.Go to home page<br />
-					2.Click the side-bar menu
-					3.Clicked 'Contact' button
-					
+					2.Click the side-bar menu<br />
+					3.Click 'Contact' button
 				</td>
 			</tr>
 			<tr>
 				<td>POSTCONDITIONS</td>
-				<td>Users could see notification from their mentee or mentor</td>
+				<td>Users can see notifications from their mentee or mentor</td>
 			</tr>
 		</tbody>
 	</table>
@@ -389,7 +390,7 @@
   			<col width="80%" />
 			<tr>
 				<td>USE CASE</td>
-				<td>Check user's profile</td>
+				<td>Check individual profile</td>
 			</tr>
 			<tr>
 				<td>ID</td>
@@ -397,7 +398,7 @@
 			</tr>
 			<tr>
 				<td>BREIF DESCRIPTION</td>
-				<td>Users could see information about themselves include current role and current programs registered</td>
+				<td>Users could see information about themselves which includes current role and current enrolled programs.</td>
 			</tr>
 			<tr>
 				<td>PRIMARY ACTORS</td>
@@ -411,16 +412,14 @@
 				<td>MAIN FLOW</td>
 				<td>
 					1.Go to home page<br />
-					2.Click the side-bar menu
-					3.Clicked 'Profile' button
-					
+					2.Click the side-bar menu<br />
+					3.Click 'Profile' button
 				</td>
 			</tr>
 			<tr>
 				<td>POSTCONDITIONS</td>
 				<td>Users could see their own profiles</td>
 			</tr>
-			
 		</tbody>
 	</table>
 <br />
@@ -430,7 +429,7 @@
   			<col width="80%" />
 			<tr>
 				<td>USE CASE</td>
-				<td>Get information about user's mentor or mentee</td>
+				<td>Get information about user's mentor or mentees</td>
 			</tr>
 			<tr>
 				<td>ID</td>
@@ -438,7 +437,7 @@
 			</tr>
 			<tr>
 				<td>BREIF DESCRIPTION</td>
-				<td>Users could see information about their mentor or mentee </td>
+				<td>Users can see information about their mentor or mentees</td>
 			</tr>
 			<tr>
 				<td>PRIMARY ACTORS</td>
@@ -452,16 +451,14 @@
 				<td>MAIN FLOW</td>
 				<td>
 					1.Go to home page<br />
-					2.Click the side-bar menu
-					3.Clicked 'My mentor' button or 'My mentee' button
-					
+					2.Click the side-bar menu<br />
+					3.Click 'My mentor' button or 'My mentee' button.
 				</td>
 			</tr>
 			<tr>
 				<td>POSTCONDITIONS</td>
-				<td>Users could see their mentor or mentee's information</td>
+				<td>Information about their mentors and mentees is displayed.</td>
 			</tr>
-			
 		</tbody>
 	</table>
 </div>

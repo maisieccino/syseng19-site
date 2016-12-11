@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/2016/group19/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/2016/group19/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/2016/group19/" rel="alternate" type="text/html" /><updated>2016-12-11T17:28:50+00:00</updated><id>http://localhost:4000/2016/group19//</id><title type="html">Mentor Matching - Team 19</title><subtitle>Matthew Bell, Christopher Lau and Harry Chen are working on creating a system to match mentors and mentees based on their preferences, on behalf of Atos UK.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/2016/group19/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/2016/group19/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/2016/group19/" rel="alternate" type="text/html" /><updated>2016-12-11T19:11:21+00:00</updated><id>http://localhost:4000/2016/group19//</id><title type="html">Mentor Matching - Team 19</title><subtitle>Matthew Bell, Christopher Lau and Harry Chen are working on creating a system to match mentors and mentees based on their preferences, on behalf of Atos UK.
 </subtitle><entry><title type="html">Use-cases</title><link href="http://localhost:4000/2016/group19/requirements/2016/12/09/usecases.html" rel="alternate" type="text/html" title="Use-cases" /><published>2016-12-09T23:30:51+00:00</published><updated>2016-12-09T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/requirements/2016/12/09/usecases</id><content type="html" xml:base="http://localhost:4000/2016/group19/requirements/2016/12/09/usecases.html">&lt;p&gt;This is a list of use cases.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
@@ -37,11 +37,11 @@
 		    &lt;/tr&gt;
 		    &lt;tr&gt;
 		       	&lt;td&gt;UC6&lt;/td&gt;
-		        &lt;td&gt;Get messages from mentor or mentee&lt;/td&gt;		        
+		        &lt;td&gt;Messaging system for mentor and mentee&lt;/td&gt;		        
 		    &lt;/tr&gt;
 		    &lt;tr&gt;
 		       	&lt;td&gt;UC7&lt;/td&gt;
-		        &lt;td&gt;Check user's profile&lt;/td&gt;		        
+		        &lt;td&gt;Check individual profile&lt;/td&gt; 
 		    &lt;/tr&gt;
 		    &lt;tr&gt;
 		       	&lt;td&gt;UC8&lt;/td&gt;		        
@@ -84,7 +84,7 @@
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
-				&lt;td&gt;User had own account&lt;/td&gt;
+				&lt;td&gt;User account is set up and is redirected to home page&lt;/td&gt;
 			&lt;/tr&gt;
 			
 		&lt;/tbody&gt;
@@ -96,7 +96,7 @@
   			&lt;col width=&quot;80%&quot; /&gt;
 			&lt;tr&gt;
 				&lt;td&gt;USE CASE&lt;/td&gt;
-				&lt;td&gt;Explore Information of program&lt;/td&gt;
+				&lt;td&gt;Explore information of specific mentorship program&lt;/td&gt;
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;ID&lt;/td&gt;
@@ -104,7 +104,7 @@
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
-				&lt;td&gt;Find more specific information about the mentoring program&lt;/td&gt;
+				&lt;td&gt;Users chooses from the listed mentorship programs to find more information about the mentoring program&lt;/td&gt;
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
@@ -112,18 +112,18 @@
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;PRECONDITIONS&lt;/td&gt;
-				&lt;td&gt;User had own account and signed in&lt;/td&gt;
+				&lt;td&gt;User must be registered and is already signed in&lt;/td&gt;
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;MAIN FLOW&lt;/td&gt;
 				&lt;td&gt;
 				1.Go to home page&lt;br /&gt;
-				2.Click the program section
+				2.Click on the desired mentorship program which are listed
 				&lt;/td&gt;
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
-				&lt;td&gt;get details of program&lt;/td&gt;
+				&lt;td&gt;User is redirected to a decription page of the specific mentorship program before proceeding to next step.&lt;/td&gt;
 			&lt;/tr&gt;
 			
 		&lt;/tbody&gt;
@@ -135,7 +135,7 @@
   			&lt;col width=&quot;80%&quot; /&gt;
 			&lt;tr&gt;
 				&lt;td&gt;USE CASE&lt;/td&gt;
-				&lt;td&gt;Register Mentor Group&lt;/td&gt;
+				&lt;td&gt;Register for a Mentor Group&lt;/td&gt;
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;ID&lt;/td&gt;
@@ -143,7 +143,7 @@
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
-				&lt;td&gt;Register interested program&lt;/td&gt;
+				&lt;td&gt;User registers for mentorship program of their interest.&lt;/td&gt;
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
@@ -151,27 +151,30 @@
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;PRECONDITIONS&lt;/td&gt;
-				&lt;td&gt;User loged in their account&lt;/td&gt;
+				&lt;td&gt;User must be logged in to their account&lt;/td&gt;
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;MAIN FLOW&lt;/td&gt;
 				&lt;td&gt;
-					1.go to home page&lt;br /&gt;
-					2.click section of program&lt;br /&gt;
-					3.click 'register here' button&lt;br /&gt;
-					4.Choose the option signing mentor or mentee &lt;br /&gt;
-					5.click 'submit' button
-
+					1.Go to home page&lt;br /&gt;
+					2.Click section of program&lt;br /&gt;
+					3.Click the 'Register Here' button&lt;br /&gt;
+					4.Choose the option of signing up as a mentor or mentee &lt;br /&gt;
+					5.Click 'Submit' button
 				&lt;/td&gt;
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
 				&lt;td&gt;
-					1.back to home page &lt;br /&gt;
-					2.got information of mentor(if sign as mentee)
+					1.Redirected back to home page.&lt;br /&gt;
 				&lt;/td&gt;
 			&lt;/tr&gt;
-			
+			&lt;tr&gt;
+				&lt;td&gt;ALTERNATIVE FLOW&lt;/td&gt;
+				&lt;td&gt;
+					User decides to set their preference for matching. Use case ID: UC4.
+				&lt;/td&gt;
+			&lt;/tr&gt;
 		&lt;/tbody&gt;
 	&lt;/table&gt;
 &lt;br /&gt;
@@ -205,17 +208,16 @@
 			&lt;tr&gt;
 				&lt;td&gt;MAIN FLOW&lt;/td&gt;
 				&lt;td&gt;
-					1.Choose an program in home page&lt;br /&gt;
-					2.Clicked register&lt;br /&gt;
-					3.Clicked 'to find your interests' button&lt;br /&gt;
-					4.Choose preferences&lt;br /&gt;
-					5.Click 'finish' button
-
+					1.Choose a program in home page&lt;br /&gt;
+					2.Clicked Register&lt;br /&gt;
+					3.Clicked 'Find Your Interests' button&lt;br /&gt;
+					4.Choose Preferences&lt;br /&gt;
+					5.Click 'Finish' button
 				&lt;/td&gt;
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
-				&lt;td&gt;Own preferences being set up&lt;/td&gt;
+				&lt;td&gt;User's preferences for matching is saved&lt;/td&gt;
 			&lt;/tr&gt;	
 		&lt;/tbody&gt;
 	&lt;/table&gt;
@@ -234,7 +236,7 @@
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
-				&lt;td&gt;Users define their own prefernce tags&lt;/td&gt;
+				&lt;td&gt;Users define their own preference tags which is not listed.&lt;/td&gt;
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
@@ -250,13 +252,13 @@
 					1.Choose an program in home page&lt;br /&gt;
 					2.Clicked register&lt;br /&gt;
 					3.Clicked 'to find your interests' button&lt;br /&gt;
-					4.Type in skill name &lt;br /&gt;
+					4.Type in skill name in textbox&lt;br /&gt;
 					5.Click 'Add' button
 				&lt;/td&gt;
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
-				&lt;td&gt;Self-defined tag being set up&lt;/td&gt;
+				&lt;td&gt;Self-defined preference is saved along with other preferences&lt;/td&gt;
 			&lt;/tr&gt;	
 		&lt;/tbody&gt;
 	&lt;/table&gt;
@@ -267,7 +269,7 @@
   			&lt;col width=&quot;80%&quot; /&gt;
 			&lt;tr&gt;
 				&lt;td&gt;USE CASE&lt;/td&gt;
-				&lt;td&gt;Get messages from mentor or mentee&lt;/td&gt;
+				&lt;td&gt;Messanging system for mentor and mentee&lt;/td&gt;
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;ID&lt;/td&gt;
@@ -275,7 +277,7 @@
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
-				&lt;td&gt;Users could get notified from their mentor or mentee&lt;/td&gt;
+				&lt;td&gt;Users get a notification when they receive a message.&lt;/td&gt;
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
@@ -289,14 +291,13 @@
 				&lt;td&gt;MAIN FLOW&lt;/td&gt;
 				&lt;td&gt;
 					1.Go to home page&lt;br /&gt;
-					2.Click the side-bar menu
-					3.Clicked 'Contact' button
-					
+					2.Click the side-bar menu&lt;br /&gt;
+					3.Click 'Contact' button
 				&lt;/td&gt;
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
-				&lt;td&gt;Users could see notification from their mentee or mentor&lt;/td&gt;
+				&lt;td&gt;Users can see notifications from their mentee or mentor&lt;/td&gt;
 			&lt;/tr&gt;
 		&lt;/tbody&gt;
 	&lt;/table&gt;
@@ -307,7 +308,7 @@
   			&lt;col width=&quot;80%&quot; /&gt;
 			&lt;tr&gt;
 				&lt;td&gt;USE CASE&lt;/td&gt;
-				&lt;td&gt;Check user's profile&lt;/td&gt;
+				&lt;td&gt;Check individual profile&lt;/td&gt;
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;ID&lt;/td&gt;
@@ -315,7 +316,7 @@
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
-				&lt;td&gt;Users could see information about themselves include current role and current programs registered&lt;/td&gt;
+				&lt;td&gt;Users could see information about themselves which includes current role and current enrolled programs.&lt;/td&gt;
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
@@ -329,16 +330,14 @@
 				&lt;td&gt;MAIN FLOW&lt;/td&gt;
 				&lt;td&gt;
 					1.Go to home page&lt;br /&gt;
-					2.Click the side-bar menu
-					3.Clicked 'Profile' button
-					
+					2.Click the side-bar menu&lt;br /&gt;
+					3.Click 'Profile' button
 				&lt;/td&gt;
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
 				&lt;td&gt;Users could see their own profiles&lt;/td&gt;
 			&lt;/tr&gt;
-			
 		&lt;/tbody&gt;
 	&lt;/table&gt;
 &lt;br /&gt;
@@ -348,7 +347,7 @@
   			&lt;col width=&quot;80%&quot; /&gt;
 			&lt;tr&gt;
 				&lt;td&gt;USE CASE&lt;/td&gt;
-				&lt;td&gt;Get information about user's mentor or mentee&lt;/td&gt;
+				&lt;td&gt;Get information about user's mentor or mentees&lt;/td&gt;
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;ID&lt;/td&gt;
@@ -356,7 +355,7 @@
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
-				&lt;td&gt;Users could see information about their mentor or mentee &lt;/td&gt;
+				&lt;td&gt;Users can see information about their mentor or mentees&lt;/td&gt;
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
@@ -370,16 +369,14 @@
 				&lt;td&gt;MAIN FLOW&lt;/td&gt;
 				&lt;td&gt;
 					1.Go to home page&lt;br /&gt;
-					2.Click the side-bar menu
-					3.Clicked 'My mentor' button or 'My mentee' button
-					
+					2.Click the side-bar menu&lt;br /&gt;
+					3.Click 'My mentor' button or 'My mentee' button.
 				&lt;/td&gt;
 			&lt;/tr&gt;
 			&lt;tr&gt;
 				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
-				&lt;td&gt;Users could see their mentor or mentee's information&lt;/td&gt;
+				&lt;td&gt;Information about their mentors and mentees is displayed.&lt;/td&gt;
 			&lt;/tr&gt;
-			
 		&lt;/tbody&gt;
 	&lt;/table&gt;
 &lt;/div&gt;
