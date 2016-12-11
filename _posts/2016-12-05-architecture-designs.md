@@ -113,6 +113,6 @@ Once this algorithm is run, the matches are then sent to the DB to be saved.
 <span class="lead sub-header">Pseudocode</span><br>
 Below is the pseuodocode lllustrating the the 3 stages explained above. A user class is used to store the ID of the mentee or mentor, along with the required tags needed for matching.
 
-<img src="{{ site.baseurl }}/assets/img/pseuodocode.jpg" class="image" alt="node.js" height="80%" width="95%"><br>
+<img src="{{ site.baseurl }}/assets/img/pseuodocode.JPG" class="image" alt="node.js" height="80%" width="95%"><br>
 
 <a href="#top" class="btn btn-primary">^ Back to top</a>
