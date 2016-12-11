@@ -1,416 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/2016/group19/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/2016/group19/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/2016/group19/" rel="alternate" type="text/html" /><updated>2016-12-11T19:11:21+00:00</updated><id>http://localhost:4000/2016/group19//</id><title type="html">Mentor Matching - Team 19</title><subtitle>Matthew Bell, Christopher Lau and Harry Chen are working on creating a system to match mentors and mentees based on their preferences, on behalf of Atos UK.
-</subtitle><entry><title type="html">Use-cases</title><link href="http://localhost:4000/2016/group19/requirements/2016/12/09/usecases.html" rel="alternate" type="text/html" title="Use-cases" /><published>2016-12-09T23:30:51+00:00</published><updated>2016-12-09T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/requirements/2016/12/09/usecases</id><content type="html" xml:base="http://localhost:4000/2016/group19/requirements/2016/12/09/usecases.html">&lt;p&gt;This is a list of use cases.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;!--  List OverView --&gt;
-&lt;div class=&quot;table-responsive decisionTable&quot;&gt; 
-	&lt;table class=&quot;table table-bordered&quot;&gt;
-		&lt;thead&gt;
-	      	&lt;tr&gt;
-	        	&lt;th&gt;Use case ID&lt;/th&gt;
-	        	&lt;th&gt;Use Case Name&lt;/th&gt;
-	      	&lt;/tr&gt;
-    	&lt;/thead&gt;
-    	&lt;tbody&gt;
-    		&lt;col width=&quot;20%&quot; /&gt;
-  			&lt;col width=&quot;80%&quot; /&gt;    		
-		    &lt;tr&gt;
-		       	&lt;td&gt;UC1&lt;/td&gt;
-		        &lt;td&gt;Create Account&lt;/td&gt;		        
-		    &lt;/tr&gt;
-		    &lt;tr&gt;
-		       	&lt;td&gt;UC2&lt;/td&gt;
-		        &lt;td&gt;Explore information of program &lt;/td&gt;		        
-		    &lt;/tr&gt;
-		    &lt;tr&gt;
-		       	&lt;td&gt;UC3&lt;/td&gt;
-		        &lt;td&gt;Register Mentor group&lt;/td&gt;		        
-		    &lt;/tr&gt;
-		    &lt;tr&gt;
-		       	&lt;td&gt;UC4&lt;/td&gt;
-		        &lt;td&gt;Setting matching preference&lt;/td&gt;		        
-		    &lt;/tr&gt;
-		    &lt;tr&gt;
-		       	&lt;td&gt;UC5&lt;/td&gt;
-		        &lt;td&gt;Define user's own interests&lt;/td&gt;		        
-		    &lt;/tr&gt;
-		    &lt;tr&gt;
-		       	&lt;td&gt;UC6&lt;/td&gt;
-		        &lt;td&gt;Messaging system for mentor and mentee&lt;/td&gt;		        
-		    &lt;/tr&gt;
-		    &lt;tr&gt;
-		       	&lt;td&gt;UC7&lt;/td&gt;
-		        &lt;td&gt;Check individual profile&lt;/td&gt; 
-		    &lt;/tr&gt;
-		    &lt;tr&gt;
-		       	&lt;td&gt;UC8&lt;/td&gt;		        
-		        &lt;td&gt;Get information about user's mentor or mentee&lt;/td&gt;		        	        
-		    &lt;/tr&gt;
-		&lt;/tbody&gt;
-	&lt;/table&gt;
-&lt;br /&gt;
-	&lt;table class=&quot;table table-bordered&quot;&gt;  &lt;!-- Usecase1 --&gt;
-		&lt;tbody&gt;
-			&lt;col width=&quot;20%&quot; /&gt;
-  			&lt;col width=&quot;80%&quot; /&gt;
-			&lt;tr&gt;
-				&lt;td&gt;USE CASE&lt;/td&gt;
-				&lt;td&gt;Create Account&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;ID&lt;/td&gt;
-				&lt;td&gt;UC1&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
-				&lt;td&gt;Allow uses to create their own account and set up basic information &lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
-				&lt;td&gt;User&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;PRECONDITIONS&lt;/td&gt;
-				&lt;td&gt;None&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;MAIN FLOW&lt;/td&gt;
-				&lt;td&gt;
-					1.Click 'or create an account' button.&lt;br /&gt;
-					2.Fill the required information in sign up page.&lt;br /&gt;
-					3.Click 'Sign up' button
-				&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
-				&lt;td&gt;User account is set up and is redirected to home page&lt;/td&gt;
-			&lt;/tr&gt;
-			
-		&lt;/tbody&gt;
-	&lt;/table&gt;
-&lt;br /&gt;
-	&lt;table class=&quot;table table-bordered&quot;&gt; &lt;!-- 2 --&gt;
-		&lt;tbody&gt;
-			&lt;col width=&quot;20%&quot; /&gt;
-  			&lt;col width=&quot;80%&quot; /&gt;
-			&lt;tr&gt;
-				&lt;td&gt;USE CASE&lt;/td&gt;
-				&lt;td&gt;Explore information of specific mentorship program&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;ID&lt;/td&gt;
-				&lt;td&gt;UC2&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
-				&lt;td&gt;Users chooses from the listed mentorship programs to find more information about the mentoring program&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
-				&lt;td&gt;User&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;PRECONDITIONS&lt;/td&gt;
-				&lt;td&gt;User must be registered and is already signed in&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;MAIN FLOW&lt;/td&gt;
-				&lt;td&gt;
-				1.Go to home page&lt;br /&gt;
-				2.Click on the desired mentorship program which are listed
-				&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
-				&lt;td&gt;User is redirected to a decription page of the specific mentorship program before proceeding to next step.&lt;/td&gt;
-			&lt;/tr&gt;
-			
-		&lt;/tbody&gt;
-	&lt;/table&gt;
-&lt;br /&gt;
-	&lt;table class=&quot;table table-bordered&quot;&gt; &lt;!-- 3 --&gt;
-		&lt;tbody&gt;
-			&lt;col width=&quot;20%&quot; /&gt;
-  			&lt;col width=&quot;80%&quot; /&gt;
-			&lt;tr&gt;
-				&lt;td&gt;USE CASE&lt;/td&gt;
-				&lt;td&gt;Register for a Mentor Group&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;ID&lt;/td&gt;
-				&lt;td&gt;UC3&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
-				&lt;td&gt;User registers for mentorship program of their interest.&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
-				&lt;td&gt;User&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;PRECONDITIONS&lt;/td&gt;
-				&lt;td&gt;User must be logged in to their account&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;MAIN FLOW&lt;/td&gt;
-				&lt;td&gt;
-					1.Go to home page&lt;br /&gt;
-					2.Click section of program&lt;br /&gt;
-					3.Click the 'Register Here' button&lt;br /&gt;
-					4.Choose the option of signing up as a mentor or mentee &lt;br /&gt;
-					5.Click 'Submit' button
-				&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
-				&lt;td&gt;
-					1.Redirected back to home page.&lt;br /&gt;
-				&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;ALTERNATIVE FLOW&lt;/td&gt;
-				&lt;td&gt;
-					User decides to set their preference for matching. Use case ID: UC4.
-				&lt;/td&gt;
-			&lt;/tr&gt;
-		&lt;/tbody&gt;
-	&lt;/table&gt;
-&lt;br /&gt;
-	&lt;table class=&quot;table table-bordered&quot;&gt;
-	  &lt;!--  4 --&gt;
-		&lt;tbody&gt;
-			&lt;col width=&quot;20%&quot; /&gt;
-  			&lt;col width=&quot;80%&quot; /&gt;
-			&lt;tr&gt;
-				&lt;td&gt;USE CASE&lt;/td&gt;
-				&lt;td&gt;Setting matching preference&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;ID&lt;/td&gt;
-				&lt;td&gt;UC4&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
-				&lt;td&gt;Users customize their own preferences for matching&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
-				&lt;td&gt;User&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;PRECONDITIONS&lt;/td&gt;
-				&lt;td&gt;
-					1.Logged in successfully
-				&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;MAIN FLOW&lt;/td&gt;
-				&lt;td&gt;
-					1.Choose a program in home page&lt;br /&gt;
-					2.Clicked Register&lt;br /&gt;
-					3.Clicked 'Find Your Interests' button&lt;br /&gt;
-					4.Choose Preferences&lt;br /&gt;
-					5.Click 'Finish' button
-				&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
-				&lt;td&gt;User's preferences for matching is saved&lt;/td&gt;
-			&lt;/tr&gt;	
-		&lt;/tbody&gt;
-	&lt;/table&gt;
-&lt;br /&gt;
-	&lt;table class=&quot;table table-bordered&quot;&gt;  &lt;!-- 5 --&gt;
-		&lt;tbody&gt;
-			&lt;col width=&quot;20%&quot; /&gt;
-  			&lt;col width=&quot;80%&quot; /&gt;
-			&lt;tr&gt;
-				&lt;td&gt;USE CASE&lt;/td&gt;
-				&lt;td&gt;Define user's own interests&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;ID&lt;/td&gt;
-				&lt;td&gt;UC5&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
-				&lt;td&gt;Users define their own preference tags which is not listed.&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
-				&lt;td&gt;User&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;PRECONDITIONS&lt;/td&gt;
-				&lt;td&gt;Logged in successfully&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;MAIN FLOW&lt;/td&gt;
-				&lt;td&gt;
-					1.Choose an program in home page&lt;br /&gt;
-					2.Clicked register&lt;br /&gt;
-					3.Clicked 'to find your interests' button&lt;br /&gt;
-					4.Type in skill name in textbox&lt;br /&gt;
-					5.Click 'Add' button
-				&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
-				&lt;td&gt;Self-defined preference is saved along with other preferences&lt;/td&gt;
-			&lt;/tr&gt;	
-		&lt;/tbody&gt;
-	&lt;/table&gt;
-&lt;br /&gt;
-	&lt;table class=&quot;table table-bordered&quot;&gt;  &lt;!-- 6 --&gt;
-		&lt;tbody&gt;
-			&lt;col width=&quot;20%&quot; /&gt;
-  			&lt;col width=&quot;80%&quot; /&gt;
-			&lt;tr&gt;
-				&lt;td&gt;USE CASE&lt;/td&gt;
-				&lt;td&gt;Messanging system for mentor and mentee&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;ID&lt;/td&gt;
-				&lt;td&gt;UC6&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
-				&lt;td&gt;Users get a notification when they receive a message.&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
-				&lt;td&gt;User&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;PRECONDITIONS&lt;/td&gt;
-				&lt;td&gt;Logged in successfully&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;MAIN FLOW&lt;/td&gt;
-				&lt;td&gt;
-					1.Go to home page&lt;br /&gt;
-					2.Click the side-bar menu&lt;br /&gt;
-					3.Click 'Contact' button
-				&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
-				&lt;td&gt;Users can see notifications from their mentee or mentor&lt;/td&gt;
-			&lt;/tr&gt;
-		&lt;/tbody&gt;
-	&lt;/table&gt;
-&lt;br /&gt;
-	&lt;table class=&quot;table table-bordered&quot;&gt;  &lt;!-- 7 --&gt;
-		&lt;tbody&gt;
-			&lt;col width=&quot;20%&quot; /&gt;
-  			&lt;col width=&quot;80%&quot; /&gt;
-			&lt;tr&gt;
-				&lt;td&gt;USE CASE&lt;/td&gt;
-				&lt;td&gt;Check individual profile&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;ID&lt;/td&gt;
-				&lt;td&gt;UC7&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
-				&lt;td&gt;Users could see information about themselves which includes current role and current enrolled programs.&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
-				&lt;td&gt;User&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;PRECONDITIONS&lt;/td&gt;
-				&lt;td&gt;Logged in successfully&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;MAIN FLOW&lt;/td&gt;
-				&lt;td&gt;
-					1.Go to home page&lt;br /&gt;
-					2.Click the side-bar menu&lt;br /&gt;
-					3.Click 'Profile' button
-				&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
-				&lt;td&gt;Users could see their own profiles&lt;/td&gt;
-			&lt;/tr&gt;
-		&lt;/tbody&gt;
-	&lt;/table&gt;
-&lt;br /&gt;
-	&lt;table class=&quot;table table-bordered&quot;&gt;  &lt;!-- 8 --&gt;
-		&lt;tbody&gt;
-			&lt;col width=&quot;20%&quot; /&gt;
-  			&lt;col width=&quot;80%&quot; /&gt;
-			&lt;tr&gt;
-				&lt;td&gt;USE CASE&lt;/td&gt;
-				&lt;td&gt;Get information about user's mentor or mentees&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;ID&lt;/td&gt;
-				&lt;td&gt;UC8&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
-				&lt;td&gt;Users can see information about their mentor or mentees&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
-				&lt;td&gt;User&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;PRECONDITIONS&lt;/td&gt;
-				&lt;td&gt;Logged in successfully &lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;MAIN FLOW&lt;/td&gt;
-				&lt;td&gt;
-					1.Go to home page&lt;br /&gt;
-					2.Click the side-bar menu&lt;br /&gt;
-					3.Click 'My mentor' button or 'My mentee' button.
-				&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
-				&lt;td&gt;Information about their mentors and mentees is displayed.&lt;/td&gt;
-			&lt;/tr&gt;
-		&lt;/tbody&gt;
-	&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&quot;#top&quot; class=&quot;btn btn-primary&quot;&gt;^ Back to top&lt;/a&gt;&lt;/p&gt;</content><summary type="html">This is a list of use cases.</summary></entry><entry><title type="html">Testing</title><link href="http://localhost:4000/2016/group19/development/2016/12/07/testing.html" rel="alternate" type="text/html" title="Testing" /><published>2016-12-07T23:30:51+00:00</published><updated>2016-12-07T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/development/2016/12/07/testing</id><content type="html" xml:base="http://localhost:4000/2016/group19/development/2016/12/07/testing.html">&lt;p&gt;This page details the testing stratedies we plan to execute for the project. This is to ensure that our system meets the specified requirements and quality standards.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 class=&quot;section-header&quot; id=&quot;initial-sketch&quot;&gt;Unit Testing&lt;/h3&gt;
-&lt;p&gt;To ensure the integrity, completeness and correctness of our software, we plan to develop a series of individual test cases which consists of unit tests for both our front and back-ends. After developing a feature we plan to carry out testing by running the test cases to ensure no new bugs are introduced. Since we are using django for our backend, we plan to use the &lt;strong&gt;unittest&lt;/strong&gt; module built in to the standard library. Django also provides an API and tools for integration. As for the front end we plan to use an Angular testing tool called &lt;strong&gt;Jasmine&lt;/strong&gt;. Jasmine provides functions that help structure our tests and also make assertions.&lt;/p&gt;
-
-&lt;p&gt;To test our matching algortihm, we plan to use an open-source tool called &lt;strong&gt;Appium&lt;/strong&gt;. Appium is useful for automaing native,mobile web and also hybrid applications. Since Appium is “cross-platform” we can write test cases against multiple platforms using the same API.&lt;/p&gt;
-
-&lt;h3 class=&quot;section-header&quot; id=&quot;initial-sketch&quot;&gt;Functional Testing&lt;/h3&gt;
-&lt;p&gt;Functional testing is used as a quality assurance process for a software system. It refers to activities that verify a specific action or function of the code. Functional testing tends to ensure that a particular function and feature works.
-In order to carry out functional testing, we plan to use our requirement specification to construct a series of test cases and use them for manual black-box testing.&lt;/p&gt;
-
-&lt;h3 class=&quot;section-header&quot; id=&quot;initial-sketch&quot;&gt;Compatibility Testing&lt;/h3&gt;
-&lt;p&gt;Our client mentioned that the final system must be able to run on different types of operating systems and web browsers. Hence it is important that we ensure the compatibility of our application. Below are some of the test we plan to carry out.&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Browser compatibility&lt;/span&gt;&lt;br /&gt;
-This is to ensure that the application works on the most widely used browsers. Application may behave differently when run on different browsers. Different browsers may also have different configurations and settings that a web page should be compatible with. Therefore we plan to test our application on popular browsers such as Chrome, Internet Explorer, Firefox, Safari and others.&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;OS compatibility&lt;/span&gt;&lt;br /&gt;
-In some cases a functionality of a web application may not be compatible in all oprating systems. Our client mentioned that the application ust be able to run on mobile devices as well which include the Android OS and IOS. We therefore plan to test our aplication on mobile operating systems as well.&lt;/p&gt;
-
-&lt;h3 class=&quot;section-header&quot; id=&quot;initial-sketch&quot;&gt;User Acceptance Test (UAT)&lt;/h3&gt;
-&lt;p&gt;This would be the last phase of testing that we plan to execute. We might also be conducting regular UAT during meetings with our client if we have completed certain functionalities and features. In order to carry out UAT, we plan to design tesst cases which cover our key requirements. We will then present these test cases to the client who might pass them on to the potential users of the system. We plan to use the feedback received by our client to improve overall quality of the system. This process is to ensure that the system can handle required tasks in the real-world scenarios.&lt;/p&gt;</content><summary type="html">This page details the testing stratedies we plan to execute for the project. This is to ensure that our system meets the specified requirements and quality standards.</summary></entry><entry><title type="html">Plan for term 2</title><link href="http://localhost:4000/2016/group19/management/2016/12/02/term-2-plan.html" rel="alternate" type="text/html" title="Plan for term 2" /><published>2016-12-02T23:30:51+00:00</published><updated>2016-12-02T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/management/2016/12/02/term-2-plan</id><content type="html" xml:base="http://localhost:4000/2016/group19/management/2016/12/02/term-2-plan.html">&lt;p&gt;This page details the project plans for term 2&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/2016/group19/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/2016/group19/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/2016/group19/" rel="alternate" type="text/html" /><updated>2016-12-11T23:40:02+00:00</updated><id>http://localhost:4000/2016/group19//</id><title type="html">Mentor Matching - Team 19</title><subtitle>Matthew Bell, Christopher Lau and Harry Chen are working on creating a system to match mentors and mentees in their workplace based on their preferences, on behalf of Atos UK. 
+</subtitle><entry><title type="html">Plan for term 2</title><link href="http://localhost:4000/2016/group19/management/2016/12/10/term-2-plan.html" rel="alternate" type="text/html" title="Plan for term 2" /><published>2016-12-10T23:30:51+00:00</published><updated>2016-12-10T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/management/2016/12/10/term-2-plan</id><content type="html" xml:base="http://localhost:4000/2016/group19/management/2016/12/10/term-2-plan.html">&lt;p&gt;This page details the project plans for term 2&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;With a finalized set of requirements along with completed designed of our architecture and matching algorithm, our next goal for the second term is to develop our application based on the specified requirements and constraints. We will be developing functionalities and features in the order we prioritized in our MoSCoW requirements. We will also be implementing the user interface based on the first prototype we have created. We will also be splitting roles on team members who will be responsible for developing the frontend and backend.&lt;/p&gt;
 
-&lt;p&gt;Also, we will continue to use the SCRUM agile development process to manage the process with weekly sprints to ensure that progress is on track. We will also have regular meetings with our client to show our progress in different stages of development and take into account their feedback. We might also be planning on preparing short user acceptance tests before every client meeting, so that all new features we develop during a sprint go through a formal approval process.&lt;/p&gt;</content><summary type="html">This page details the project plans for term 2</summary></entry><entry><title type="html">Bi-Weekly Reports</title><link href="http://localhost:4000/2016/group19/management/2016/12/02/biweekly-reports.html" rel="alternate" type="text/html" title="Bi-Weekly Reports" /><published>2016-12-02T23:30:51+00:00</published><updated>2016-12-02T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/management/2016/12/02/biweekly-reports</id><content type="html" xml:base="http://localhost:4000/2016/group19/management/2016/12/02/biweekly-reports.html">&lt;p&gt;This page contains reports which are produced fortnightly by the team which record the progress of the project. It also contains the meeting minutes for the meetings we have conducted so far.&lt;/p&gt;
+&lt;p&gt;Also, we will continue to use the SCRUM agile development process to manage the process with weekly sprints to ensure that progress is on track. We will also have regular meetings with our client to show our progress in different stages of development and take into account their feedback. We might also be planning on preparing short user acceptance tests before every client meeting, so that all new features we develop during a sprint go through a formal approval process.&lt;/p&gt;</content><summary type="html">This page details the project plans for term 2</summary></entry><entry><title type="html">Bi-Weekly Reports and Meeting Minutes</title><link href="http://localhost:4000/2016/group19/management/2016/12/07/biweekly-reports.html" rel="alternate" type="text/html" title="Bi-Weekly Reports and Meeting Minutes" /><published>2016-12-07T23:30:51+00:00</published><updated>2016-12-07T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/management/2016/12/07/biweekly-reports</id><content type="html" xml:base="http://localhost:4000/2016/group19/management/2016/12/07/biweekly-reports.html">&lt;p&gt;This page contains reports which are produced fortnightly by the team which record the progress of the project. It also contains the meeting minutes for the meetings we have conducted so far.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
 
@@ -434,7 +29,44 @@ In some cases a functionality of a web application may not be compatible in all 
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/mbellgb/syseng19-docs/raw/master/meeting%20minutes/meeting%203.pdf&quot; class=&quot;btn btn-primary&quot;&gt;Meeting 3 (Supervisor Meeting)&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/mbellgb/syseng19-docs/raw/master/meeting%20minutes/meeting%204.pdf&quot; class=&quot;btn btn-primary&quot;&gt;Meeting 4 (Client meeting 2)&lt;/a&gt;&lt;/p&gt;</content><summary type="html">This page contains reports which are produced fortnightly by the team which record the progress of the project. It also contains the meeting minutes for the meetings we have conducted so far.</summary></entry><entry><title type="html">User Interface Development</title><link href="http://localhost:4000/2016/group19/development/2016/12/02/user-interface.html" rel="alternate" type="text/html" title="User Interface Development" /><published>2016-12-02T23:30:51+00:00</published><updated>2016-12-02T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/development/2016/12/02/user-interface</id><content type="html" xml:base="http://localhost:4000/2016/group19/development/2016/12/02/user-interface.html">&lt;p&gt;This page highlights the design and development of the user interface and user experience of the front end system. This includes initial sketches, wireframes and also first prototype of our application.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/mbellgb/syseng19-docs/raw/master/meeting%20minutes/meeting%204.pdf&quot; class=&quot;btn btn-primary&quot;&gt;Meeting 4 (Client meeting 2)&lt;/a&gt;&lt;/p&gt;</content><summary type="html">This page contains reports which are produced fortnightly by the team which record the progress of the project. It also contains the meeting minutes for the meetings we have conducted so far.</summary></entry><entry><title type="html">Project Management Tools</title><link href="http://localhost:4000/2016/group19/management/2016/12/07/collborative.html" rel="alternate" type="text/html" title="Project Management Tools" /><published>2016-12-07T23:30:51+00:00</published><updated>2016-12-07T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/management/2016/12/07/collborative</id><content type="html" xml:base="http://localhost:4000/2016/group19/management/2016/12/07/collborative.html">&lt;p&gt;This page includes all of the tools we have used to manage our project. This includes communication, documentation, prototype design and others.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 class=&quot;section-header&quot;&gt;Facebook Messenger&lt;/h3&gt;
+&lt;p&gt;During our first meeting we set up a facebook group for communication between each other and share our ideas.&lt;/p&gt;
+
+&lt;h3 class=&quot;section-header&quot;&gt;Trello&lt;/h3&gt;
+&lt;p&gt;Trello is a collabration tool that organizes our projects on several boards. In our team we divided boards into three parts: Backlog, In progress and Completed. We create tasks by making boards and then add it into the Backlog section, for every task we assign a due date, members responsible for that task and add labels on it to indicate urgency. Once we start working on a task the card would be moved into the in progress section. The team agreed to take a maximum of 6 tasks in progress every week.&lt;/p&gt;
+
+&lt;h3 class=&quot;section-header&quot;&gt;Github&lt;/h3&gt;
+&lt;p&gt;Github is a version-control service based on git. Our team built three github repositories: one for documentation, main code repository, one repository for the project website. Through github each team member could work separately on same project simultaneously by making branches of master branch and send pull requst to merge each one’s work. Also the version control through github could help us to review our work thus find problems in previous work.&lt;/p&gt;
+
+&lt;h3 class=&quot;section-header&quot;&gt;Google Drive and Google Docs&lt;/h3&gt;
+&lt;p&gt;All of the documentation we have completed so far (which includes bi-weekly reports, research, design) are shared in google drive before converting it into Latex for submission or adding the content to the project website.&lt;/p&gt;</content><summary type="html">This page includes all of the tools we have used to manage our project. This includes communication, documentation, prototype design and others.</summary></entry><entry><title type="html">Testing</title><link href="http://localhost:4000/2016/group19/development/2016/12/07/testing.html" rel="alternate" type="text/html" title="Testing" /><published>2016-12-07T23:30:51+00:00</published><updated>2016-12-07T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/development/2016/12/07/testing</id><content type="html" xml:base="http://localhost:4000/2016/group19/development/2016/12/07/testing.html">&lt;p&gt;This page details the testing stratedies we plan to execute for the project. This is to ensure that our system meets the specified requirements and quality standards.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 class=&quot;section-header&quot; id=&quot;initial-sketch&quot;&gt;Unit Testing&lt;/h3&gt;
+&lt;p&gt;To ensure the integrity, completeness and correctness of our software, we plan to develop a series of individual test cases which consists of unit tests for both our front and back-ends. After developing a feature we plan to carry out testing by running the test cases to ensure no new bugs are introduced. Since we are using django for our backend, we plan to use the &lt;strong&gt;unittest&lt;/strong&gt; module built in to the standard library. Django also provides an API and tools for integration. As for the front end we plan to use an Angular testing tool called &lt;strong&gt;Jasmine&lt;/strong&gt;. Jasmine provides functions that help structure our tests and also make assertions.&lt;/p&gt;
+
+&lt;p&gt;To test our matching algortihm, we plan to use an open-source tool called &lt;strong&gt;Appium&lt;/strong&gt;. Appium is useful for automaing native,mobile web and also hybrid applications. Since Appium is “cross-platform” we can write test cases against multiple platforms using the same API.&lt;/p&gt;
+
+&lt;h3 class=&quot;section-header&quot; id=&quot;initial-sketch&quot;&gt;Functional Testing&lt;/h3&gt;
+&lt;p&gt;Functional testing is used as a quality assurance process for a software system. It refers to activities that verify a specific action or function of the code. Functional testing tends to ensure that a particular function and feature works.
+In order to carry out functional testing, we plan to use our requirement specification to construct a series of test cases and use them for manual black-box testing.&lt;/p&gt;
+
+&lt;h3 class=&quot;section-header&quot; id=&quot;initial-sketch&quot;&gt;Compatibility Testing&lt;/h3&gt;
+&lt;p&gt;Our client mentioned that the final system must be able to run on different types of operating systems and web browsers. Hence it is important that we ensure the compatibility of our application. Below are some of the test we plan to carry out.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Browser compatibility&lt;/span&gt;&lt;br /&gt;
+This is to ensure that the application works on the most widely used browsers. Application may behave differently when run on different browsers. Different browsers may also have different configurations and settings that a web page should be compatible with. Therefore we plan to test our application on popular browsers such as Chrome, Internet Explorer, Firefox, Safari and others.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;OS compatibility&lt;/span&gt;&lt;br /&gt;
+In some cases a functionality of a web application may not be compatible in all oprating systems. Our client mentioned that the application ust be able to run on mobile devices as well which include the Android OS and IOS. We therefore plan to test our aplication on mobile operating systems as well.&lt;/p&gt;
+
+&lt;h3 class=&quot;section-header&quot; id=&quot;initial-sketch&quot;&gt;User Acceptance Test (UAT)&lt;/h3&gt;
+&lt;p&gt;This would be the last phase of testing that we plan to execute. We might also be conducting regular UAT during meetings with our client if we have completed certain functionalities and features. In order to carry out UAT, we plan to design tesst cases which cover our key requirements. We will then present these test cases to the client who might pass them on to the potential users of the system. We plan to use the feedback received by our client to improve overall quality of the system. This process is to ensure that the system can handle required tasks in the real-world scenarios.&lt;/p&gt;</content><summary type="html">This page details the testing stratedies we plan to execute for the project. This is to ensure that our system meets the specified requirements and quality standards.</summary></entry><entry><title type="html">User Interface Development</title><link href="http://localhost:4000/2016/group19/development/2016/12/04/user-interface.html" rel="alternate" type="text/html" title="User Interface Development" /><published>2016-12-04T23:30:51+00:00</published><updated>2016-12-04T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/development/2016/12/04/user-interface</id><content type="html" xml:base="http://localhost:4000/2016/group19/development/2016/12/04/user-interface.html">&lt;p&gt;This page highlights the design and development of the user interface and user experience of the front end system. This includes initial sketches, wireframes and also first prototype of our application.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
 
@@ -632,21 +264,7 @@ Below is the pseuodocode lllustrating the the 3 stages explained above. A user c
 
 &lt;p&gt;&lt;img src=&quot;/2016/group19/assets/img/pseuodocode.JPG&quot; class=&quot;image&quot; alt=&quot;node.js&quot; height=&quot;80%&quot; width=&quot;95%&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;#top&quot; class=&quot;btn btn-primary&quot;&gt;^ Back to top&lt;/a&gt;&lt;/p&gt;</content><summary type="html">This page details the research we have done through the course of designing the architecture for our system. It also includes details of the design of our matching algorithm.</summary></entry><entry><title type="html">Project Management Tools</title><link href="http://localhost:4000/2016/group19/management/2016/12/02/collborative.html" rel="alternate" type="text/html" title="Project Management Tools" /><published>2016-12-02T23:30:51+00:00</published><updated>2016-12-02T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/management/2016/12/02/collborative</id><content type="html" xml:base="http://localhost:4000/2016/group19/management/2016/12/02/collborative.html">&lt;p&gt;This page includes all of the tools we have used to manage our project. This includes communication, documentation, prototype design and others.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 class=&quot;section-header&quot;&gt;Facebook Messenger&lt;/h3&gt;
-&lt;p&gt;During our first meeting we set up a facebook group for communication between each other and share our ideas.&lt;/p&gt;
-
-&lt;h3 class=&quot;section-header&quot;&gt;Trello&lt;/h3&gt;
-&lt;p&gt;Trello is a collabration tool that organizes our projects on several boards. In our team we divided boards into three parts: Backlog, In progress and Completed. We create tasks by making boards and then add it into the Backlog section, for every task we assign a due date, members responsible for that task and add labels on it to indicate urgency. Once we start working on a task the card would be moved into the in progress section. The team agreed to take a maximum of 6 tasks in progress every week.&lt;/p&gt;
-
-&lt;h3 class=&quot;section-header&quot;&gt;Github&lt;/h3&gt;
-&lt;p&gt;Github is a version-control service based on git. Our team built three github repositories: one for documentation, main code repository, one repository for the project website. Through github each team member could work separately on same project simultaneously by making branches of master branch and send pull requst to merge each one’s work. Also the version control through github could help us to review our work thus find problems in previous work.&lt;/p&gt;
-
-&lt;h3 class=&quot;section-header&quot;&gt;Google Drive and Google Docs&lt;/h3&gt;
-&lt;p&gt;All of the documentation we have completed so far (which includes bi-weekly reports, research, design) are shared in google drive before converting it into Latex for submission or adding the content to the project website.&lt;/p&gt;</content><summary type="html">This page includes all of the tools we have used to manage our project. This includes communication, documentation, prototype design and others.</summary></entry><entry><title type="html">Technical Research</title><link href="http://localhost:4000/2016/group19/development/2016/11/04/technical-research.html" rel="alternate" type="text/html" title="Technical Research" /><published>2016-11-04T23:30:51+00:00</published><updated>2016-11-04T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/development/2016/11/04/technical-research</id><content type="html" xml:base="http://localhost:4000/2016/group19/development/2016/11/04/technical-research.html">&lt;p&gt;This page details all the technical research we have done (excluding architecture) throughout this project, including open-source libraries and frameworks that could be useful for the final system. Our research was split in to 2 categories which was frontend research and backend research.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;#top&quot; class=&quot;btn btn-primary&quot;&gt;^ Back to top&lt;/a&gt;&lt;/p&gt;</content><summary type="html">This page details the research we have done through the course of designing the architecture for our system. It also includes details of the design of our matching algorithm.</summary></entry><entry><title type="html">Technical Research</title><link href="http://localhost:4000/2016/group19/development/2016/11/19/technical-research.html" rel="alternate" type="text/html" title="Technical Research" /><published>2016-11-19T23:30:51+00:00</published><updated>2016-11-19T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/development/2016/11/19/technical-research</id><content type="html" xml:base="http://localhost:4000/2016/group19/development/2016/11/19/technical-research.html">&lt;p&gt;This page details all the technical research we have done (excluding architecture) throughout this project, including open-source libraries and frameworks that could be useful for the final system. Our research was split in to 2 categories which was frontend research and backend research.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
 
@@ -836,52 +454,385 @@ Ember.js is an open source JavaScript client-side framework for developing the w
   &lt;li&gt;No server-side rendering.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;#top&quot; class=&quot;btn btn-primary&quot;&gt;^ Back to top&lt;/a&gt;&lt;/p&gt;</content><summary type="html">This page details all the technical research we have done (excluding architecture) throughout this project, including open-source libraries and frameworks that could be useful for the final system. Our research was split in to 2 categories which was frontend research and backend research.</summary></entry><entry><title type="html">Background Research</title><link href="http://localhost:4000/2016/group19/development/2016/11/04/background-research.html" rel="alternate" type="text/html" title="Background Research" /><published>2016-11-04T23:30:51+00:00</published><updated>2016-11-04T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/development/2016/11/04/background-research</id><content type="html" xml:base="http://localhost:4000/2016/group19/development/2016/11/04/background-research.html">&lt;h3 class=&quot;section-header&quot;&gt;Overcoming the Stable Marriage Problem&lt;/h3&gt;
-&lt;p&gt;After researching online regarding solutions to the Stable Marriage Problem, we found that applying the &lt;strong&gt;Gale-Shapley Algorithm&lt;/strong&gt; would be an effective way to find a stable match between mentors and mentees.&lt;/p&gt;
-
-&lt;p&gt;The Gale-Shapley Algorithm involves a number of iterations or “rounds” where mentees are able to choose a fixed number of prefered mentors ordered by rank. Then the system will match mentors and mentees based on how suitable the match is between a mentor and mentee. By using this algortihm, we can ensure that every mentees gets matched with a mentor and no one is unpaired. A more detailed design of thhe matching process is available at the Architecture Research and Design section.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;#top&quot; class=&quot;btn btn-primary&quot;&gt;^ Back to top&lt;/a&gt;&lt;/p&gt;</content><summary type="html">This page details all the technical research we have done (excluding architecture) throughout this project, including open-source libraries and frameworks that could be useful for the final system. Our research was split in to 2 categories which was frontend research and backend research.</summary></entry><entry><title type="html">Use-cases</title><link href="http://localhost:4000/2016/group19/requirements/2016/11/09/usecases.html" rel="alternate" type="text/html" title="Use-cases" /><published>2016-11-09T23:30:51+00:00</published><updated>2016-11-09T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/requirements/2016/11/09/usecases</id><content type="html" xml:base="http://localhost:4000/2016/group19/requirements/2016/11/09/usecases.html">&lt;p&gt;This is a list of use cases.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h3 class=&quot;section-header&quot;&gt;Existing Solutions&lt;/h3&gt;
-&lt;p&gt;We searched for some existing applications that does matching between individuals as part of the initial stages of research. This helped us gain a basic idea of some features that we may like to include in our final product.&lt;/p&gt;
+&lt;!--  List OverView --&gt;
+&lt;div class=&quot;table-responsive decisionTable&quot;&gt; 
+	&lt;table class=&quot;table table-bordered&quot;&gt;
+		&lt;thead&gt;
+	      	&lt;tr&gt;
+	        	&lt;th&gt;Use case ID&lt;/th&gt;
+	        	&lt;th&gt;Use Case Name&lt;/th&gt;
+	      	&lt;/tr&gt;
+    	&lt;/thead&gt;
+    	&lt;tbody&gt;
+    		&lt;col width=&quot;20%&quot; /&gt;
+  			&lt;col width=&quot;80%&quot; /&gt;    		
+		    &lt;tr&gt;
+		       	&lt;td&gt;UC1&lt;/td&gt;
+		        &lt;td&gt;Create Account&lt;/td&gt;		        
+		    &lt;/tr&gt;
+		    &lt;tr&gt;
+		       	&lt;td&gt;UC2&lt;/td&gt;
+		        &lt;td&gt;Explore information of program &lt;/td&gt;		        
+		    &lt;/tr&gt;
+		    &lt;tr&gt;
+		       	&lt;td&gt;UC3&lt;/td&gt;
+		        &lt;td&gt;Register for a mentorship program&lt;/td&gt;		        
+		    &lt;/tr&gt;
+		    &lt;tr&gt;
+		       	&lt;td&gt;UC4&lt;/td&gt;
+		        &lt;td&gt;Setting matching preference&lt;/td&gt;		        
+		    &lt;/tr&gt;
+		    &lt;tr&gt;
+		       	&lt;td&gt;UC5&lt;/td&gt;
+		        &lt;td&gt;Define user's own interests&lt;/td&gt;		        
+		    &lt;/tr&gt;
+		    &lt;tr&gt;
+		       	&lt;td&gt;UC6&lt;/td&gt;
+		        &lt;td&gt;Messaging system for mentor and mentee&lt;/td&gt;		        
+		    &lt;/tr&gt;
+		    &lt;tr&gt;
+		       	&lt;td&gt;UC7&lt;/td&gt;
+		        &lt;td&gt;Check individual profile&lt;/td&gt; 
+		    &lt;/tr&gt;
+		    &lt;tr&gt;
+		       	&lt;td&gt;UC8&lt;/td&gt;		        
+		        &lt;td&gt;Get information about user's mentor or mentee&lt;/td&gt;		        	        
+		    &lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;br /&gt;
+	&lt;table class=&quot;table table-bordered&quot;&gt;  &lt;!-- Usecase1 --&gt;
+		&lt;tbody&gt;
+			&lt;col width=&quot;20%&quot; /&gt;
+  			&lt;col width=&quot;80%&quot; /&gt;
+			&lt;tr&gt;
+				&lt;td&gt;USE CASE&lt;/td&gt;
+				&lt;td&gt;Create Account&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;ID&lt;/td&gt;
+				&lt;td&gt;UC1&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
+				&lt;td&gt;Allow uses to create their own account and set up basic information &lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
+				&lt;td&gt;User&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRECONDITIONS&lt;/td&gt;
+				&lt;td&gt;None&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;MAIN FLOW&lt;/td&gt;
+				&lt;td&gt;
+					1.Click 'Create an Account' button.&lt;br /&gt;
+					2.Fill the required information in sign up page.&lt;br /&gt;
+					3.Click 'Sign up' button
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
+				&lt;td&gt;User account is set up and is redirected to home page&lt;/td&gt;
+			&lt;/tr&gt;
+			
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;br /&gt;
+	&lt;table class=&quot;table table-bordered&quot;&gt; &lt;!-- 2 --&gt;
+		&lt;tbody&gt;
+			&lt;col width=&quot;20%&quot; /&gt;
+  			&lt;col width=&quot;80%&quot; /&gt;
+			&lt;tr&gt;
+				&lt;td&gt;USE CASE&lt;/td&gt;
+				&lt;td&gt;Explore information of specific mentorship program&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;ID&lt;/td&gt;
+				&lt;td&gt;UC2&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
+				&lt;td&gt;Users chooses from the listed mentorship programs to find more information about the mentoring program&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
+				&lt;td&gt;User&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRECONDITIONS&lt;/td&gt;
+				&lt;td&gt;User must be registered and is already signed in&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;MAIN FLOW&lt;/td&gt;
+				&lt;td&gt;
+				1.Go to home page&lt;br /&gt;
+				2.Click on the desired mentorship program which are listed.
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
+				&lt;td&gt;User is redirected to a decription page of the specific mentorship program before proceeding to next step.&lt;/td&gt;
+			&lt;/tr&gt;
+			
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;br /&gt;
+	&lt;table class=&quot;table table-bordered&quot;&gt; &lt;!-- 3 --&gt;
+		&lt;tbody&gt;
+			&lt;col width=&quot;20%&quot; /&gt;
+  			&lt;col width=&quot;80%&quot; /&gt;
+			&lt;tr&gt;
+				&lt;td&gt;USE CASE&lt;/td&gt;
+				&lt;td&gt;Register for a mentorship program&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;ID&lt;/td&gt;
+				&lt;td&gt;UC3&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
+				&lt;td&gt;User registers for mentorship program of their interest.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
+				&lt;td&gt;User&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRECONDITIONS&lt;/td&gt;
+				&lt;td&gt;User must be logged in to their account&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;MAIN FLOW&lt;/td&gt;
+				&lt;td&gt;
+					1.Go to home page&lt;br /&gt;
+					2.Click on desired mentorship program&lt;br /&gt;
+					3.Click the 'Register Here' button&lt;br /&gt;
+					4.Choose the option of signing up as a mentor or mentee &lt;br /&gt;
+					5.Click 'Submit' to confirm registration.
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
+				&lt;td&gt;
+					1.Redirected back to home page.&lt;br /&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;ALTERNATIVE FLOW&lt;/td&gt;
+				&lt;td&gt;
+					User decides to set their preference for matching. Use case ID: UC4.
+				&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;br /&gt;
+	&lt;table class=&quot;table table-bordered&quot;&gt;
+	  &lt;!--  4 --&gt;
+		&lt;tbody&gt;
+			&lt;col width=&quot;20%&quot; /&gt;
+  			&lt;col width=&quot;80%&quot; /&gt;
+			&lt;tr&gt;
+				&lt;td&gt;USE CASE&lt;/td&gt;
+				&lt;td&gt;Setting matching preference&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;ID&lt;/td&gt;
+				&lt;td&gt;UC4&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
+				&lt;td&gt;Users can select their desired preferences which is used for matching&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
+				&lt;td&gt;User&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRECONDITIONS&lt;/td&gt;
+				&lt;td&gt;
+					1.Logged in successfully and have selected a valid mentorship program.
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;MAIN FLOW&lt;/td&gt;
+				&lt;td&gt;
+					1.Clicked 'Find Your Interests' button&lt;br /&gt;
+					2.Choose from list of preferences&lt;br /&gt;
+					3.Click 'Finish' button to confirm and save preferences.
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
+				&lt;td&gt;User's preferences for matching is saved&lt;/td&gt;
+			&lt;/tr&gt;	
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;br /&gt;
+	&lt;table class=&quot;table table-bordered&quot;&gt;  &lt;!-- 5 --&gt;
+		&lt;tbody&gt;
+			&lt;col width=&quot;20%&quot; /&gt;
+  			&lt;col width=&quot;80%&quot; /&gt;
+			&lt;tr&gt;
+				&lt;td&gt;USE CASE&lt;/td&gt;
+				&lt;td&gt;Define user's own preference&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;ID&lt;/td&gt;
+				&lt;td&gt;UC5&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
+				&lt;td&gt;Users define their own preference tags which is not listed.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
+				&lt;td&gt;User&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRECONDITIONS&lt;/td&gt;
+				&lt;td&gt;Logged in successfully and have selected a valid mentorship program&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;MAIN FLOW&lt;/td&gt;
+				&lt;td&gt;
+					1.Clicked 'to find your interests' button&lt;br /&gt;
+					2.Type in their desired preference in the textbox below&lt;br /&gt;
+					3.Click 'Add' button.
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
+				&lt;td&gt;Self-defined preference is saved along with other preferences&lt;/td&gt;
+			&lt;/tr&gt;	
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;br /&gt;
+	&lt;table class=&quot;table table-bordered&quot;&gt;  &lt;!-- 6 --&gt;
+		&lt;tbody&gt;
+			&lt;col width=&quot;20%&quot; /&gt;
+  			&lt;col width=&quot;80%&quot; /&gt;
+			&lt;tr&gt;
+				&lt;td&gt;USE CASE&lt;/td&gt;
+				&lt;td&gt;Messanging system for mentor and mentee&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;ID&lt;/td&gt;
+				&lt;td&gt;UC6&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
+				&lt;td&gt;Users get a notification when they receive a message.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
+				&lt;td&gt;User&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRECONDITIONS&lt;/td&gt;
+				&lt;td&gt;User is registered and logged in successfully&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;MAIN FLOW&lt;/td&gt;
+				&lt;td&gt;
+					1.Go to home page&lt;br /&gt;
+					2.Click the side-bar menu&lt;br /&gt;
+					3.Click 'Contact' button
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
+				&lt;td&gt;Users can see any notifications from their mentee or mentor&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;br /&gt;
+	&lt;table class=&quot;table table-bordered&quot;&gt;  &lt;!-- 7 --&gt;
+		&lt;tbody&gt;
+			&lt;col width=&quot;20%&quot; /&gt;
+  			&lt;col width=&quot;80%&quot; /&gt;
+			&lt;tr&gt;
+				&lt;td&gt;USE CASE&lt;/td&gt;
+				&lt;td&gt;Check individual profile&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;ID&lt;/td&gt;
+				&lt;td&gt;UC7&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
+				&lt;td&gt;Users could see information about themselves which includes current role and current enrolled programs.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
+				&lt;td&gt;User&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRECONDITIONS&lt;/td&gt;
+				&lt;td&gt;Logged in successfully&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;MAIN FLOW&lt;/td&gt;
+				&lt;td&gt;
+					1.Go to home page&lt;br /&gt;
+					2.Click the side-bar menu&lt;br /&gt;
+					3.Click 'Profile' button.
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
+				&lt;td&gt;Users could see their own profiles along with its details.&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;br /&gt;
+	&lt;table class=&quot;table table-bordered&quot;&gt;  &lt;!-- 8 --&gt;
+		&lt;tbody&gt;
+			&lt;col width=&quot;20%&quot; /&gt;
+  			&lt;col width=&quot;80%&quot; /&gt;
+			&lt;tr&gt;
+				&lt;td&gt;USE CASE&lt;/td&gt;
+				&lt;td&gt;Get information about the user's mentor or mentees&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;ID&lt;/td&gt;
+				&lt;td&gt;UC8&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;BREIF DESCRIPTION&lt;/td&gt;
+				&lt;td&gt;Users can see information about their mentor or mentees&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRIMARY ACTORS&lt;/td&gt;
+				&lt;td&gt;User&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;PRECONDITIONS&lt;/td&gt;
+				&lt;td&gt;Logged in successfully &lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;MAIN FLOW&lt;/td&gt;
+				&lt;td&gt;
+					1.Go to home page&lt;br /&gt;
+					2.Click the side-bar menu&lt;br /&gt;
+					3.Click 'My mentor' button or 'My mentee' button.
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;POSTCONDITIONS&lt;/td&gt;
+				&lt;td&gt;Information about their mentors and mentees is displayed.&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;
 
-&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Mentor Match&lt;/span&gt;&lt;br /&gt;
-&lt;a href=&quot;https://www.mentormatch.org.uk/&quot;&gt;&lt;strong&gt;Mentor Match&lt;/strong&gt;&lt;/a&gt; is an existing open source website that had a very similar concept to what our client was trying to acheive. Mentor Match is open to everyone and allows individuals with experience in a particular skillset to act as mentors to help mentees improve on that particular skillset.
-Since this website is open to everyone, it makes exchange of knowledge very simple as anyone could take part in it.&lt;/p&gt;
-
-&lt;p&gt;However, there are certain features that the website lacks in terms of security as there is no verification as there is no way to assure that users applying to be a mentor has the skillset to become one. Also there were different types of mentor schemes requested by our client which differ with the schemes provided on the Mentor Match website. Despite the differences in structure of this website with the web application we are about to build, Mentor Match could be a useful guideline on the basic foundation of our web application.&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Business Mentoring&lt;/span&gt;&lt;br /&gt;
-&lt;a href=&quot;http://www.management-mentors.com/products/corporate-mentoring-products-overview&quot;&gt;&lt;strong&gt;Business Mentoring&lt;/strong&gt;&lt;/a&gt; matches based on:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Focus areas/ competencies: There system have 25 default competencies to choose. (useful)&lt;/li&gt;
-  &lt;li&gt;Forced choice questions:Provide questions that have several answers to select. Make the preferences of matching more specific. (useful)&lt;/li&gt;
-  &lt;li&gt;Personality test:(optional)&lt;/li&gt;
-  &lt;li&gt;Ranking of key roles: In this section, mentorees must decide what type of mentor they want based on how they order the following roles: teacher, sponsor, cheerleader, counselor, and friend (meaning if they put “cheerleader” first and “counselor” last, it’s more important that the mentor is a cheerleader than a friend). Mentors must decide the type of mentor they want to be and do the same thing, ranking the roles in order of most important to least. (useful)&lt;/li&gt;
-  &lt;li&gt;Essay section (not useful)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;They also provide system matching:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Auto matching: makes matches based on algorithm without any review.&lt;/li&gt;
-  &lt;li&gt;three-steps-matching (also combines human touch, not 100% system matching):
-    &lt;ul&gt;
-      &lt;li&gt;Program manager choose 3 tentative mentors for individual mentee.&lt;/li&gt;
-      &lt;li&gt;Comparing mentoring forms(inforamtion) of the mentee with each mentor&lt;/li&gt;
-      &lt;li&gt;The program manager makes the final choice&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;What we could learn from this project:
-As the result of precise matching algorithm,this application has high percentage of successful matching (90% according to its website). From my research, the division of focus areas and ranking of key roles play an important role in matching, thats what we could follow in our app, give a list of skills as tags for user to choose.&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Dating Applications&lt;/span&gt;&lt;br /&gt;
-Dating applications may not be the most professional apps to be used in a workplace, however the concept of these types of application is very similar to what was requested by our client. Our Client even quoted that this application “could be considered a kind of dating app”. Most dating applications have simple and elegent user interfaces that users can act easily with. This could be applied to our application so that employees in Atos workplace can use our application with ease. Concepts such as user profiles, notifications, instant messaging could be included in our application which already exist in dating applications.&lt;/p&gt;</content><summary type="html">Overcoming the Stable Marriage Problem
-After researching online regarding solutions to the Stable Marriage Problem, we found that applying the Gale-Shapley Algorithm would be an effective way to find a stable match between mentors and mentees.
-
-The Gale-Shapley Algorithm involves a number of iterations or “rounds” where mentees are able to choose a fixed number of prefered mentors ordered by rank. Then the system will match mentors and mentees based on how suitable the match is between a mentor and mentee. By using this algortihm, we can ensure that every mentees gets matched with a mentor and no one is unpaired. A more detailed design of thhe matching process is available at the Architecture Research and Design section.</summary></entry><entry><title type="html">MosCoW Requirements</title><link href="http://localhost:4000/2016/group19/requirements/2016/11/04/moscow-requirements.html" rel="alternate" type="text/html" title="MosCoW Requirements" /><published>2016-11-04T23:30:51+00:00</published><updated>2016-11-04T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/requirements/2016/11/04/moscow-requirements</id><content type="html" xml:base="http://localhost:4000/2016/group19/requirements/2016/11/04/moscow-requirements.html">&lt;p&gt;This is a list of all the requirements as agreed and finalised with our client. These requirements are subject to change over the course of the development phase of this project.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;#top&quot; class=&quot;btn btn-primary&quot;&gt;^ Back to top&lt;/a&gt;&lt;/p&gt;</content><summary type="html">This is a list of use cases.</summary></entry><entry><title type="html">MosCoW Requirements</title><link href="http://localhost:4000/2016/group19/requirements/2016/11/07/moscow-requirements.html" rel="alternate" type="text/html" title="MosCoW Requirements" /><published>2016-11-07T23:30:51+00:00</published><updated>2016-11-07T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/requirements/2016/11/07/moscow-requirements</id><content type="html" xml:base="http://localhost:4000/2016/group19/requirements/2016/11/07/moscow-requirements.html">&lt;p&gt;This is a list of all the requirements as agreed and finalised with our client. These requirements are subject to change over the course of the development phase of this project.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
 
@@ -970,4 +921,49 @@ The Gale-Shapley Algorithm involves a number of iterations or “rounds” where
 		    &lt;/tr&gt;
 		&lt;/tbody&gt;
 	&lt;/table&gt;
-&lt;/div&gt;</content><summary type="html">This is a list of all the requirements as agreed and finalised with our client. These requirements are subject to change over the course of the development phase of this project.</summary></entry></feed>
+&lt;/div&gt;</content><summary type="html">This is a list of all the requirements as agreed and finalised with our client. These requirements are subject to change over the course of the development phase of this project.</summary></entry><entry><title type="html">Background Research</title><link href="http://localhost:4000/2016/group19/development/2016/11/04/background-research.html" rel="alternate" type="text/html" title="Background Research" /><published>2016-11-04T23:30:51+00:00</published><updated>2016-11-04T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/development/2016/11/04/background-research</id><content type="html" xml:base="http://localhost:4000/2016/group19/development/2016/11/04/background-research.html">&lt;h3 class=&quot;section-header&quot;&gt;Overcoming the Stable Marriage Problem&lt;/h3&gt;
+&lt;p&gt;After researching online regarding solutions to the Stable Marriage Problem, we found that applying the &lt;strong&gt;Gale-Shapley Algorithm&lt;/strong&gt; would be an effective way to find a stable match between mentors and mentees.&lt;/p&gt;
+
+&lt;p&gt;The Gale-Shapley Algorithm involves a number of iterations or “rounds” where mentees are able to choose a fixed number of prefered mentors ordered by rank. Then the system will match mentors and mentees based on how suitable the match is between a mentor and mentee. By using this algortihm, we can ensure that every mentees gets matched with a mentor and no one is unpaired. A more detailed design of thhe matching process is available at the Architecture Research and Design section.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 class=&quot;section-header&quot;&gt;Existing Solutions&lt;/h3&gt;
+&lt;p&gt;We searched for some existing applications that does matching between individuals as part of the initial stages of research. This helped us gain a basic idea of some features that we may like to include in our final product.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Mentor Match&lt;/span&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.mentormatch.org.uk/&quot;&gt;&lt;strong&gt;Mentor Match&lt;/strong&gt;&lt;/a&gt; is an existing open source website that had a very similar concept to what our client was trying to acheive. Mentor Match is open to everyone and allows individuals with experience in a particular skillset to act as mentors to help mentees improve on that particular skillset.
+Since this website is open to everyone, it makes exchange of knowledge very simple as anyone could take part in it.&lt;/p&gt;
+
+&lt;p&gt;However, there are certain features that the website lacks in terms of security as there is no verification as there is no way to assure that users applying to be a mentor has the skillset to become one. Also there were different types of mentor schemes requested by our client which differ with the schemes provided on the Mentor Match website. Despite the differences in structure of this website with the web application we are about to build, Mentor Match could be a useful guideline on the basic foundation of our web application.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Business Mentoring&lt;/span&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.management-mentors.com/products/corporate-mentoring-products-overview&quot;&gt;&lt;strong&gt;Business Mentoring&lt;/strong&gt;&lt;/a&gt; matches based on:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Focus areas/ competencies: There system have 25 default competencies to choose. (useful)&lt;/li&gt;
+  &lt;li&gt;Forced choice questions:Provide questions that have several answers to select. Make the preferences of matching more specific. (useful)&lt;/li&gt;
+  &lt;li&gt;Personality test:(optional)&lt;/li&gt;
+  &lt;li&gt;Ranking of key roles: In this section, mentorees must decide what type of mentor they want based on how they order the following roles: teacher, sponsor, cheerleader, counselor, and friend (meaning if they put “cheerleader” first and “counselor” last, it’s more important that the mentor is a cheerleader than a friend). Mentors must decide the type of mentor they want to be and do the same thing, ranking the roles in order of most important to least. (useful)&lt;/li&gt;
+  &lt;li&gt;Essay section (not useful)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;They also provide system matching:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Auto matching: makes matches based on algorithm without any review.&lt;/li&gt;
+  &lt;li&gt;three-steps-matching (also combines human touch, not 100% system matching):
+    &lt;ul&gt;
+      &lt;li&gt;Program manager choose 3 tentative mentors for individual mentee.&lt;/li&gt;
+      &lt;li&gt;Comparing mentoring forms(inforamtion) of the mentee with each mentor&lt;/li&gt;
+      &lt;li&gt;The program manager makes the final choice&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;What we could learn from this project:
+As the result of precise matching algorithm,this application has high percentage of successful matching (90% according to its website). From my research, the division of focus areas and ranking of key roles play an important role in matching, thats what we could follow in our app, give a list of skills as tags for user to choose.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;lead sub-header&quot;&gt;Dating Applications&lt;/span&gt;&lt;br /&gt;
+Dating applications may not be the most professional apps to be used in a workplace, however the concept of these types of application is very similar to what was requested by our client. Our Client even quoted that this application “could be considered a kind of dating app”. Most dating applications have simple and elegent user interfaces that users can act easily with. This could be applied to our application so that employees in Atos workplace can use our application with ease. Concepts such as user profiles, notifications, instant messaging could be included in our application which already exist in dating applications.&lt;/p&gt;</content><summary type="html">Overcoming the Stable Marriage Problem
+After researching online regarding solutions to the Stable Marriage Problem, we found that applying the Gale-Shapley Algorithm would be an effective way to find a stable match between mentors and mentees.
+
+The Gale-Shapley Algorithm involves a number of iterations or “rounds” where mentees are able to choose a fixed number of prefered mentors ordered by rank. Then the system will match mentors and mentees based on how suitable the match is between a mentor and mentee. By using this algortihm, we can ensure that every mentees gets matched with a mentor and no one is unpaired. A more detailed design of thhe matching process is available at the Architecture Research and Design section.</summary></entry></feed>

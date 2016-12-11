@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "MosCoW Requirements"
-date:   2016-11-05 00:30:51 +0100
+date:   2016-11-8 00:30:51 +0100
 categories: requirements
 ---
 
