@@ -3,10 +3,10 @@ layout: page
 title: "Requirements"
 permalink: /requirements/
 navigation: true
+order: 3
 ---
 
 {% assign requirements = (site.posts | where_exp:"item","item.categories contains 'requirements'") %}
 {% for p in requirements %}
-<div class="card">
     {% include post.html p=p %}
 {% endfor %}
