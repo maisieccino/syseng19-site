@@ -1,14 +1,12 @@
 ---
 layout: page
-title: "Experiments"
+title: Experiments
 permalink: /experiments/
 navigation: true
 order: 4
 ---
 <h3 class="section-header">Experiment Log</h3>
 This page contains the experiment log for our development of the application throughout term 1. The experiment is a souped-up to-do list that demonstrates good and bad outcomes of the experiments and research we have done.
-
-__MORE__
 
 <div class="table-responsive">
 	<table class="table table-bordered decisionTable" style="font-size: 13px;">
