@@ -31,7 +31,7 @@ This page contains the experiment log for our development of the application thr
 		    <tr>
 		       	<td>1</td>
 		        <td>Formalise requirements</td>
-		        <td>In order to get requirements of the app we arranged skype meetings with our client to discuss them and summarised the requirements which is approved by the client</td>
+		        <td>In order to get requirements of the app we arranged skype meetings with our client to discuss them and summarised the requirements which were approved by the client</td>
 		        <td>Completed MoSCoW Requirements</td>
 		        <td>Success</td>
 		        <td>Matt Bell</td>
@@ -49,7 +49,7 @@ This page contains the experiment log for our development of the application thr
 		    <tr>
 		        <td>2</td>
 		        <td>Experiment on matching algorithms</td>
-		        <td>We researched and experimented on algorithms such as the Stable Marriage problem and Gale Shapley Algorithm by using manual test cases for different sets of data. We tried the algorithm on data sets with even number of mentor and mentees and also different number of mentors and mentees.</td>
+		        <td>We researched and experimented on algorithms such as the Stable Marriage problem and Gale Shapley Algorithm by using manual test cases for different sets of data. We applied the algorithm on data sets with even number of mentor and mentees and also different number of mentors and mentees.</td>
 		        <td>Successfully designed a working algorithm that solves the problem outlined by our client and also constructed pseuodocode for future development</td>
 		        <td>Success</td>
 		        <td>Christopher,Matt Bell</td>
@@ -58,7 +58,7 @@ This page contains the experiment log for our development of the application thr
 		    <tr>
 		       	<td>3</td>
 		       	<td>UI design research</td>
-		       	<td>Experimented on different UI designs by producing different sketches and evaluating the best designs</td>
+		       	<td>Experiment on different UI designs by producing different sketches and evaluating the best designs</td>
 		       	<td>Made a initial sketch with several pages that shows how users could register for a program.</td>
 		       	<td>Success</td>
 		       	<td>Harry Chen</td>
@@ -76,7 +76,7 @@ This page contains the experiment log for our development of the application thr
 		    <tr>
 		       	<td>5</td>
 		       	<td>Explore existing solutions</td>
-		       	<td>We explored various existing solutions online for any current application that fit our requirements and experimented some of features of these applications.</td>
+		       	<td>We explored various existing solutions online for any current application that fit our requirements and experimented on some features of these applications by trying them out.</td>
 		       	<td>Found two existing solutions: Mentor match and Business mentoring, also noticed that dating apps had somewhat similar features.</td>
 		       	<td>Success</td>
 		       	<td>Harry Chen, Christopher</td>
@@ -85,7 +85,7 @@ This page contains the experiment log for our development of the application thr
 		    <tr>
 		       	<td>6</td>
 		       	<td>Explore different tech stacks</td>
-		       	<td>Since we are going to mkae a web app, we looked into various front-end and back-end frameworks. Some of us also experimented on using these frameworks during our scenario week.</td>
+		       	<td>Since we are going to make a web app, we looked into various front-end and back-end frameworks. Some of us also experimented on using these frameworks during our scenario week.</td>
 		       	<td>Our research covered lots of frameworks for both front-end side and back-end side, like NodeJS, Django,AngularJS, we compared them and decided to use AngularJS and Django to develop our app.</td>
 		       	<td>Success</td>
 		       	<td>Christpher, Matt Bell, Harry Chen</td>
@@ -94,7 +94,7 @@ This page contains the experiment log for our development of the application thr
 		    <tr>
 		        <td>7</td>
 		        <td>First prototype</td>
-		        <td>Create a prototype to showcase the main functions and contents that we are going to implement in our final application. We also performed many run-throughs on the overall flow of the prototype.</td>
+		        <td>Create a prototype to showcase the main functionalities that we are going to implement in our final application. We also performed many run-throughs on the overall flow of the prototype.</td>
 		        <td>We used Ionic creator and created a interactive prototype based on our initial UI sketch and MoSCoW requirements</td>
 		        <td>Success</td>
 		        <td>Harry Chen</td>
