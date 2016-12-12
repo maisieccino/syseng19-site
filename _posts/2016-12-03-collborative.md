@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Project Management Tools"
-date:   2016-12-3 00:30:51 +0100
+date:   2016-12-8 00:30:51 +0100
 categories: management
 ---
 This page includes all of the tools we have used to manage our project. This includes communication, documentation, prototype design and others.

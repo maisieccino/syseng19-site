@@ -9,6 +9,10 @@ body{
     box-shadow: 0 2px 3px rgba(99,99,99,0.7);
 }
 
+#site-title{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
 .navbar-brand{
 	font-family: 'Francois One', sans-serif;
 	font-family: 'Crete Round', serif;

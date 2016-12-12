@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Bi-Weekly Reports"
-date:   2016-12-3 00:30:51 +0100
+title:  "Bi-Weekly Reports and Meeting Minutes"
+date:   2016-12-8 00:30:51 +0100
 categories: management
 ---
 
