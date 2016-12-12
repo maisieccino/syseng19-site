@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Experiments
+title: "Experiments"
 permalink: /experiments/
 navigation: true
 order: 4
