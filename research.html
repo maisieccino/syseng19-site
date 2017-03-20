@@ -1,0 +1,12 @@
+---
+layout: page
+title: "Research"
+permalink: /research/
+navigation: true
+order: 6
+---
+
+{% assign research = (site.posts | where_exp:"item","item.categories contains 'research'") %}
+{% for p in research %}
+    {% include post.html p=p %}
+{% endfor %}

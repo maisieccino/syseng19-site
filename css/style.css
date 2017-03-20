@@ -62,3 +62,10 @@ thead{
 .decisionTable, .decisionTable td{
    border-color:#b1afaf;
 }
+
+.warning-box{
+	border:1px solid red;
+	border-radius: 3px;
+	color: red;
+	padding: 8px;
+}

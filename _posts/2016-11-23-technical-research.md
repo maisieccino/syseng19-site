@@ -2,7 +2,7 @@
 layout: post
 title:  "Technical Research"
 date:   2016-11-20 00:30:51 +0100
-categories: development
+categories: research
 ---
 
 

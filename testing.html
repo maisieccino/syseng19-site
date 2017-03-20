@@ -1,0 +1,12 @@
+---
+layout: page
+title: "Testing"
+permalink: /testing/
+navigation: true
+order: 7
+---
+
+{% assign testing = (site.posts | where_exp:"item","item.categories contains 'testing'") %}
+{% for p in testing %}
+    {% include post.html p=p %}
+{% endfor %}

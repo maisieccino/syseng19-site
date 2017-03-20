@@ -8,6 +8,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/6b29e506c5.js"></script>
+
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- Hover CSS -->
@@ -56,7 +60,17 @@
 			        </li>
 			        
 			        <li class="nav-item pull-right ">
-		                <a class="nav-link" href="/2016/group19/development/">Development
+		                <a class="nav-link" href="/2016/group19/design/">Design
+		                </a>
+			        </li>
+			        
+			        <li class="nav-item pull-right ">
+		                <a class="nav-link" href="/2016/group19/research/">Research
+		                </a>
+			        </li>
+			        
+			        <li class="nav-item pull-right ">
+		                <a class="nav-link" href="/2016/group19/testing/">Testing
 		                </a>
 			        </li>
 			        
@@ -89,9 +103,12 @@
         <div class="row">
             <div class="container">
                 <div class="col-md-12">
-                    <p>This is a list of use cases.</p>
+                    <p>This page consists of a list of use cases which aims to illustrate the interaction between users at different parts of the application.</p>
 
 <p><strong>MORE</strong></p>
+
+<div class="warning-box"><p> <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Please note that this is just an initial set use cases which could be subjected to changes during the later phase of development!</p></div>
+<p><br /></p>
 
 <!--  List OverView -->
 <div class="table-responsive decisionTable"> 
@@ -119,7 +136,7 @@
 		    </tr>
 		    <tr>
 		       	<td>UC4</td>
-		        <td>Setting matching preference</td>		        
+		        <td>Set matching preference</td>		        
 		    </tr>
 		    <tr>
 		       	<td>UC5</td>
@@ -135,19 +152,21 @@
 		    </tr>
 		    <tr>
 		       	<td>UC8</td>		        
-		        <td>Get information about user's mentor or mentee</td>		        	        
+		        <td>List user's mentors or mentees</td>		        	        
 		    </tr>
 		</tbody>
 	</table>
 <br />
 	<table class="table table-bordered">  <!-- Usecase1 -->
+		<thead>
+			<tr>
+				<th>USE CASE</th>
+				<th>Create Account</th>
+			</tr>
+		</thead>
 		<tbody>
 			<col width="20%" />
   			<col width="80%" />
-			<tr>
-				<td>USE CASE</td>
-				<td>Create Account</td>
-			</tr>
 			<tr>
 				<td>ID</td>
 				<td>UC1</td>
@@ -176,7 +195,6 @@
 				<td>POSTCONDITIONS</td>
 				<td>User account is set up and is redirected to home page</td>
 			</tr>
-			
 		</tbody>
 	</table>
 <br />
@@ -184,10 +202,12 @@
 		<tbody>
 			<col width="20%" />
   			<col width="80%" />
-			<tr>
-				<td>USE CASE</td>
-				<td>Explore information of specific mentorship program</td>
-			</tr>
+  			<thead>
+				<tr>
+					<th>USE CASE</th>
+					<th>Find out more about specific mentorship program</th>
+				</tr>
+			</thead>
 			<tr>
 				<td>ID</td>
 				<td>UC2</td>
@@ -223,10 +243,12 @@
 		<tbody>
 			<col width="20%" />
   			<col width="80%" />
-			<tr>
-				<td>USE CASE</td>
-				<td>Register for a mentorship program</td>
-			</tr>
+			<thead>
+				<tr>
+					<th>USE CASE</th>
+					<th>Resgiter for a mentor program</th>
+				</tr>
+			</thead>
 			<tr>
 				<td>ID</td>
 				<td>UC3</td>
@@ -273,10 +295,12 @@
 		<tbody>
 			<col width="20%" />
   			<col width="80%" />
-			<tr>
-				<td>USE CASE</td>
-				<td>Setting matching preference</td>
-			</tr>
+  			<thead>
+				<tr>
+					<th>USE CASE</th>
+					<th>Set matching preferences</th>
+				</tr>
+			</thead>
 			<tr>
 				<td>ID</td>
 				<td>UC4</td>
@@ -314,10 +338,12 @@
 		<tbody>
 			<col width="20%" />
   			<col width="80%" />
-			<tr>
-				<td>USE CASE</td>
-				<td>Define user's own preference</td>
-			</tr>
+  			<thead>
+				<tr>
+					<th>USE CASE</th>
+					<th>Define user's own preferences</th>
+				</tr>
+			</thead>
 			<tr>
 				<td>ID</td>
 				<td>UC5</td>
@@ -353,10 +379,12 @@
 		<tbody>
 			<col width="20%" />
   			<col width="80%" />
-			<tr>
-				<td>USE CASE</td>
-				<td>Messanging system for mentor and mentee</td>
-			</tr>
+  			<thead>
+				<tr>
+					<th>USE CASE</th>
+					<th>Messanging system for mentor and mentee</th>
+				</tr>
+			</thead>
 			<tr>
 				<td>ID</td>
 				<td>UC6</td>
@@ -392,10 +420,12 @@
 		<tbody>
 			<col width="20%" />
   			<col width="80%" />
-			<tr>
-				<td>USE CASE</td>
-				<td>Check individual profile</td>
-			</tr>
+  			<thead>
+				<tr>
+					<th>USE CASE</th>
+					<th>Check individual profile</th>
+				</tr>
+			</thead>
 			<tr>
 				<td>ID</td>
 				<td>UC7</td>
@@ -431,17 +461,19 @@
 		<tbody>
 			<col width="20%" />
   			<col width="80%" />
-			<tr>
-				<td>USE CASE</td>
-				<td>Get information about the user's mentor or mentees</td>
-			</tr>
+  			<thead>
+				<tr>
+					<th>USE CASE</th>
+					<th>List user's mentor or mentees</th>
+				</tr>
+			</thead>
 			<tr>
 				<td>ID</td>
 				<td>UC8</td>
 			</tr>
 			<tr>
 				<td>BREIF DESCRIPTION</td>
-				<td>Users can see information about their mentor or mentees</td>
+				<td>Users can see a list of their mentor or mentees in different mentor programs</td>
 			</tr>
 			<tr>
 				<td>PRIMARY ACTORS</td>
@@ -456,12 +488,12 @@
 				<td>
 					1.Go to home page<br />
 					2.Click the side-bar menu<br />
-					3.Click 'My mentor' button or 'My mentee' button.
+					3.Click 'My mentors' button or 'My mentees' button.
 				</td>
 			</tr>
 			<tr>
 				<td>POSTCONDITIONS</td>
-				<td>Information about their mentors and mentees is displayed.</td>
+				<td>A list of the currenty logged in user's mentors and mentees is displayed according to their respective mentor programs.</td>
 			</tr>
 		</tbody>
 	</table>

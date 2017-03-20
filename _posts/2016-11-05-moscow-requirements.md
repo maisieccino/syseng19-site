@@ -43,7 +43,7 @@ __MORE__
 		    </tr>
 		    <tr>
 		        <td>Web Application</td>
-		        <td>The application must be able to be accessed on both mobile and desktop form factors</td>
+		        <td>A complete web application must be provided by the end of the development phase which includes a client side user interface and a functional server back end</td>
 		        <td>Functional</td>
 		    </tr>
 		    <tr>
@@ -76,11 +76,6 @@ __MORE__
 		        <td>Functional</td>
 		    </tr>
 		    <tr>
-		        <td>Instant messaging</td>
-		        <td>The app could be able to store records of the mentor and mentee meeting each other during the course of the mentorship, with the ability to add comments to this.</td>
-		        <td>Functional</td>
-		    </tr>
-		    <tr>
 		        <td>Notifications to meet</td>
 		        <td>The app could facilitate instant messaging betweenmentors and mentees.</td>
 		        <td>Functional</td>
@@ -90,6 +85,11 @@ __MORE__
 		     <tr>
 		        <td>Corporate Directory Lookup</td>
 		        <td>The app would be able to use the company’s internal “Corporate Directory” to populate users’ profiles</td>
+		        <td>Functional</td>
+		    </tr>
+		    <tr>
+		        <td>Instant messaging</td>
+		        <td>The app could be able to store records of the mentor and mentee meeting each other during the course of the mentorship, with the ability to add comments to this.</td>
 		        <td>Functional</td>
 		    </tr>
 		</tbody>
