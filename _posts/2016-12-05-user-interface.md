@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "User Interface Development"
+title:  "User Interface Development and Design"
 date:   2016-12-5 00:30:51 +0100
 categories: development
 ---

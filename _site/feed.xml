@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/2016/group19/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/2016/group19/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/2016/group19/" rel="alternate" type="text/html" /><updated>2017-03-20T23:22:49+00:00</updated><id>http://localhost:4000/2016/group19//</id><title type="html">Mentor Matching - Team 19</title><subtitle>Matthew Bell, Christopher Lau and Harry Chen are working on creating a system to match mentors and mentees in their workplace based on their preferences, on behalf of Atos UK.  This website covers the research we have done to create a fully working Proof of Concept. 
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/2016/group19/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/2016/group19/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/2016/group19/" rel="alternate" type="text/html" /><updated>2017-03-21T21:44:20+00:00</updated><id>http://localhost:4000/2016/group19//</id><title type="html">Mentor Matching - Team 19</title><subtitle>Matthew Bell, Christopher Lau and Harry Chen are working on creating a system to match mentors and mentees in their workplace based on their preferences, on behalf of Atos UK.  This website covers the research we have done to create a fully working Proof of Concept. 
 </subtitle><entry><title type="html">Project Video</title><link href="http://localhost:4000/2016/group19/management/2017/01/08/project-video.html" rel="alternate" type="text/html" title="Project Video" /><published>2017-01-08T23:30:51+00:00</published><updated>2017-01-08T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/management/2017/01/08/project-video</id><content type="html" xml:base="http://localhost:4000/2016/group19/management/2017/01/08/project-video.html">&lt;p&gt;This is a video that includes the introduction of our team along with it’s team members and an overview of our research phase during term 1.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
@@ -12,7 +12,75 @@
 
 &lt;p&gt;With a finalized set of requirements along with completed designed of our architecture and matching algorithm, our next goal for the second term is to develop our application based on the specified requirements and constraints. We will be developing functionalities and features in the order we prioritized in our MoSCoW requirements. We will also be implementing the user interface based on the first prototype we have created. We will also be splitting roles on team members who will be responsible for developing the frontend and backend.&lt;/p&gt;
 
-&lt;p&gt;Also, we will continue to use the SCRUM agile development process to manage the process with weekly sprints to ensure that progress is on track. We will also have regular meetings with our client to show our progress in different stages of development and take into account their feedback. We might also be planning on preparing short user acceptance tests before every client meeting, so that all new features we develop during a sprint go through a formal approval process.&lt;/p&gt;</content><summary type="html">This page details the project plans for term 2</summary></entry><entry><title type="html">Bi-Weekly Reports and Meeting Minutes</title><link href="http://localhost:4000/2016/group19/management/2016/12/07/biweekly-reports.html" rel="alternate" type="text/html" title="Bi-Weekly Reports and Meeting Minutes" /><published>2016-12-07T23:30:51+00:00</published><updated>2016-12-07T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/management/2016/12/07/biweekly-reports</id><content type="html" xml:base="http://localhost:4000/2016/group19/management/2016/12/07/biweekly-reports.html">&lt;p&gt;This page contains reports which are produced fortnightly by the team which record the progress of the project. It also contains the meeting minutes for the meetings we have conducted so far.&lt;/p&gt;
+&lt;p&gt;Also, we will continue to use the SCRUM agile development process to manage the process with weekly sprints to ensure that progress is on track. We will also have regular meetings with our client to show our progress in different stages of development and take into account their feedback. We might also be planning on preparing short user acceptance tests before every client meeting, so that all new features we develop during a sprint go through a formal approval process.&lt;/p&gt;</content><summary type="html">This page details the project plans for term 2</summary></entry><entry><title type="html">System Design</title><link href="http://localhost:4000/2016/group19/development/2016/12/09/system-design.html" rel="alternate" type="text/html" title="System Design" /><published>2016-12-09T23:30:51+00:00</published><updated>2016-12-09T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/development/2016/12/09/system-design</id><content type="html" xml:base="http://localhost:4000/2016/group19/development/2016/12/09/system-design.html">&lt;p&gt;This page highlights the overall system design of our web application. This is includes a system architecture diagram, a class diagram representing the properties of individual classes and thier relationship with each other and finally a entity relation diagram for out database.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#system-architecture&quot; style=&quot;margin-top: 7px;&quot; class=&quot;btn btn-primary&quot;&gt;System Architecture Diagram&lt;/a&gt;
+&lt;a href=&quot;#entity-design&quot; style=&quot;margin-top: 7px;&quot; class=&quot;btn btn-primary&quot;&gt;Entity Relationship Diagram&lt;/a&gt;
+&lt;a href=&quot;#class-diagram&quot; style=&quot;margin-top: 7px;&quot; class=&quot;btn btn-primary&quot;&gt;Class Diagram&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 class=&quot;section-header&quot; id=&quot;system-architecture&quot;&gt;System Architecture Design&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/2016/group19/assets/img/architecture-design.png&quot; class=&quot;image&quot; alt=&quot;node.js&quot; height=&quot;55%&quot; width=&quot;65%&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The above diagram is an conceptual illustration that defines the structure of the overall system of the web application. When designing the system architecture, we focused on identifying the key components that will be used for the client side and server side and also the communication between the client side and server side.&lt;/p&gt;
+
+&lt;p&gt;For the client side, we have decided to produce an ionic web application which is stored on the client’s device. The application will be developed using &lt;code&gt;AngularJS&lt;/code&gt; and also Cordova plugins with the Ionic Framework. For authentication, we have decided to use the Oauth2.0 Implicint Grant flow to generate tokens which will be used to authorize users. The client side will be communicating and obtaining data from the server side using HTTP Requests.&lt;/p&gt;
+
+&lt;p&gt;For the server side, we have decided to use the &lt;code&gt;Django REST Framework&lt;/code&gt; which allows us to develop a REST API. Django also allows us to develop object models which are used to fetch data from the database. The database we are using is &lt;code&gt;PostgreSQL&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#top&quot; class=&quot;btn btn-primary&quot;&gt;^ Back to top&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 class=&quot;section-header&quot; id=&quot;entity-design&quot;&gt;Entity Relationship Diagram&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/2016/group19/assets/img/entity-relation.png&quot; class=&quot;image&quot; alt=&quot;node.js&quot; height=&quot;55%&quot; width=&quot;65%&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The above entity relationship diagram illustrates the relationships of entity sets which are stored in the database. This diagram acts as a guide to aid us in developing the PostgreSQL database. Below is a table providing short descriptions of individual entity sets.&lt;/p&gt;
+
+&lt;div class=&quot;table-responsive&quot;&gt;
+	&lt;table class=&quot;table table-bordered&quot;&gt;
+		&lt;thead&gt;
+	      	&lt;tr&gt;
+	        	&lt;th&gt;Entity&lt;/th&gt;
+	        	&lt;th&gt;Description&lt;/th&gt;
+	      	&lt;/tr&gt;
+    	&lt;/thead&gt;
+    	&lt;tbody&gt;
+		    &lt;tr&gt;
+		        &lt;td&gt;&lt;strong&gt;User&lt;/strong&gt;&lt;/td&gt;
+		        &lt;td&gt;Users are registered using an email address and also has an individual profile which contains details such as First and Last Names, position in ATOS, a short biography, join Date etc&lt;/td&gt;
+		    &lt;/tr&gt;
+		    &lt;tr&gt;
+		        &lt;td&gt;&lt;strong&gt;MentorShip&lt;/strong&gt;&lt;/td&gt;
+		        &lt;td&gt;This is a list of users which are registered in a mentor program and are mentors and mentees of ther users.&lt;/td&gt;
+		    &lt;/tr&gt;
+		    &lt;tr&gt;
+		        &lt;td&gt;&lt;strong&gt;Cohort&lt;/strong&gt;&lt;/td&gt;
+		        &lt;td&gt;This is the size of the mentor program which acts as a restriction to prevent too many users from registering in a single program.&lt;/td&gt;
+		    &lt;/tr&gt;
+		    &lt;tr&gt;
+		        &lt;td&gt;&lt;strong&gt;Programme&lt;/strong&gt;&lt;/td&gt;
+		        &lt;td&gt;This illustrates the mentor program itself. Details such as program description, program banner and also the admin responsible for creating the program is stored.&lt;/td&gt;
+		    &lt;/tr&gt;
+		    &lt;tr&gt;
+		        &lt;td&gt;&lt;strong&gt;Tags&lt;/strong&gt;&lt;/td&gt;
+		        &lt;td&gt;This is a list of &quot;tags&quot; which are used to match mentors and mentees.&lt;/td&gt;
+		    &lt;/tr&gt;
+		    &lt;tr&gt;
+		        &lt;td&gt;&lt;strong&gt;Updates and Messages&lt;/strong&gt;&lt;/td&gt;
+		        &lt;td&gt;These acts as updates for the user regarding the status in the mentor program they are registered in or are choosing to register in.&lt;/td&gt;
+		    &lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;#top&quot; class=&quot;btn btn-primary&quot;&gt;^ Back to top&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 class=&quot;section-header&quot; id=&quot;class-diagram&quot;&gt;Class Diagram&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/2016/group19/assets/img/class-diagram.png&quot; class=&quot;image&quot; alt=&quot;node.js&quot; height=&quot;55%&quot; width=&quot;65%&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Above is a class diagram which is a static structured diagram that describes the overall structure of the models in the database. It shows the individual classes of the models along with their attributes, methods and also the relationship with other classes. This model will then be translated into actual code which will be written in python using the Django Framework.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#top&quot; class=&quot;btn btn-primary&quot;&gt;^ Back to top&lt;/a&gt;&lt;/p&gt;</content><summary type="html">This page highlights the overall system design of our web application. This is includes a system architecture diagram, a class diagram representing the properties of individual classes and thier relationship with each other and finally a entity relation diagram for out database.</summary></entry><entry><title type="html">Bi-Weekly Reports and Meeting Minutes</title><link href="http://localhost:4000/2016/group19/management/2016/12/07/biweekly-reports.html" rel="alternate" type="text/html" title="Bi-Weekly Reports and Meeting Minutes" /><published>2016-12-07T23:30:51+00:00</published><updated>2016-12-07T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/management/2016/12/07/biweekly-reports</id><content type="html" xml:base="http://localhost:4000/2016/group19/management/2016/12/07/biweekly-reports.html">&lt;p&gt;This page contains reports which are produced fortnightly by the team which record the progress of the project. It also contains the meeting minutes for the meetings we have conducted so far.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
 
@@ -58,7 +126,7 @@
 &lt;p&gt;&lt;img src=&quot;/2016/group19/assets/img/google-drive.png&quot; class=&quot;image&quot; alt=&quot;google drive&quot; height=&quot;65&quot; width=&quot;170&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 class=&quot;section-header&quot;&gt;Google Drive and Google Docs&lt;/h3&gt;
-&lt;p&gt;All of the documentation we have completed so far (which includes bi-weekly reports, research, design) are shared in google drive before converting it into Latex for submission or adding the content to the project website.&lt;/p&gt;</content><summary type="html">This page includes all of the tools we have used to manage our project. This includes communication, documentation, prototype design and others.</summary></entry><entry><title type="html">Test Driven Development</title><link href="http://localhost:4000/2016/group19/testing/2016/12/07/testing.html" rel="alternate" type="text/html" title="Test Driven Development" /><published>2016-12-07T23:30:51+00:00</published><updated>2016-12-07T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/testing/2016/12/07/testing</id><content type="html" xml:base="http://localhost:4000/2016/group19/testing/2016/12/07/testing.html">&lt;p&gt;This page details the testing stratedies we plan to execute for the project. This is to ensure that our system meets the specified requirements and quality standards.&lt;/p&gt;
+&lt;p&gt;All of the documentation we have completed so far (which includes bi-weekly reports, research, design) are shared in google drive before converting it into Latex for submission or adding the content to the project website.&lt;/p&gt;</content><summary type="html">This page includes all of the tools we have used to manage our project. This includes communication, documentation, prototype design and others.</summary></entry><entry><title type="html">Testing Plan</title><link href="http://localhost:4000/2016/group19/testing/2016/12/07/testing.html" rel="alternate" type="text/html" title="Testing Plan" /><published>2016-12-07T23:30:51+00:00</published><updated>2016-12-07T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/testing/2016/12/07/testing</id><content type="html" xml:base="http://localhost:4000/2016/group19/testing/2016/12/07/testing.html">&lt;p&gt;This page details the testing stratedies we plan to execute for the project. This is to ensure that our system meets the specified requirements and quality standards.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
 
@@ -81,7 +149,7 @@ This is to ensure that the application works on the most widely used browsers. A
 In some cases a functionality of a web application may not be compatible in all oprating systems. Our client mentioned that the application ust be able to run on mobile devices as well which include the Android OS and IOS. We therefore plan to test our aplication on mobile operating systems as well.&lt;/p&gt;
 
 &lt;h3 class=&quot;section-header&quot; id=&quot;initial-sketch&quot;&gt;User Acceptance Test (UAT)&lt;/h3&gt;
-&lt;p&gt;This would be the last phase of testing that we plan to execute. We might also be conducting regular UAT during meetings with our client if we have completed certain functionalities and features. In order to carry out UAT, we plan to design test cases which cover our key requirements. We will then present these test cases to the client who might pass them on to the potential users of the system. We plan to use the feedback received by our client to improve overall quality of the system. This process is to ensure that the system can handle required tasks in the real-world scenarios.&lt;/p&gt;</content><summary type="html">This page details the testing stratedies we plan to execute for the project. This is to ensure that our system meets the specified requirements and quality standards.</summary></entry><entry><title type="html">User Interface Development</title><link href="http://localhost:4000/2016/group19/development/2016/12/04/user-interface.html" rel="alternate" type="text/html" title="User Interface Development" /><published>2016-12-04T23:30:51+00:00</published><updated>2016-12-04T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/development/2016/12/04/user-interface</id><content type="html" xml:base="http://localhost:4000/2016/group19/development/2016/12/04/user-interface.html">&lt;p&gt;This page highlights the design and development of the user interface and user experience of the front end system. This includes initial sketches, wireframes and also first prototype of our application.&lt;/p&gt;
+&lt;p&gt;This would be the last phase of testing that we plan to execute. We might also be conducting regular UAT during meetings with our client if we have completed certain functionalities and features. In order to carry out UAT, we plan to design test cases which cover our key requirements. We will then present these test cases to the client who might pass them on to the potential users of the system. We plan to use the feedback received by our client to improve overall quality of the system. This process is to ensure that the system can handle required tasks in the real-world scenarios.&lt;/p&gt;</content><summary type="html">This page details the testing stratedies we plan to execute for the project. This is to ensure that our system meets the specified requirements and quality standards.</summary></entry><entry><title type="html">User Interface Development and Design</title><link href="http://localhost:4000/2016/group19/development/2016/12/04/user-interface.html" rel="alternate" type="text/html" title="User Interface Development and Design" /><published>2016-12-04T23:30:51+00:00</published><updated>2016-12-04T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/development/2016/12/04/user-interface</id><content type="html" xml:base="http://localhost:4000/2016/group19/development/2016/12/04/user-interface.html">&lt;p&gt;This page highlights the design and development of the user interface and user experience of the front end system. This includes initial sketches, wireframes and also first prototype of our application.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
 
@@ -865,93 +933,4 @@ Ember.js is an open source JavaScript client-side framework for developing the w
 	&lt;/table&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;a href=&quot;#top&quot; class=&quot;btn btn-primary&quot;&gt;^ Back to top&lt;/a&gt;&lt;/p&gt;</content><summary type="html">This page consists of a list of use cases which aims to illustrate the interaction between users at different parts of the application.</summary></entry><entry><title type="html">MosCoW Requirements</title><link href="http://localhost:4000/2016/group19/requirements/2016/11/07/moscow-requirements.html" rel="alternate" type="text/html" title="MosCoW Requirements" /><published>2016-11-07T23:30:51+00:00</published><updated>2016-11-07T23:30:51+00:00</updated><id>http://localhost:4000/2016/group19/requirements/2016/11/07/moscow-requirements</id><content type="html" xml:base="http://localhost:4000/2016/group19/requirements/2016/11/07/moscow-requirements.html">&lt;p&gt;This is a list of all the requirements as agreed and finalised with our client. These requirements are subject to change over the course of the development phase of this project.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;MORE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;table-responsive&quot;&gt;
-	&lt;table class=&quot;table table-bordered&quot;&gt;
-		&lt;thead&gt;
-	      	&lt;tr&gt;
-	        	&lt;th&gt;Requirement&lt;/th&gt;
-	        	&lt;th&gt;Description&lt;/th&gt;
-	        	&lt;th&gt;Category&lt;/th&gt;
-	      	&lt;/tr&gt;
-    	&lt;/thead&gt;
-    	&lt;tbody&gt;
-    		&lt;!-- Must Haves --&gt;
-    		&lt;tr class=&quot;category-header&quot;&gt;&lt;td colspan=&quot;3&quot;&gt;Must Have&lt;/td&gt;&lt;/tr&gt;
-		    &lt;tr&gt;
-		       	&lt;td&gt;Matching system&lt;/td&gt;
-		        &lt;td&gt;There must be a matching algorithm that matches mentors and mentees as best as possible according to their preferences.&lt;/td&gt;
-		        &lt;td&gt;Functional&lt;/td&gt;
-		    &lt;/tr&gt;
-		    &lt;tr&gt;
-		       	&lt;td&gt;Preferences for matching&lt;/td&gt;
-		        &lt;td&gt;There must be a system for mentors and mentees to specify their preferences for matching, for instance interests.&lt;/td&gt;
-		        &lt;td&gt;Functional&lt;/td&gt;
-		    &lt;/tr&gt;
-		    &lt;tr&gt;
-		        &lt;td&gt;Separate mentorship programmes&lt;/td&gt;
-		        &lt;td&gt;The system must allow for a number of separate mentorship programmes with their own matching constraints.&lt;/td&gt;
-		        &lt;td&gt;Non-Functional&lt;/td&gt;
-		    &lt;/tr&gt;
-		    &lt;tr&gt;
-		        &lt;td&gt;Personal status&lt;/td&gt;
-		        &lt;td&gt;Users must be able to see the status of their mentorships, for instance whether they can match with users and how active the mentorship is.&lt;/td&gt;
-		        &lt;td&gt;Functional&lt;/td&gt;
-		    &lt;/tr&gt;
-		    &lt;tr&gt;
-		        &lt;td&gt;Web Application&lt;/td&gt;
-		        &lt;td&gt;A complete web application must be provided by the end of the development phase which includes a client side user interface and a functional server back end&lt;/td&gt;
-		        &lt;td&gt;Functional&lt;/td&gt;
-		    &lt;/tr&gt;
-		    &lt;tr&gt;
-		        &lt;td&gt;User Interface and Usability&lt;/td&gt;
-		        &lt;td&gt;The application must operate on a user friendly interface which is simple to use&lt;/td&gt;
-		        &lt;td&gt;Non-Functional&lt;/td&gt;
-		    &lt;/tr&gt;
-		    &lt;!-- Should Have --&gt;
-		    &lt;tr class=&quot;category-header&quot;&gt;&lt;td colspan=&quot;3&quot;&gt;Should Have&lt;/td&gt;&lt;/tr&gt;
-		    &lt;tr&gt;
-		       	&lt;td&gt;Profile system&lt;/td&gt;
-		        &lt;td&gt;Users should be able to create and manage a simple profile so that other users can learn about them. Should include name, image and perhaps a short bio.&lt;/td&gt;
-		        &lt;td&gt;Functional&lt;/td&gt;
-		    &lt;/tr&gt;
-		    &lt;tr&gt;
-		       	&lt;td&gt;Notifications&lt;/td&gt;
-		        &lt;td&gt;Users should be able to receive notifications about key features of the app, for instance when matches are allocated. Should also work across different form factors&lt;/td&gt;
-		        &lt;td&gt;Functional&lt;/td&gt;
-		    &lt;/tr&gt;
-		    &lt;tr&gt;
-		        &lt;td&gt;Admin bulk operation interface&lt;/td&gt;
-		        &lt;td&gt;There should be an interface that allows admins to perform bulk create/read/update/destroy (CRUD) operatons easily.&lt;/td&gt;
-		        &lt;td&gt;Functional&lt;/td&gt;
-		    &lt;/tr&gt;
-		    &lt;!-- Could Have --&gt;
-		    &lt;tr class=&quot;category-header&quot;&gt;&lt;td colspan=&quot;3&quot;&gt;Could Have&lt;/td&gt;&lt;/tr&gt;
-		    &lt;tr&gt;
-		        &lt;td&gt;Mentorship meeting record&lt;/td&gt;
-		        &lt;td&gt;The app could be able to store records of the mentor and mentee meeting each other during the course of the mentorship, with the ability to add comments to this.&lt;/td&gt;
-		        &lt;td&gt;Functional&lt;/td&gt;
-		    &lt;/tr&gt;
-		    &lt;tr&gt;
-		        &lt;td&gt;Notifications to meet&lt;/td&gt;
-		        &lt;td&gt;The app could facilitate instant messaging betweenmentors and mentees.&lt;/td&gt;
-		        &lt;td&gt;Functional&lt;/td&gt;
-		    &lt;/tr&gt;
-		    &lt;!-- Would Have --&gt;
-		    &lt;tr class=&quot;category-header&quot;&gt;&lt;td colspan=&quot;3&quot;&gt;Would Have&lt;/td&gt;&lt;/tr&gt;
-		     &lt;tr&gt;
-		        &lt;td&gt;Corporate Directory Lookup&lt;/td&gt;
-		        &lt;td&gt;The app would be able to use the company’s internal “Corporate Directory” to populate users’ profiles&lt;/td&gt;
-		        &lt;td&gt;Functional&lt;/td&gt;
-		    &lt;/tr&gt;
-		    &lt;tr&gt;
-		        &lt;td&gt;Instant messaging&lt;/td&gt;
-		        &lt;td&gt;The app could be able to store records of the mentor and mentee meeting each other during the course of the mentorship, with the ability to add comments to this.&lt;/td&gt;
-		        &lt;td&gt;Functional&lt;/td&gt;
-		    &lt;/tr&gt;
-		&lt;/tbody&gt;
-	&lt;/table&gt;
-&lt;/div&gt;</content><summary type="html">This is a list of all the requirements as agreed and finalised with our client. These requirements are subject to change over the course of the development phase of this project.</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;#top&quot; class=&quot;btn btn-primary&quot;&gt;^ Back to top&lt;/a&gt;&lt;/p&gt;</content><summary type="html">This page consists of a list of use cases which aims to illustrate the interaction between users at different parts of the application.</summary></entry></feed>

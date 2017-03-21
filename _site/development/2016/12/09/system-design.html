@@ -24,7 +24,7 @@
     <link href="https://fonts.googleapis.com/css?family=Crete+Round|Francois+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 
-    <title>Testing Plan - Mentor Matching - Team 19</title>
+    <title>System Design - Mentor Matching - Team 19</title>
 </head>
 
     <body>
@@ -90,8 +90,8 @@
 
     <header class="post-header">
         <div class="jumbotron" id="top">
-            <h1 class="display-4">Testing Plan</h1>
-            <p class="lead"><time datetime="2016-12-07T23:30:51+00:00" itemprop="datePublished">Dec 7, 2016</time></p>
+            <h1 class="display-4">System Design</h1>
+            <p class="lead"><time datetime="2016-12-09T23:30:51+00:00" itemprop="datePublished">Dec 9, 2016</time></p>
             <p class="lead"></p>
             <p class="lead">
                 
@@ -103,30 +103,75 @@
         <div class="row">
             <div class="container">
                 <div class="col-md-12">
-                    <p>This page details the testing stratedies we plan to execute for the project. This is to ensure that our system meets the specified requirements and quality standards.</p>
+                    <p>This page highlights the overall system design of our web application. This is includes a system architecture diagram, a class diagram representing the properties of individual classes and thier relationship with each other and finally a entity relation diagram for out database.</p>
 
 <p><strong>MORE</strong></p>
 
-<h3 class="section-header" id="initial-sketch">Unit Testing</h3>
-<p>To ensure the integrity, completeness and correctness of our software, we plan to develop a series of individual test cases which consists of unit tests for both our front and back-ends. After developing a feature we plan to carry out testing by running the test cases to ensure no new bugs are introduced. Since we are using django for our backend, we plan to use the <strong>unittest</strong> module built in to the standard library. Django also provides an API and tools for integration. As for the front end we plan to use an Angular testing tool called <strong>Jasmine</strong>. Jasmine provides functions that help structure our tests and also make assertions.</p>
+<p><a href="#system-architecture" style="margin-top: 7px;" class="btn btn-primary">System Architecture Diagram</a>
+<a href="#entity-design" style="margin-top: 7px;" class="btn btn-primary">Entity Relationship Diagram</a>
+<a href="#class-diagram" style="margin-top: 7px;" class="btn btn-primary">Class Diagram</a></p>
 
-<p>To test our matching algortihm, we plan to use an open-source tool called <strong>Appium</strong>. Appium is useful for automaing native,mobile web and also hybrid applications. Since Appium is “cross-platform” we can write test cases against multiple platforms using the same API.</p>
+<h3 class="section-header" id="system-architecture">System Architecture Design</h3>
+<p><img src="/2016/group19/assets/img/architecture-design.png" class="image" alt="node.js" height="55%" width="65%" /><br /></p>
 
-<h3 class="section-header" id="initial-sketch">Functional Testing</h3>
-<p>Functional testing is used as a quality assurance process for a software system. It refers to activities that verify a specific action or function of the code. Functional testing tends to ensure that a particular function and feature works.
-In order to carry out functional testing, we plan to use our requirement specification to construct a series of test cases and use them for manual black-box testing.</p>
+<p>The above diagram is an conceptual illustration that defines the structure of the overall system of the web application. When designing the system architecture, we focused on identifying the key components that will be used for the client side and server side and also the communication between the client side and server side.</p>
 
-<h3 class="section-header" id="initial-sketch">Compatibility Testing</h3>
-<p>Our client mentioned that the final system must be able to run on different types of operating systems and web browsers. Hence it is important that we ensure the compatibility of our application. Below are some of the test we plan to carry out.</p>
+<p>For the client side, we have decided to produce an ionic web application which is stored on the client’s device. The application will be developed using <code>AngularJS</code> and also Cordova plugins with the Ionic Framework. For authentication, we have decided to use the Oauth2.0 Implicint Grant flow to generate tokens which will be used to authorize users. The client side will be communicating and obtaining data from the server side using HTTP Requests.</p>
 
-<p><span class="lead sub-header">Browser compatibility</span><br />
-This is to ensure that the application works on the most widely used browsers. Application may behave differently when run on different browsers. Different browsers may also have different configurations and settings that a web page should be compatible with. Therefore we plan to test our application on popular browsers such as Chrome, Internet Explorer, Firefox, Safari and others.</p>
+<p>For the server side, we have decided to use the <code>Django REST Framework</code> which allows us to develop a REST API. Django also allows us to develop object models which are used to fetch data from the database. The database we are using is <code>PostgreSQL</code>.</p>
 
-<p><span class="lead sub-header">OS compatibility</span><br />
-In some cases a functionality of a web application may not be compatible in all oprating systems. Our client mentioned that the application ust be able to run on mobile devices as well which include the Android OS and IOS. We therefore plan to test our aplication on mobile operating systems as well.</p>
+<p><a href="#top" class="btn btn-primary">^ Back to top</a></p>
 
-<h3 class="section-header" id="initial-sketch">User Acceptance Test (UAT)</h3>
-<p>This would be the last phase of testing that we plan to execute. We might also be conducting regular UAT during meetings with our client if we have completed certain functionalities and features. In order to carry out UAT, we plan to design test cases which cover our key requirements. We will then present these test cases to the client who might pass them on to the potential users of the system. We plan to use the feedback received by our client to improve overall quality of the system. This process is to ensure that the system can handle required tasks in the real-world scenarios.</p>
+<h3 class="section-header" id="entity-design">Entity Relationship Diagram</h3>
+<p><img src="/2016/group19/assets/img/entity-relation.png" class="image" alt="node.js" height="55%" width="65%" /><br /></p>
+
+<p>The above entity relationship diagram illustrates the relationships of entity sets which are stored in the database. This diagram acts as a guide to aid us in developing the PostgreSQL database. Below is a table providing short descriptions of individual entity sets.</p>
+
+<div class="table-responsive">
+	<table class="table table-bordered">
+		<thead>
+	      	<tr>
+	        	<th>Entity</th>
+	        	<th>Description</th>
+	      	</tr>
+    	</thead>
+    	<tbody>
+		    <tr>
+		        <td><strong>User</strong></td>
+		        <td>Users are registered using an email address and also has an individual profile which contains details such as First and Last Names, position in ATOS, a short biography, join Date etc</td>
+		    </tr>
+		    <tr>
+		        <td><strong>MentorShip</strong></td>
+		        <td>This is a list of users which are registered in a mentor program and are mentors and mentees of ther users.</td>
+		    </tr>
+		    <tr>
+		        <td><strong>Cohort</strong></td>
+		        <td>This is the size of the mentor program which acts as a restriction to prevent too many users from registering in a single program.</td>
+		    </tr>
+		    <tr>
+		        <td><strong>Programme</strong></td>
+		        <td>This illustrates the mentor program itself. Details such as program description, program banner and also the admin responsible for creating the program is stored.</td>
+		    </tr>
+		    <tr>
+		        <td><strong>Tags</strong></td>
+		        <td>This is a list of "tags" which are used to match mentors and mentees.</td>
+		    </tr>
+		    <tr>
+		        <td><strong>Updates and Messages</strong></td>
+		        <td>These acts as updates for the user regarding the status in the mentor program they are registered in or are choosing to register in.</td>
+		    </tr>
+		</tbody>
+	</table>
+</div>
+
+<p><a href="#top" class="btn btn-primary">^ Back to top</a></p>
+
+<h3 class="section-header" id="class-diagram">Class Diagram</h3>
+<p><img src="/2016/group19/assets/img/class-diagram.png" class="image" alt="node.js" height="55%" width="65%" /><br /></p>
+
+<p>Above is a class diagram which is a static structured diagram that describes the overall structure of the models in the database. It shows the individual classes of the models along with their attributes, methods and also the relationship with other classes. This model will then be translated into actual code which will be written in python using the Django Framework.</p>
+
+<p><a href="#top" class="btn btn-primary">^ Back to top</a></p>
 
                 </div>
             </div>
