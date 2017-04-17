@@ -16,9 +16,7 @@
 title: Mentor Matching - Team 19
 #email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Matthew Bell, Christopher Lau and Harry Chen are working on creating a system
-  to match mentors and mentees in their workplace based on their preferences, on behalf of Atos UK. 
-  This website covers the research we have done to create a fully working Proof of Concept. 
+  Mentor Match is an application that matches mentors and mentees in the ATOS workplace based on common skills and interests of employees. The team has come up with a solution which was a hybrid mobile web application that is easily accessible by employees in the ATOS workplace. This application aims to manage different mentor programmes which acts as a platform for employees to improve career development.
 baseurl: "/2016/group19" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb

@@ -6,50 +6,68 @@ layout: default
 <div class="jumbotron">
     <h1 id="site-title">{{ site.title }}</h1>
     <p class="lead" style="font-size: 18px;">{{ site.description }}</p>
-    <p class="lead">
-    <a class="btn btn-primary btn-md" href="{{ site.github }}">View Project</a>
-    </p>
 </div>
 
 <div class="row">
     <div class="container">
         <div class="col-md-12">
-            <h2>Latest Posts</h2>
 
-            {% for p in paginator.posts %}
-                {% include post.html p=p %}
-            {% endfor %}
+            <!-- Team Section -->
+            <h3 class="section-header">The Team</h3>
+            <p>This project is being worked on by three UCL 2nd year Computer Science undergraduates as part of the COMP204P and COMP205P Systems Engineering Project modules.</p>
+            <img src="{{ site.baseurl }}/assets/img/chris.JPG" class="thumbnail"><br><br>
+            <h3 class="section-header">Christopher Lau<span class="lead" style="font-size:25px;">- Team Leader, Client Liaison, UI design</span></h3>
 
-        <p class="text-muted">Navigation</p>
-        <nav aria-label="Page navigation">
-            <ul class="pagination">
-                {% if paginator.previous_link %}
-                    <li class="page-item">
-                        <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}" aria-label="Previous">
-                            <span aria-hidden="true">&laquo;</span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                    </li>
-                {% endif %}
-                {% for count in (1..paginator.total_pages) %}
-                    {% if count == paginator.page %}
-                        <li class="page-item active"><a class="page-link" href="#">{{count}}</a></li>
-                    {% elsif count == 1 %}
-                        <li class="page-item "><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ count }}</a></li>
-                    {% else %}
-                        <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', count }}"> {{count}} </a></li>
-                    {% endif %}
-                {% endfor %}
-                {% if paginator.next_link %}
-                <li class="page-item">
-                    <a class="page-link" href="{{ paginator.next_page_path | relative_url }}" aria-label="Next">
-                        <span aria-hidden="true">&raquo;</span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </li>
-                {% endif %}
-            </ul>
-        </nav>
-        </div>
+            <p>As team leader of this project, I will be in charge of the main communication with the Client and supervisors and ensuring that they are up to date with the progress of our development. This includes organising and managing bi-weekly meetings with the client and supervisor, writing bi-weekly reports regarding our milestones and achievements. I am also mainly in charge of managing the project website by adding content and documenting our progress. My main role in terms of development of the web application is designing the user interface and user interaction of the web application.</p>
+
+            <!-- <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">State the my laptop since HackconEU and <a href="https://twitter.com/HackTheNorth">@HackTheNorth</a>. It&#39;s time to accept I have a problem 🤓 <a href="https://t.co/gixPePZErn">pic.twitter.com/gixPePZErn</a></p>&mdash; Matt Bell (@mbell_gb) <a href="https://twitter.com/mbell_gb/status/778625977693925377">September 21, 2016</a></blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+
+            <img src="https://porticode.io/dist/img/mentors/mbell.jpg" class="thumbnail"><br><br>
+
+            <h3 class="section-header">Matthew Bell <span class="lead" style="font-size:25px;">- Technical Lead, Back-end Developer</span></h3>
+            <p>I'm the project's technical lead, responsible for leading the design work for the proof of concept. My main interests are web backends, security and machine learning, and I also attend many hackathons.</p>
+
+            <img src="{{ site.baseurl }}/assets/img/harry1.jpg" class="thumbnail"><br><br>
+            <h3 class="section-header">Harry Chen <span class="lead" style="font-size:25px;">- Cheif Editor and Researcher</span></h3>
+            <p>As the cheif editor and cheif researcher of the team, I'm responsible for help leadig the research and recording the results, also assist team leader as necessary. Last year I developed a web app for UCL psychology institute with other teammates, I enjoyed doing design work including UI design, and implementation it in front end of website development.</p>
+
+            <!-- Key Features Section -->
+            <h3 class="section-header">Key Features</h3>
+
+            <div class="table-responsive">
+                <table class="table table-bordered decisionTable" style="font-size: 13px;">
+                    <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <col width="25%">
+                        <col width="75%">
+                        <tr>
+                            <td>Mentor Programme Management (Admin)</td>
+                            <td>Admins have access to create, delete and edit mentor programs. Admins can change names, description and the default cohort size for the respective program.</td>
+                        </tr>
+                        <tr>
+                            <td>Cohort Management (Admin)</td>
+                            <td>Admins can manage cohorts of respective programs. They can specify and restrict the sizes of each cohort and initiate cohorts by specifying a start date and terminate them with specifying an end date.</td>
+                        </tr>
+                        <tr>
+                            <td>User Profile</td>
+                            <td>Users can set up a basic profile upon registration which states their position in ATOS, email address for contacting, First and Last Name, their mentors and mentees and other details.</td>
+                        </tr>
+                        <tr>
+                            <td>Automatic Matching</td>
+                            <td>This application aims to find the most suitable pair of matches between mentor and mentees in the ATOS workplace. This process aims to be as automated as possible. (Without the need of intervention from Human Resources)</td>
+                        </tr>
+                        <tr>
+                            <td>Notification System</td>
+                            <td>This notifies users about new mentor programs that are created and whether the respective programs have active cohorts. It also tells the user when matching is commencing for each respective program.</td>
+                        </tr>
+                    </tbody>
+                </table>    
+            </div>
     </div>
 </div>
