@@ -5,6 +5,9 @@ permalink: /requirements/
 navigation: true
 order: 1
 ---
+
+This page highlights details about the client we are delivering our application to, a short description of the problem definition, ways we used to gather our requirements and a list of MosCoW requirements and use cases.
+
 <a href="#client-section" style="margin-top: 7px;" class="btn btn-primary">Client, Problem Definition</a>
 <a href="#moscow-requirements-section" style="margin-top: 7px;" class="btn btn-primary">Requirements</a>
 <a href="#use-case-section" style="margin-top: 7px;" class="btn btn-primary">Use Cases</a>

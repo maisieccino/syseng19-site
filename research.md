@@ -8,6 +8,7 @@ order: 2
 <a href="#platform-research-section" style="margin-top: 7px;" class="btn btn-primary">Potential Platform Research</a>
 <a href="#technical-research-section" style="margin-top: 7px;" class="btn btn-primary">Technical Research</a>
 <a href="#algorithm-research-section" style="margin-top: 7px;" class="btn btn-primary">Algorithm Research</a>
+<a href="#summary-decision-section" style="margin-top: 7px;" class="btn btn-primary">Summary of our decisions</a>
 
 <!-- Platform Research Section -->
 <h3 class="section-header" id="platform-research-section">Potential Platforms Reseach</h3>
@@ -19,7 +20,7 @@ During the first meeting with our client, she made it clear to us initially that
 Web browsers would allow us to implement more advanced features which mobile platforms cannot provide due to the existence of many <code>Javascript</code> libraries such as <code>ReactJS EmberJS, Jquery</code> etc. However, in terms of accessibility, mobile application might be more convenient as native mobile apps does not need to be accessed by using the web browser. 
 
 <span class="lead sub-header">Mobile Application</span><br>
-Since our client wanted it to be a web application, choices are limited to only AngularJS and Ionic which allowed us to build native hybrid web applications. Regardless of the limit of choices, we thought that AngularJS provided us with the tools to deliver the key requirements requested by our client. Also, mobile apps are very accessible, since mobile phones are carried around us everywhere, the app can be used anywhere and anytime as long as there is Wifi connection.  
+Since our client wanted it to be a web application, choices are limited to only <code>AngularJS</code> and <code>Ionic</code> which allowed us to build native hybrid web applications. Regardless of the limit of choices, we thought that AngularJS provided us with the tools to deliver the key requirements requested by our client. Also, mobile apps are very accessible, since mobile phones are carried around us everywhere, the app can be used anywhere and anytime as long as there is Wifi connection.  
 
 <span class="lead sub-header">Our Decision - Hybrid Mobile Application</span><br>
 Ultimately, we decided to develop a hybrid web application for mobile platforms as we thought that AngularJS and Ionic provided allowed us to build a good application that satisfies the client’s requirements and also allows the application to be very accessible.
@@ -177,7 +178,7 @@ Ember.js is an open source JavaScript client-side framework for developing the w
 
 <a href="#top" class="btn btn-primary">^ Back to top</a>
 
-<span class="lead sub-header"><strong>Our Decision</strong></span><br>
+<span class="lead sub-header"><strong>Our decision for technology stack</strong></span><br>
 
 <div class="table-responsive">
 	<table class="table table-bordered decisionTable">
@@ -260,7 +261,7 @@ The Gale-Shapley Algorithm involves a number of iterations or "rounds" where men
 
 However, since this algorithm is under the assumption that two sets of data are of equal size, in reality the number of mentors and mentees may vary. Hence additional steps had to be implemented in order to overcome problems when there are uneven amount of mentors and mentees. A more detailed design of the implementation of this matching process is available at the Design section. We chose it as it provided the best solution which addressed the stable marriage problem and also ensures that every mentee is matched with a mentor with as much similarity. 
 
-<h3 class="section-header" id="summary-design-section">Summary of our decisions</h3>
+<h3 class="section-header" id="summary-decision-section">Summary of our decisions</h3>
 This section is a general summary of the decisions that we have made.
 
 <div class="table-responsive decisionTable"> 

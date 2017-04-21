@@ -2,6 +2,12 @@ body{
 	padding-top: 50px;
 }
 
+.btn-outline{
+	color: #0275d8;
+    background-color: #fff;
+    border-color: #0275d8;
+}
+
 .navbar{
 	border-radius: 0px;
 	-webkit-box-shadow: 0 2px 3px rgba(99,99,99,0.7);

@@ -124,11 +124,11 @@ Below are some screenshots of how our final product looks like. These are some o
 <div class="row">
 	<div class="col-md-4">
 		<a href="#" class="image-pop-up"><img src="{{ site.baseurl }}/assets/img/home-page-final.png" class="image" alt="first sketch" height="30%" width="50%"></a>
-		<p>Our Final Home Page (Admins)</p>
+		<p>Final Home Page (Admins)</p>
 	</div>
 	<div class="col-md-4">
 		<a href="#" class="image-pop-up"><img src="{{ site.baseurl }}/assets/img/home-nonadmin-final.png" class="image" alt="first sketch" height="30%" width="50%"></a>
-		<p>Our Final Home Page (Normal User)</p>
+		<p>Final Home Page (Normal User)</p>
 	</div>
 	<div class="col-md-4">
 		<a href="#" class="image-pop-up"><img src="{{ site.baseurl }}/assets/img/program-details-final.png" class="image" alt="first sketch" height="30%" width="50%"></a>
