@@ -8,8 +8,21 @@ order: 6
 
 This page consists of a summary of our achievements based on our MoSCoW requirements and a short evaluation of the project as a whole.
 
+<a href="#summary-section" style="margin-top: 7px;" class="btn btn-primary">Summary of Achievements</a>
 <a href="#critical-evaluation-section" style="margin-top: 7px;" class="btn btn-primary">Critical Evaluation</a>
 <a href="#future-work-section" style="margin-top: 7px;" class="btn btn-primary">Future Work</a>
+
+<h3  class="section-header"  id="summary-section">Summary of achievements</h3>
+<span class="lead sub-header">Requirements achieved</span><br>
+This is a table of requested functional requirements, priority and the status of completion of each requirement.
+
+<img src="{{ site.baseurl }}/assets/img/requirements-evaluation.png" class="image" alt="Summary of achievements" height="80%" width="80%%"><br>
+
+<span class="lead sub-header">Work Package</span><br>
+This is the table which illustrates our work package of term 2.
+<img src="{{ site.baseurl }}/assets/img/work-package.png" class="image" alt="Summary of achievements" height="70%" width="70%"><br>
+
+<a href="#top" class="btn btn-primary">^ Back to top</a>
 
 <h3  class="section-header"  id="critical-evaluation-section">Critical Evaluation</h3>
 <span class="lead sub-header">Architecture design</span><br>

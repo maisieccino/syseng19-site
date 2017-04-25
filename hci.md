@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Human Computer Interaction"
+title: "HCI"
 permalink: /hci/
 navigation: true
 order: 3
@@ -143,6 +143,10 @@ Below are some screenshots of how our final product looks like. These are some o
 	<div class="col-md-4">
 		<a href="#" class="image-pop-up"><img src="{{ site.baseurl }}/assets/img/notification-final.png" class="image" alt="first sketch" height="30%" width="50%"></a>
 		<p>Notifications page.</p>
+	</div>
+	<div class="col-md-4">
+		<a href="#" class="image-pop-up"><img src="{{ site.baseurl }}/assets/img/top-three-final.png" class="image" alt="first sketch" height="30%" width="50%"></a>
+		<p>Choose top 3 mentors.</p>
 	</div>
 </div>
 

@@ -23,7 +23,8 @@ This is a short document containing information about how to user our applicatio
 <h3  class="section-header"  id="system-manual-section">System Manual</h3>
 This is a short report on the instructions on how to our project upon receiving our code.
 
-<a href="https://github.com/mbellgb/syseng19-code/blob/master/docs/setup.md" class="btn btn-outline"><i class="fa fa-file" aria-hidden="true"></i> System Manual</a>
+<a href="https://github.com/mbellgb/syseng19-code/blob/master/docs/setup.md" class="btn btn-outline"><i class="fa fa-file" aria-hidden="true"></i> API System Manual</a>
+<a href="https://github.com/mbellgb/syseng19-docs/raw/master/Mentor%20Match%20System%20Manual.pdf" class="btn btn-outline"><i class="fa fa-file" aria-hidden="true"></i> Application System Manual</a>
 
 <h3  class="section-header"  id="client-feedback-section">Client Feedback</h3>
 Overall our client was satisfied with the progress we have made so far and with the implemented features for the application. We have had 2 user acceptance tests where in both cases, we asked for written feedback. Our client responded by giving us feedback in the form of emails so that we could work on improving our application. Below are screenshots of the emails that our client has sent to us.
