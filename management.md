@@ -31,11 +31,11 @@ Overall our client was satisfied with the progress we have made so far and with 
 
 <div class="row">
 	<div class="col-md-6">
-		<a href="#" class="image-pop-up"><img src="{{ site.baseurl }}/assets/img/client-feedback-1.JPG" class="image" alt="first sketch" height="300px" width="100%"></a>
+		<a href="#" class="image-pop-up"><img src="{{ site.baseurl }}/assets/img/client-feedback-1.jpg" class="image" alt="first sketch" height="300px" width="100%"></a>
 		<p>Client feedback on project website and interactive prototype.</p>
 	</div>
 	<div class="col-md-6">
-		<a href="#" class="image-pop-up"><img src="{{ site.baseurl }}/assets/img/client-feedback-2.JPG" class="image" alt="first sketch" height="300px" width="100%"></a>
+		<a href="#" class="image-pop-up"><img src="{{ site.baseurl }}/assets/img/client-feedback-2.jpg" class="image" alt="first sketch" height="300px" width="100%"></a>
 		<p>Client feedback on our application after a full scale user acceptance test.</p>
 	</div>
 </div>
@@ -47,11 +47,11 @@ Below are simple gantt charts that illustrates our work flow for term 1 and term
 
 <div class="row">
 	<div class="col-md-6">
-		<a href="#" class="image-pop-up"><img src="{{ site.baseurl }}/assets/img/gantt-chart.JPG" class="image" alt="first sketch" height="300px" width="100%"></a>
+		<a href="#" class="image-pop-up"><img src="{{ site.baseurl }}/assets/img/gantt-chart.jpg" class="image" alt="first sketch" height="300px" width="100%"></a>
 		<p>Gantt Chart for term 1</p>
 	</div>
 	<div class="col-md-6">
-		<a href="#" class="image-pop-up"><img src="{{ site.baseurl }}/assets/img/gantt-chart-2.JPG" class="image" alt="first sketch" height="300px" width="100%"></a>
+		<a href="#" class="image-pop-up"><img src="{{ site.baseurl }}/assets/img/gantt-chart-2.jpg" class="image" alt="first sketch" height="300px" width="100%"></a>
 		<p>Gantt Chart for term 2</p>
 	</div>
 </div>

@@ -12,7 +12,7 @@ order: 2
 
 <!-- Platform Research Section -->
 <h3 class="section-header" id="platform-research-section">Potential Platforms Reseach</h3>
-<img src="{{ site.baseurl }}/assets/img/mobile-vs-browser.JPG" class="image" alt="node.js" height="120" width="200"><br>
+<img src="{{ site.baseurl }}/assets/img/mobile-vs-browser.jpg" class="image" alt="node.js" height="120" width="200"><br>
 
 During the first meeting with our client, she made it clear to us initially that she would prefer this application to be used on the web browser or mobile device. Therefore, the team decided to undergo some research and discuss the advantages and the drawbacks of each platform.
 

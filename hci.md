@@ -16,7 +16,7 @@ This page highlights the design of the user interface and user experience of the
 <h3 class="section-header" id="initial-sketch">Initial sketches</h3>
 During the beginning stages of developing the user interface, we sketched out some ideas on how the various screens/pages/views will look layout-wise. We decided that the system will have 6 main pages, 1 for user authentication, a clean and user friendly home page, and also 4 other pages for the application process.
 
-<p><img src="{{ site.baseurl }}/assets/img/first-sketch.JPG" class="image" alt="first sketch" height="55%" width="60%"></p>
+<p><img src="{{ site.baseurl }}/assets/img/first-sketch.jpg" class="image" alt="first sketch" height="55%" width="60%"></p>
 
 <h3 class="section-header" id="wireframes">Initial Mockups</h3>
 After sketching out how we think the layout of the different views should be, we proceeded to produce the first wireframe; creating cleaner and clearer overviews of the layouts. The wireframes/mockups were designed using Ionic Creator.

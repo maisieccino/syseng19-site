@@ -17,7 +17,7 @@ __MORE__
 <h3 class="section-header" id="initial-sketch">Initial sketches</h3>
 During the beginning stages of developing the user interface, we sketched out some ideas on how the various screens/pages/views will look layout-wise. We decided that the system will have 6 main pages, 1 for user authentication, a clean and user friendly home page, and also 4 other pages for the application process.
 
-<p><img src="{{ site.baseurl }}/assets/img/first-sketch.JPG" class="image" alt="first sketch" height="55%" width="60%"></p>
+<p><img src="{{ site.baseurl }}/assets/img/first-sketch.jpg" class="image" alt="first sketch" height="55%" width="60%"></p>
 
 <a href="#top" class="btn btn-primary">^ Back to top</a>
 
